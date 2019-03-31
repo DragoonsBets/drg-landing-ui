@@ -54,4 +54,4 @@ For this purpose we are extending the `<Document />` and injecting the server si
 To enable CORS you have to edit charts/drg-landing/values.yaml the nginx annotation section.
 This adds the rules directly to Kubernetes.
 Also, you must enable the CORS rule in nginx.conf that serves the dockerfile.
-And finally you must add the CORS rule in Django.
+And finally you must add the CORS rule in Django..
