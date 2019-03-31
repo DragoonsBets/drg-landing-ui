@@ -4,7 +4,7 @@ pipeline {
   }
   environment {
     ORG = 'dragoonsbets'
-    APP_NAME = 'drg-landing'
+    APP_NAME = 'drg-landing-ui'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
   }
   stages {
@@ -59,7 +59,7 @@ pipeline {
       }
       steps {
         container('nodejs') {
-          dir('./charts/drg-landing') {
+          dir('./charts/drg-landing-ui') {
             sh "jx step changelog --batch-mode --version v\$(cat ../../VERSION)"
 
             // release the helm chart
