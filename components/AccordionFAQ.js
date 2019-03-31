@@ -7,8 +7,8 @@ const DrgAccordion = styled(Accordion)`
 		display: flex;
 		flex-direction: column;
 		width: 50%;
-		padding: 0 30px;
 		margin: 40px 0 0 0;
+		background-color: #2e3c5d;
 		> div {
 			width: 100%;
 			font-family: Raleway;
@@ -50,6 +50,7 @@ const AccordionFAQ = () => (
 		panels={panels}
 		exclusive={false}
 		fluid
+		styled
 	/>
 )
 

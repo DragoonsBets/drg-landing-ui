@@ -1,8 +1,8 @@
-import React, { Component }  from 'react'
-import axios from 'axios';
+import React from 'react'
+import axios from 'axios'
 import styled from 'styled-components'
-import { Form, Message, Checkbox, Button } from 'semantic-ui-react'
-import DrgButton from './Buttons';
+import { Form, Message, Checkbox } from 'semantic-ui-react'
+import DrgButton from './Buttons'
 
 const FormWrapper = styled.div`
 	align-items: center;
@@ -12,10 +12,9 @@ const FormWrapper = styled.div`
 `
 
 export default class SuscribeForm extends React.Component {
-
 	constructor() {
-    super();
-    this.state = {
+		super()
+		this.state = {
 			firstName: '',
 			lastName: '',
 			email: '',
@@ -25,74 +24,103 @@ export default class SuscribeForm extends React.Component {
 			success: false
 		}
 
-		this.handleInputChange = this.handleInputChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+		this.handleInputChange = this.handleInputChange.bind(this)
+		this.handleSubmit = this.handleSubmit.bind(this)
+	}
 
 	handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
+		const target = event.target
+		const value = target.type === 'checkbox' ? target.checked : target.value
+		const name = target.name
 
 		this.setState({
-      [name]: value
-    });
-  
-  }
+			[name]: value
+		})
+	}
 
 	handleSubmit = event => {
-		event.preventDefault();
-		const form = event.target;
-		console.log("Form: ", form.elements);
-		
+		event.preventDefault()
+		const form = event.target
+		console.log('Form: ', form.elements)
+
 		if (!event.target.checkValidity()) {
 			// form is invalid! so we do nothing
 			this.state.error = true
-			return;
+			return
 		}
 
-		if (!this.state.termsAccepted)
-		{
+		if (!this.state.termsAccepted) {
 			this.state.error = true
 		}
 
-    const user = {
+		const user = {
 			firstName: this.state['firstName'],
-			lastName:  this.state['lastName'],
-			email:  this.state['email'],
-			termsAccepted:  this.state['termsAccepted'],
+			lastName: this.state['lastName'],
+			email: this.state['email'],
+			termsAccepted: this.state['termsAccepted'],
 			birthDate: this.state['birthDate']
-    };
+		}
 
-		console.log("User data: ", user);
-    axios.post('https://jsonplaceholder.typicode.com/users', { user })
-      .then(res => {
-				this.state.success = true;
-        console.log(res);
-        console.log(res.data);
+		console.log('User data: ', user)
+		axios
+			.post('https://jsonplaceholder.typicode.com/users', { user })
+			.then(res => {
+				this.state.success = true
+				console.log(res)
+				console.log(res.data)
 			})
 			.catch(error => {
-				console.log(error);
-				this.state.error = error;
+				console.log(error)
+				this.state.error = error
 			})
 	}
-	
+
 	render() {
 		return (
 			<FormWrapper>
 				<Form success onSubmit={this.handleSubmit}>
 					<Form.Group widths='equal'>
-						<Form.Input fluid name='firstName' label='Nombre' placeholder='Nombre' onChange={this.handleInputChange} required/>
-						<Form.Input fluid name='lastName' label='Apellido' placeholder='Apellido' onChange={this.handleInputChange} required/>
-					</Form.Group>	
+						<Form.Input
+							fluid
+							name='firstName'
+							label='Nombre'
+							placeholder='Nombre'
+							onChange={this.handleInputChange}
+							required
+						/>
+						<Form.Input
+							fluid
+							name='lastName'
+							label='Apellido'
+							placeholder='Apellido'
+							onChange={this.handleInputChange}
+							required
+						/>
+					</Form.Group>
 					<Form.Group widths='equal'>
-						<Form.Input fluid name='email' label='Email' placeholder='john@dragoons.gg' onChange={this.handleInputChange} required/>
+						<Form.Input
+							fluid
+							name='email'
+							label='Email'
+							placeholder='john@dragoons.gg'
+							onChange={this.handleInputChange}
+							required
+						/>
 						{/* <Form.Field label='Fecha de nacimiento' control={CustomCalendar} start='1' end='7' /> */}
-					</Form.Group>	
+					</Form.Group>
 					<Form.Field>
-						<Checkbox name='termsAccepted' label='Acepto terminos y condiciones' onChange={this.handleInputChange} />
+						<Checkbox
+							name='termsAccepted'
+							label='Acepto terminos y condiciones'
+							onChange={this.handleInputChange}
+						/>
 					</Form.Field>
-					<Message hidden={!this.state.success} visible={this.state.success} header='Registro exitoso' content="Gracias por registrarte en Dragoons!" />
+					<Message
+						hidden={!this.state.success}
+						visible={this.state.success}
+						header='Registro exitoso'
+						content='Gracias por registrarte en Dragoons!'
+					/>
 					<Message
 						visible={this.state.error}
 						hidden={!this.state.error}

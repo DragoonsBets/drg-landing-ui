@@ -11,6 +11,12 @@ const LandingWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	> div:nth-child(even) {
+		background-color: #111e3c;
+	}
+	> div:nth-child(odd) {
+		background-color: #141928;
+	}
 `
 
 const Hero = styled.div`
@@ -24,9 +30,9 @@ const Hero = styled.div`
 	}
 	> div:nth-child(1) {
 		@media (min-width: 900px) {
-			margin: 0 30px 0 0;
+			padding: 0 30px 0 0;
 		}
-		margin: 0 0 30px 0;
+		padding: 0 0 30px 0;
 	}
 	> div div {
 		width: 100%;
@@ -36,7 +42,7 @@ const Hero = styled.div`
 `
 
 const VideoWrapper = styled.div`
-	margin: 30px 0;
+	/* margin: 30px 0; */
 `
 
 const Mission = styled.div`
@@ -48,12 +54,11 @@ const Features = styled.div`
 	text-align: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin: 60px 0 0 0;
+	padding: 50px 0 0 0;
 	> div {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 0 0 50px 0;
 		width: 100%;
 		@media (min-width: 660px) {
 			width: 300px;
@@ -61,12 +66,12 @@ const Features = styled.div`
 	}
 	> div:nth-child(1) {
 		@media (min-width: 660px) {
-			margin: 0 20px 50px 0;
+			margin: 0 20px 0 0;
 		}
 	}
 	> div:nth-child(2) {
 		@media (min-width: 978px) {
-			margin: 0 20px 50px 0;
+			margin: 0 20px 0 0;
 		}
 	}
 	> div > div:nth-child(1) {
@@ -79,8 +84,10 @@ const Features = styled.div`
 const FAQ = styled.div`
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
 	width: 100%;
+	min-height: 100vh;
 	> div:nth-child(1) {
 		text-align: center;
 	}
@@ -89,9 +96,10 @@ const FAQ = styled.div`
 const Timeline = styled.div`
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
-	margin: 50px 0 0 0;
 	width: 100%;
+	min-height: 100vh;
 	> div:nth-child(1) {
 		text-align: center;
 	}
@@ -199,14 +207,6 @@ export default class Landing extends React.Component {
 							<DrgButton small='true'>Leer más</DrgButton>
 						</div>
 					</Features>
-					<FAQ>
-						<div>
-							<Typography h={3} weight='bold' size='jumbo'>
-								Preguntas frecuentes
-							</Typography>
-						</div>
-						<AccordionFAQ />
-					</FAQ>
 					<Timeline>
 						<div>
 							<Typography h={3} weight='bold' size='jumbo'>
@@ -215,6 +215,14 @@ export default class Landing extends React.Component {
 						</div>
 						<RoadLine />
 					</Timeline>
+					<FAQ>
+						<div>
+							<Typography h={3} weight='bold' size='jumbo'>
+								Preguntas frecuentes
+							</Typography>
+						</div>
+						<AccordionFAQ />
+					</FAQ>
 				</LandingWrapper>
 			</Layout>
 		)
