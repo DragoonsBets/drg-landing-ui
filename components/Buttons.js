@@ -14,12 +14,9 @@ const DrgButtonWrapper = styled(Button)`
 	border-radius: 4px;
 	min-width: ${props => (props.large ? '88px' : props.small ? '80px' : '0')};
 	background-position: center;
-	background-image: ${props =>
-		props.disabled
-			? 'linear-gradient(red, #512b65)'
-			: 'linear-gradient(#982d4e, #512b65)'};
+	background-image: linear-gradient(to right, #822b55, #5b2a61);
 	:hover {
-		background-image: linear-gradient(#982d4e, #512b65);
+		background-image: linear-gradient(to right, #822b55 25%, #5b2a61 55%);
 		color: white;
 	}
 	:focus {
@@ -51,9 +48,13 @@ function DrgButton(props) {
 			arrow={props.arrow}
 			disabled={props.disabled}
 			{...props}>
-			<span style={{'margin': '-7px', 'marginLeft': '10px'}}><Icon size='tiny' inverted name='star'/></span>
+			<span style={{ margin: '-7px', marginLeft: '10px' }}>
+				<Icon size='tiny' inverted name='star' />
+			</span>
 			{props.children}
-			<span style={{'margin': '-7px', 'marginLeft': '10px'}}><Icon size='tiny' inverted name='arrow right'/></span>
+			<span style={{ margin: '-7px', marginLeft: '10px' }}>
+				<Icon size='tiny' inverted name='arrow right' />
+			</span>
 		</DrgButtonWrapper>
 	)
 }

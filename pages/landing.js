@@ -20,19 +20,28 @@ const LandingWrapper = styled.div`
 `
 
 const Hero = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	min-height: calc(100vh - 90px);
+	padding: 0 5vw;
 	@media (min-width: 900px) {
-		display: flex;
+		width: 100%;
+		background-size: cover;
+	}
+	@media (min-width: 1025px) {
 		align-items: center;
 		justify-content: flex-end;
-		padding: 0 5vw;
-		width: 100%;
-		background-image: url('../static/hero.jpg');
-		background-size: cover;
+		flex-direction: row;
 		color: #171b27;
+		background-image: url('../static/hero.jpg');
 	}
 	> div {
-		flex: 0 0 40%;
+		text-align: center;
+		@media (min-width: 1025px) {
+			text-align: left;
+			flex: 0 0 40%;
+		}
 	}
 `
 
@@ -198,13 +207,14 @@ export default class Landing extends React.Component {
 							<HeroLogo>
 								<img src='../static/v02-color.svg' alt='logo' width={300} />
 							</HeroLogo>
-							<Typography h={3} weight='thin' size='title'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+							<Typography h={3} weight='bold' size='headline'>
+								Únete a la única plataforma que te permite apoyar a tu comunidad
+								de eSports.
 							</Typography>
 							<HeroButton>
-								<DrgButton large='true'>Action Button!</DrgButton>
+								<DrgButton large='true' arrow='true'>
+									Regístrate
+								</DrgButton>
 							</HeroButton>
 						</div>
 					</Hero>
@@ -218,11 +228,11 @@ export default class Landing extends React.Component {
 					<Features>
 						<FeaturesTitle>
 							<Typography h={2} weight='bold' size='jumbo'>
-								Juega y ayuda a desarrollar a tu comunidad
+								¡Gana dinero mirando eSports!
 							</Typography>
 							<Typography h={3} weight='thin' size='title'>
 								En Dragoons podrás ganar dinero haciendo lo que más te gusta,
-								mientras apoyas al desarrollo de la comunidad de esports en
+								mientras apoyas al desarrollo de la comunidad de eSports en
 								LATAM.
 							</Typography>
 						</FeaturesTitle>

@@ -43,7 +43,6 @@ export default class SuscribeForm extends React.Component {
 	handleSubmit = event => {
 		event.preventDefault()
 		const form = event.target
-		console.log('Form: ', form.elements)
 
 		if (!event.target.checkValidity()) {
 			// form is invalid! so we do nothing
@@ -63,20 +62,20 @@ export default class SuscribeForm extends React.Component {
 			birthday: this.state['birthday']
 		}
 
-		console.log('User data: ', user)
 		axios
-			.post(CREATE_USERS, { user }, {
+			.post(
+				CREATE_USERS,
+				{ user },
+				{
 					headers: {
-							'Content-Type': 'application/json',
+						'Content-Type': 'application/json'
 					}
-			})
+				}
+			)
 			.then(res => {
 				this.state.success = true
-				console.log(res)
-				console.log(res.data)
 			})
 			.catch(error => {
-				console.log(error)
 				this.state.error = error
 			})
 	}

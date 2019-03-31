@@ -6,9 +6,11 @@ import 'video.js/dist/video-js.css'
 class Player extends Component {
 	componentDidMount() {
 		// instantiate Video.js
-		this.player = videojs(this.videoNode, this.props, function onPlayerReady() {
-			console.log('onPlayerReady', this)
-		})
+		this.player = videojs(
+			this.videoNode,
+			this.props,
+			function onPlayerReady() {}
+		)
 	}
 
 	// destroy player on unmount

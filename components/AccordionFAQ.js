@@ -33,7 +33,7 @@ const DrgAccordion = styled(Accordion)`
 
 function processFaq(items) {
 	let processedFaqs = []
-	for (let i = 0; i < items.length; i++){
+	for (let i = 0; i < items.length; i++) {
 		let faq = {}
 		let temp = items[i].title_es
 		faq.key = i
@@ -41,13 +41,11 @@ function processFaq(items) {
 		temp = items[i].body_es
 		faq.content = temp
 		processedFaqs.push(faq)
-		console.log("processedFaqs: ", processedFaqs)
 	}
 	return processedFaqs
 }
 
-export default class AccordionFAQ extends React.Component { 
-
+export default class AccordionFAQ extends React.Component {
 	constructor() {
 		super()
 		this.state = {
@@ -57,30 +55,23 @@ export default class AccordionFAQ extends React.Component {
 	}
 
 	componentWillMount() {
-		console.log("Print GET_FAQ url", GET_FAQ + 'type=bets.faqPage&fields=body_es,title_es')
 		axios
 			.get(GET_FAQ + 'type=bets.faqPage&fields=body_es,title_es', {
-        headers: {
-            'Content-Type': 'application/json;',
-        }
-    })
-		.then(res => {
-			console.log("FAQs loaded", res)
-			console.log("FAQs loaded data", res.data)
-			let processedFaqs = processFaq(res.data.items)
-			console.log("Processed faqs", processedFaqs)
-			this.state.faqs = processedFaqs
-			console.log("FAQs: ", this.state.faqs)
-			this.state.loading = false
-		})
-		.catch(error => {
-			this.state.loading = false
-			this.state.faqs = []
-			console.log("Error: ", error)
-			this.state.error = error
-		})
+				headers: {
+					'Content-Type': 'application/json;'
+				}
+			})
+			.then(res => {
+				let processedFaqs = processFaq(res.data.items)
+				this.state.faqs = processedFaqs
+				this.state.loading = false
+			})
+			.catch(error => {
+				this.state.loading = false
+				this.state.faqs = []
+				this.state.error = error
+			})
 	}
-
 
 	render() {
 		return (
@@ -90,25 +81,19 @@ export default class AccordionFAQ extends React.Component {
 						Preguntas frecuentes
 					</Typography>
 				</div>
-				{ this.state.faqs.length ? 
-					(
-						<DrgAccordion
-							defaultActiveIndex={[0]}
-							panels={this.state.faqs}
-							exclusive={false}
-							fluid
-							styled
-						/>
-					) 
-				: 
-				(
+				{this.state.faqs.length ? (
+					<DrgAccordion
+						defaultActiveIndex={[0]}
+						panels={this.state.faqs}
+						exclusive={false}
+						fluid
+						styled
+					/>
+				) : (
 					<Typography h={4} weight='normal' size='subheader'>
 						Ocurrió un error cargando las preguntas frecuentes
 					</Typography>
-				)
-
-				}
-				
+				)}
 			</React.Fragment>
 		)
 	}

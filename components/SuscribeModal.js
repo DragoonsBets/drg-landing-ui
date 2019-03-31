@@ -20,7 +20,7 @@ export default class SuscribeModal extends Component {
 			<DrgModal
 				trigger={
 					<DrgButton onClick={this.handleOpen} large='true' arrow='true' on>
-						Registrate
+						Regístrate
 					</DrgButton>
 				}
 				open={this.state.modalOpen}
