@@ -13,7 +13,9 @@ FROM node:9-slim as build-deps
 WORKDIR /app
 COPY . .
 RUN yarn run build
-RUN /bin/bash -c "ls /out/"
+RUN /bin/bash -c "ls"
+RUN /bin/bash -c "ls /app/"
+RUN /bin/bash -c "ls /app/out"
 # RUN /bin/bash -c "ls /usr/src/app/build"
 
 # Stage 2 - the production environment
