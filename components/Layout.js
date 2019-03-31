@@ -11,7 +11,7 @@ const LayoutWrapper = styled.div`
 	min-height: 100vh;
 	font-family: Raleway;
 	color: white;
-	padding: 3vw;
+	padding: 120px 3vw 3vw 3vw;
 	background-color: #141928;
 	font-weight: 200;
 	button,
