@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import DButton from '../components/Buttons'
 import SocialNetworks from '../components/SocialNetworks'
 import { Icon } from 'semantic-ui-react'
 import Typography from './Typography'

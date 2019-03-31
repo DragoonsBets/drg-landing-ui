@@ -7,7 +7,7 @@ const NavbarWrapper = styled.header`
 	align-items: center;
 	justify-content: space-between;
 	background-color: #141928;
-	padding: 20px;
+	padding: 24px;
 	> div {
 		display: flex;
 		align-items: center;
@@ -25,12 +25,6 @@ function Navbar(props) {
 	return (
 		<NavbarWrapper>
 			<div>
-				<img
-					src='/static/dragoons-logo.png'
-					alt='Dragoons logo'
-					width={50}
-					height={50}
-				/>
 				<LogoText>Dragoons</LogoText>
 			</div>
 			<div>

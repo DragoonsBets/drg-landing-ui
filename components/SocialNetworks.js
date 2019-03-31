@@ -6,7 +6,6 @@ const SocialNetworksWrapper = styled.div`
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
-	background-color: #171b27;
 `
 
 function SocialNetworks(props) {

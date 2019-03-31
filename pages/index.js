@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import { Icon, Divider } from 'semantic-ui-react'
 import Layout from '../components/Layout'
-import DButton from '../components/Buttons'
+import DrgButton from '../components/Buttons'
 import Typography from '../components/Typography'
 
 const IndexWrapper = styled.div`
@@ -37,39 +37,39 @@ export default () => (
 			<p>type: text, icon</p>
 			<p>icons: star, arrow (check if icons vary a lot)</p>
 			<p>shape: straight, circle, curve</p>
-			<DButton large='true'>Button</DButton>
+			<DrgButton large='true'>Button</DrgButton>
 			<br />
-			{/* <DButton large disabled>
+			{/* <DrgButton large disabled>
 				Button
-			</DButton>
+			</DrgButton>
 			<br /> */}
-			<DButton large='true' arrow='true'>
+			<DrgButton large='true' arrow='true'>
 				Button
-			</DButton>
+			</DrgButton>
 			<br />
-			<DButton large='true' star='true'>
+			<DrgButton large='true' star='true'>
 				Button
-			</DButton>
+			</DrgButton>
 			<br />
-			<DButton large='true' star='true' arrow='true'>
+			<DrgButton large='true' star='true' arrow='true'>
 				Button
-			</DButton>
+			</DrgButton>
 			<br />
-			<DButton small='true'>Button</DButton>
+			<DrgButton small='true'>Button</DrgButton>
 			<br />
-			<DButton small='true' star='true'>
+			<DrgButton small='true' star='true'>
 				Button
-			</DButton>
+			</DrgButton>
 			<br />
-			<DButton small='true' arrow='true'>
+			<DrgButton small='true' arrow='true'>
 				Button
-			</DButton>
+			</DrgButton>
 			<br />
-			<DButton small='true' star='true' arrow='true'>
+			<DrgButton small='true' star='true' arrow='true'>
 				Button
-			</DButton>
+			</DrgButton>
 			<br />
-			<DButton star='true' />
+			<DrgButton star='true' />
 			<Divider />
 			<Typography h={2} weight='bold' size='headline'>
 				Typography
