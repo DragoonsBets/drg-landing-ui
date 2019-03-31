@@ -7,7 +7,7 @@ build:
     docker: {}
   tagPolicy:
     envTemplate:
-      template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing-ui:{{.VERSION}}'
+      template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing:{{.VERSION}}'
   local: {}
 deploy:
   kubectl: {}
@@ -18,13 +18,13 @@ profiles:
     - docker: {}
     tagPolicy:
       envTemplate:
-        template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing-ui:{{.DIGEST_HEX}}'
+        template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing:{{.DIGEST_HEX}}'
     local: {}
   deploy:
     helm:
       releases:
-      - name: drg-landing-ui
-        chartPath: charts/drg-landing-ui
+      - name: drg-landing
+        chartPath: charts/drg-landing
         setValueTemplates:
-          image.repository: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing-ui'
+          image.repository: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing'
           image.tag: '{{.DIGEST_HEX}}'
