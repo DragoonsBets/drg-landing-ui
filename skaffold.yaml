@@ -2,12 +2,12 @@ apiVersion: skaffold/v1beta2
 kind: Config
 build:
   artifacts:
-  - image: changeme
+  - image: drg-landing-ui
     context: .
     docker: {}
   tagPolicy:
     envTemplate:
-      template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing:{{.VERSION}}'
+      template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing-ui:{{.VERSION}}'
   local: {}
 deploy:
   kubectl: {}
@@ -18,13 +18,13 @@ profiles:
     - docker: {}
     tagPolicy:
       envTemplate:
-        template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing:{{.DIGEST_HEX}}'
+        template: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing-ui:{{.DIGEST_HEX}}'
     local: {}
   deploy:
     helm:
       releases:
       - name: drg-landing
-        chartPath: charts/drg-landing
+        chartPath: charts/drg-landing-ui
         setValueTemplates:
-          image.repository: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing'
+          image.repository: '{{.DOCKER_REGISTRY}}/dragoonsbets/drg-landing-ui'
           image.tag: '{{.DIGEST_HEX}}'
