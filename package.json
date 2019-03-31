@@ -3,8 +3,9 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "next",
-		"build": "next build && next export",
-		"start": "next start"
+		"build": "next build",
+		"export": "npm run build && next export",
+		"test": "echo No test defined"
 	},
 	"dependencies": {
 		"@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.0-rc",
