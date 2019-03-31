@@ -15,6 +15,10 @@ service:
     fabric8.io/expose: "true"
     fabric8.io/ingress.annotations: "kubernetes.io/ingress.class: nginx"
     kubernetes.io/tls-acme: "true"
+    nginx.ingress.kubernetes.io/cors-allow-credentials: "true"
+    nginx.ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, OPTIONS"
+    nginx.ingress.kubernetes.io/cors-allow-origin: "drg-landing-ui.jx-staging.viserion.dragoons.gg,drg-landing-ui.jx-production.viserion.dragoons.gg,localhost,dragoons.io,dragoons.gg"
+    nginx.ingress.kubernetes.io/enable-cors: "true"
 resources:
   limits:
     cpu: 400m
