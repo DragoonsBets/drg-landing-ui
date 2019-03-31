@@ -12,5 +12,5 @@ dependencies:
   # !! "alias: preview" must be last entry in dependencies array !!
   # !! Place custom dependencies above !!
 - alias: preview
-  name: drg-landing
-  repository: file://../drg-landing
+  name: drg-landing-ui
+  repository: file://../drg-landing-ui
