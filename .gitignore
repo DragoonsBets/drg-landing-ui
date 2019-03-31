@@ -22,4 +22,5 @@ yarn-error.log*
 
 # Next.js outputs
 /.next
+.next
 /out
