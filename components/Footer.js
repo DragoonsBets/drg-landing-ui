@@ -31,7 +31,7 @@ function Footer(props) {
 		<FooterWrapper>
 			<div>
 				<img
-					src='/static/dragoons-logo.png'
+					src='/static/v01-white.svg'
 					alt='Dragoons logo'
 					width={30}
 					height={30}
