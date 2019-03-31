@@ -20,7 +20,7 @@ const NavbarWrapper = styled.header`
 
 const LogoText = styled.h1`
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: 300;
 	margin: 0 0 0 5px;
 	color: white;
 `

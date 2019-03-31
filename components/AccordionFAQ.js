@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Accordion } from 'semantic-ui-react'
 
-const XAccordion = styled(Accordion)`
+const DrgAccordion = styled(Accordion)`
 	&& {
 		display: flex;
 		flex-direction: column;
@@ -45,7 +45,7 @@ const panels = [
 ]
 
 const AccordionFAQ = () => (
-	<XAccordion
+	<DrgAccordion
 		defaultActiveIndex={[0]}
 		panels={panels}
 		exclusive={false}
