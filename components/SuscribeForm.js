@@ -1,8 +1,10 @@
 import React from 'react'
-import axios from 'axios'
 import styled from 'styled-components'
 import { Form, Message, Checkbox } from 'semantic-ui-react'
 import DrgButton from './Buttons'
+import DrgInput from './DrgInputs'
+import { CREATE_USERS } from '../networking/endpoints'
+import axios from 'axios'
 
 const FormWrapper = styled.div`
 	align-items: center;
@@ -19,7 +21,7 @@ export default class SuscribeForm extends React.Component {
 			lastName: '',
 			email: '',
 			termsAccepted: '',
-			birthDate: '',
+			birthday: '',
 			error: false,
 			success: false
 		}
@@ -58,12 +60,16 @@ export default class SuscribeForm extends React.Component {
 			lastName: this.state['lastName'],
 			email: this.state['email'],
 			termsAccepted: this.state['termsAccepted'],
-			birthDate: this.state['birthDate']
+			birthday: this.state['birthday']
 		}
 
 		console.log('User data: ', user)
 		axios
-			.post('https://jsonplaceholder.typicode.com/users', { user })
+			.post(CREATE_USERS, { user }, {
+					headers: {
+							'Content-Type': 'application/json',
+					}
+			})
 			.then(res => {
 				this.state.success = true
 				console.log(res)
@@ -80,7 +86,7 @@ export default class SuscribeForm extends React.Component {
 			<FormWrapper>
 				<Form success onSubmit={this.handleSubmit}>
 					<Form.Group widths='equal'>
-						<Form.Input
+						<DrgInput
 							fluid
 							name='firstName'
 							label='Nombre'
@@ -88,7 +94,7 @@ export default class SuscribeForm extends React.Component {
 							onChange={this.handleInputChange}
 							required
 						/>
-						<Form.Input
+						<DrgInput
 							fluid
 							name='lastName'
 							label='Apellido'
@@ -98,7 +104,7 @@ export default class SuscribeForm extends React.Component {
 						/>
 					</Form.Group>
 					<Form.Group widths='equal'>
-						<Form.Input
+						<DrgInput
 							fluid
 							name='email'
 							label='Email'
@@ -106,7 +112,10 @@ export default class SuscribeForm extends React.Component {
 							onChange={this.handleInputChange}
 							required
 						/>
-						{/* <Form.Field label='Fecha de nacimiento' control={CustomCalendar} start='1' end='7' /> */}
+						{/* <Calendar
+							onChange={this.handleInputChange}
+							value={this.state.date}
+						/> */}
 					</Form.Group>
 					<Form.Field>
 						<Checkbox

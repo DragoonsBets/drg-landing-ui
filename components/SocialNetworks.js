@@ -18,7 +18,7 @@ function SocialNetworks(props) {
 					<Icon size='big' inverted link name='twitter' />
 				</a>
 				<a href='//discord.com/dragoons' target='_blank' rel="noopener noreferrer">
-					<Icon size='big' inverted link name='btc' />
+					<Icon size='big' inverted link name='discord' />
 				</a>
 		</SocialNetworksWrapper>
 	)

@@ -289,11 +289,6 @@ export default class Landing extends React.Component {
 						<RoadLine />
 					</Timeline>
 					<FAQ>
-						<div>
-							<Typography h={3} weight='bold' size='jumbo'>
-								Preguntas frecuentes
-							</Typography>
-						</div>
 						<AccordionFAQ />
 					</FAQ>
 				</LandingWrapper>
