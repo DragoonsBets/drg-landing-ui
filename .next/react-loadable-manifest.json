@@ -399,7 +399,7 @@
       "publicPath": "static/chunks/commons.39f3d5d93216381258cd.js"
     }
   ],
-  "../memoize": [
+  "lodash/memoize": [
     {
       "id": "44Ds",
       "name": "./node_modules/lodash/memoize.js",
@@ -607,7 +607,7 @@
       "publicPath": "static/chunks/commons.39f3d5d93216381258cd.js"
     }
   ],
-  "lodash/keys": [
+  "./keys": [
     {
       "id": "7GkX",
       "name": "./node_modules/lodash/keys.js",
@@ -1453,7 +1453,7 @@
       "publicPath": "static/chunks/commons.39f3d5d93216381258cd.js"
     }
   ],
-  "lodash/pick": [
+  "../pick": [
     {
       "id": "JZM8",
       "name": "./node_modules/lodash/pick.js",
@@ -2561,7 +2561,7 @@
       "publicPath": "static/chunks/commons.39f3d5d93216381258cd.js"
     }
   ],
-  "../../modules/_core": [
+  "../modules/_core": [
     {
       "id": "WEpk",
       "name": "./node_modules/core-js/library/modules/_core.js",
@@ -2745,7 +2745,7 @@
       "publicPath": "static/chunks/commons.39f3d5d93216381258cd.js"
     }
   ],
-  "lodash/isPlainObject": [
+  "../isPlainObject": [
     {
       "id": "YO3V",
       "name": "./node_modules/lodash/isPlainObject.js",
@@ -3639,7 +3639,7 @@
       "publicPath": "static/chunks/commons.39f3d5d93216381258cd.js"
     }
   ],
-  "./defineProperty": [
+  "@babel/runtime/helpers/defineProperty": [
     {
       "id": "lSNA",
       "name": "./node_modules/@babel/runtime/helpers/defineProperty.js",
