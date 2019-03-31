@@ -10,7 +10,7 @@ const NavbarWrapper = styled.header`
 	z-index: 99999;
 	width: 100%;
 	background-color: #141928;
-	padding: 24px;
+	padding: 14px 24px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	> div {
 		display: flex;
@@ -18,18 +18,11 @@ const NavbarWrapper = styled.header`
 	}
 `
 
-const LogoText = styled.h1`
-	font-size: 30px;
-	font-weight: 300;
-	margin: 0 0 0 5px;
-	color: white;
-`
-
 function Navbar(props) {
 	return (
 		<NavbarWrapper>
 			<div>
-				<LogoText>Dragoons</LogoText>
+				<img src='../static/v03-white.svg' alt='logo' width={200} />
 			</div>
 			<div>
 				<SuscribeModal />

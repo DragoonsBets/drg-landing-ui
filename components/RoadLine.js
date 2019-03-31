@@ -6,15 +6,54 @@ const RoadLineWrapper = styled.div`
 	align-items: flex-start;
 	flex-direction: column;
 	position: relative;
-	width: 50%;
+	width: 90%;
+	@media (min-width: 700px) {
+		width: 50%;
+	}
 	:before {
 		content: '';
 		width: 5px;
-		height: 310px;
 		background-image: linear-gradient(#982d4e, #512b65);
 		position: absolute;
 		top: 70px;
 		left: 13px;
+		height: 440px;
+		@media (min-width: 369px) {
+			height: 420px;
+		}
+		@media (min-width: 381px) {
+			height: 410px;
+		}
+		@media (min-width: 434px) {
+			height: 390px;
+		}
+		@media (min-width: 477px) {
+			height: 350px;
+		}
+		@media (min-width: 658px) {
+			height: 330px;
+		}
+		@media (min-width: 681px) {
+			height: 330px;
+		}
+		@media (min-width: 700px) {
+			height: 390px;
+		}
+		@media (min-width: 780px) {
+			height: 390px;
+		}
+		@media (min-width: 858px) {
+			height: 375px;
+		}
+		@media (min-width: 1000px) {
+			height: 350px;
+		}
+		@media (min-width: 1100px) {
+			height: 335px;
+		}
+		@media (min-width: 1300px) {
+			height: 300px;
+		}
 	}
 `
 
@@ -47,28 +86,26 @@ function RoadLine(props) {
 			<RoadLineItem>
 				<div>Beta cerrada</div>
 				<div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
-					laudantium, reprehenderit ducimus at sint ipsum alias enim, vero
-					officia consectetur sed, rem a dicta eveniet. Error eaque tenetur
-					incidunt in!
+					Se seleccionará a un grupo de usuarios que tendrá la posibilidad de
+					probar la plataforma, brindar sus comentarios y obtener una recompensa
+					por participar del proceso.
 				</div>
 			</RoadLineItem>
 			<RoadLineItem>
 				<div>Beta abierta</div>
 				<div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
-					laudantium, reprehenderit ducimus at sint ipsum alias enim, vero
-					officia consectetur sed, rem a dicta eveniet. Error eaque tenetur
-					incidunt in!
+					Los usuarios podrán participar de todo el ciclo; crear apuestas,
+					validar y seleccionar a los distintos equipos, streamers, ligas y
+					organizaciones que apoyarán utilizando dinero ficticio. Se
+					recompensará aquellos usuarios que participen y brinden sus
+					comentarios.
 				</div>
 			</RoadLineItem>
 			<RoadLineItem>
 				<div>Lanzamiento</div>
 				<div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
-					laudantium, reprehenderit ducimus at sint ipsum alias enim, vero
-					officia consectetur sed, rem a dicta eveniet. Error eaque tenetur
-					incidunt in!
+					Go live de la plataforma, en donde podrás apostar, votar y apoyar a tu
+					comunidad.
 				</div>
 			</RoadLineItem>
 		</RoadLineWrapper>

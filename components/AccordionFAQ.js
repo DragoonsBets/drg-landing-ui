@@ -3,12 +3,17 @@ import styled from 'styled-components'
 import { Accordion } from 'semantic-ui-react'
 
 const DrgAccordion = styled(Accordion)`
-	&& {
+	&&& {
 		display: flex;
 		flex-direction: column;
-		width: 50%;
+		width: 90vw;
 		margin: 40px 0 0 0;
-		background-color: #2e3c5d;
+		background-color: rgb(46, 60, 93, 0.5);
+
+		z-index: 999;
+		@media (min-width: 1050px) {
+			width: 50vw;
+		}
 		> div {
 			width: 100%;
 			font-family: Raleway;
@@ -38,6 +43,24 @@ const panels = [
 	},
 	{
 		key: 3,
+		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+		content:
+			'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
+	},
+	{
+		key: 4,
+		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+		content:
+			'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
+	},
+	{
+		key: 5,
+		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
+		content:
+			'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
+	},
+	{
+		key: 6,
 		title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit?',
 		content:
 			'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.'
