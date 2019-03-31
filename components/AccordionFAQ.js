@@ -12,7 +12,6 @@ const DrgAccordion = styled(Accordion)`
 		width: 90vw;
 		margin: 40px 0 0 0;
 		background-color: rgb(46, 60, 93, 0.5);
-
 		z-index: 999;
 		@media (min-width: 1050px) {
 			width: 50vw;
@@ -81,16 +80,19 @@ export default class AccordionFAQ extends React.Component {
 						Preguntas frecuentes
 					</Typography>
 				</div>
-				{this.state.faqs.length ? (
-					<DrgAccordion
-						defaultActiveIndex={[0]}
-						panels={this.state.faqs}
-						exclusive={false}
-						fluid
-						styled
-					/>
-				) : (
-					<Typography h={4} weight='normal' size='subheader'>
+				{ this.state.faqs.length ? 
+					(
+						<DrgAccordion
+							defaultActiveIndex={[0]}
+							panels={this.state.faqs}
+							exclusive={false}
+							fluid
+							styled
+						/>
+					) 
+				: 
+				(
+					<Typography h={4} weight='normal' color='white' size='subheader'>
 						Ocurrió un error cargando las preguntas frecuentes
 					</Typography>
 				)}

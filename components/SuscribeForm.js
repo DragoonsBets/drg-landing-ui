@@ -1,13 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Form, Message, Checkbox } from 'semantic-ui-react'
+import { Form, Message, Checkbox, Label } from 'semantic-ui-react'
 import DrgButton from './Buttons'
 import DrgInput from './DrgInputs'
 import { CREATE_USERS } from '../networking/endpoints'
 import axios from 'axios'
 
 const FormWrapper = styled.div`
-	align-items: center;
 	color: white;
 	flex: 1;
 	justify-content: center;
@@ -47,19 +46,23 @@ export default class SuscribeForm extends React.Component {
 		if (!event.target.checkValidity()) {
 			// form is invalid! so we do nothing
 			this.state.error = true
+			this.state.errorMessage = 'Ocurrió un error enviando el formulario'
 			return
 		}
 
 		if (!this.state.termsAccepted) {
 			this.state.error = true
+			this.state.errorMessage = 'Debes aceptar los términos y condiciones'
+			return
 		}
 
 		const user = {
 			firstName: this.state['firstName'],
 			lastName: this.state['lastName'],
 			email: this.state['email'],
-			termsAccepted: this.state['termsAccepted'],
-			birthday: this.state['birthday']
+			birthday: this.state['birthday'],
+			password1: '12345678',
+			password2: '12345678'
 		}
 
 		axios
@@ -89,7 +92,7 @@ export default class SuscribeForm extends React.Component {
 							fluid
 							name='firstName'
 							label='Nombre'
-							placeholder='Nombre'
+							placeholder='Emilio'
 							onChange={this.handleInputChange}
 							required
 						/>
@@ -97,7 +100,7 @@ export default class SuscribeForm extends React.Component {
 							fluid
 							name='lastName'
 							label='Apellido'
-							placeholder='Apellido'
+							placeholder='Gorzy'
 							onChange={this.handleInputChange}
 							required
 						/>
@@ -107,6 +110,8 @@ export default class SuscribeForm extends React.Component {
 							fluid
 							name='email'
 							label='Email'
+							icon='email'
+							iconPosition='left'
 							placeholder='john@dragoons.gg'
 							onChange={this.handleInputChange}
 							required
@@ -117,9 +122,9 @@ export default class SuscribeForm extends React.Component {
 						/> */}
 					</Form.Group>
 					<Form.Field>
+						<Label color='#141928' pointing='right' content='Acepto los terminos y condiciones' ></Label>
 						<Checkbox
 							name='termsAccepted'
-							label='Acepto terminos y condiciones'
 							onChange={this.handleInputChange}
 						/>
 					</Form.Field>
@@ -135,7 +140,7 @@ export default class SuscribeForm extends React.Component {
 						header='Action Forbidden'
 						content={this.state.errorMessage}
 					/>
-					<DrgButton type='submit'>Submit</DrgButton>
+					<DrgButton type='submit' large>Submit</DrgButton>
 				</Form>
 			</FormWrapper>
 		)

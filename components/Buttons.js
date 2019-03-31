@@ -48,13 +48,9 @@ function DrgButton(props) {
 			arrow={props.arrow}
 			disabled={props.disabled}
 			{...props}>
-			<span style={{ margin: '-7px', marginLeft: '10px' }}>
-				<Icon size='tiny' inverted name='star' />
-			</span>
-			{props.children}
-			<span style={{ margin: '-7px', marginLeft: '10px' }}>
-				<Icon size='tiny' inverted name='arrow right' />
-			</span>
+			{ props.star && <span style={{'margin': '-7px', 'marginLeft': '10px'}}><Icon size='tiny' inverted name='star'/></span> }
+			{ props.children }
+			{ props.arrow && <span style={{'margin': '-7px', 'marginLeft': '10px'}}><Icon size='tiny' inverted name='arrow right'/></span> }
 		</DrgButtonWrapper>
 	)
 }
