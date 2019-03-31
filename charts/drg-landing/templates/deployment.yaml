@@ -19,7 +19,22 @@ spec:
     spec:
       containers:
       - name: {{ .Chart.Name }}
+        env:
+        - name: ssl_certificate
+          valueFrom:
+            secretKeyRef:
+              name: tls-drg-landing
+              key: tls.crt
+        - name: ssl_certificate_key
+          valueFrom:
+            secretKeyRef:
+              name: tls-drg-landing
+              key: tls.key      
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        volumeMounts:
+          # name must match the volume name below
+          - name: secret-volume
+          mountPath: /etc/secret-volume
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         ports:
         - containerPort: {{ .Values.service.internalPort }}
@@ -40,4 +55,9 @@ spec:
           timeoutSeconds: {{ .Values.readinessProbe.timeoutSeconds }}
         resources:
 {{ toYaml .Values.resources | indent 12 }}
+      # The secret data is exposed to Containers in the Pod through a Volume.
+      volumes:
+        - name: secret-volume
+          secret:
+            secretName: tls-drg-landing
       terminationGracePeriodSeconds: {{ .Values.terminationGracePeriodSeconds }}
