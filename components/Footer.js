@@ -12,15 +12,20 @@ const FooterWrapper = styled.footer`
 	height: 100px;
 	justify-content: space-between;
 	padding: 20px;
-	> div {
-		flex: 1;
+	@media (max-width: 660px) {
+		flex-direction: column;
+		height: 200px;
+		> div {
+			flex: 1
+		}
 	}
 `
 
 const CopyrightWrapper = styled.div`
 	display: inline-flex;
-	height: 30px;
 	flex: 2;
+	justify-content: center;
+	height: 30px;
 	> h5 {
 		margin: 0 0 0 5px;
 	}
@@ -31,16 +36,15 @@ function Footer(props) {
 		<FooterWrapper>
 			<div>
 				<img
-					src='/static/v01-white.svg'
+					src='/static/v03-white.svg'
 					alt='Dragoons logo'
-					width={30}
-					height={30}
+					width={100}
 				/>
 			</div>
 			<CopyrightWrapper>
 				<span><Icon size='small' inverted name='copyright'/></span>
 				<Typography h={5} weight='thin' size='subheader'>
-					2019 - Dragoons - Todos los derechos reservados 
+					2019 - Todos los derechos reservados 
 				</Typography>
 			</CopyrightWrapper>
 			<div>
