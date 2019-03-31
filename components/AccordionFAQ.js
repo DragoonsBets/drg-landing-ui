@@ -14,7 +14,7 @@ const DrgAccordion = styled(Accordion)`
 		background-color: rgb(46, 60, 93, 0.5);
 		z-index: 999;
 		@media (min-width: 1050px) {
-			width: 50vw;
+			width: 70vw;
 		}
 		> div {
 			width: 100%;
@@ -38,7 +38,8 @@ function processFaq(items) {
 		faq.key = i
 		faq.title = temp
 		temp = items[i].body_es
-		faq.content = temp
+		
+		faq.content = temp		
 		processedFaqs.push(faq)
 	}
 	return processedFaqs
@@ -53,7 +54,7 @@ export default class AccordionFAQ extends React.Component {
 		}
 	}
 
-	componentWillMount() {
+	componentDidMount() {
 		axios
 			.get(GET_FAQ + 'type=bets.faqPage&fields=body_es,title_es', {
 				headers: {
@@ -62,7 +63,9 @@ export default class AccordionFAQ extends React.Component {
 			})
 			.then(res => {
 				let processedFaqs = processFaq(res.data.items)
-				this.state.faqs = processedFaqs
+				this.setState({
+					faqs: processedFaqs
+				});
 				this.state.loading = false
 			})
 			.catch(error => {
@@ -80,12 +83,13 @@ export default class AccordionFAQ extends React.Component {
 						Preguntas frecuentes
 					</Typography>
 				</div>
-				{ this.state.faqs.length ? 
+				{
+					this.state.faqs.length > 0 ? 
 					(
 						<DrgAccordion
 							defaultActiveIndex={[0]}
 							panels={this.state.faqs}
-							exclusive={false}
+							exclusive={true}
 							fluid
 							styled
 						/>
