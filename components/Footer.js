@@ -44,7 +44,7 @@ function Footer(props) {
 					2019 - Todos los derechos reservados 
 				</Typography>
 			</CopyrightWrapper>
-			<div style={{'flex' : '2', 'display' : 'flex', 'justify-content' : 'center'}}>
+			<div style={{'flex' : '2', 'display' : 'flex', 'justifyContent' : 'center'}}>
 				<img
 					src='/static/v01-white.svg'
 					alt='Dragoons logo'

@@ -34,11 +34,10 @@ function processFaq(items) {
 	let processedFaqs = []
 	for (let i = 0; i < items.length; i++) {
 		let faq = {}
-		let temp = items[i].title_es
+		let temp = items[i].title
 		faq.key = i
 		faq.title = temp
-		temp = items[i].body_es
-		
+		temp = items[i].body
 		faq.content = temp		
 		processedFaqs.push(faq)
 	}
@@ -56,7 +55,7 @@ export default class AccordionFAQ extends React.Component {
 
 	componentDidMount() {
 		axios
-			.get(GET_FAQ + 'type=bets.faqPage&fields=body_es,title_es', {
+			.get(GET_FAQ + 'type=bets.faqPage&fields=body', {
 				headers: {
 					'Content-Type': 'application/json;'
 				}
