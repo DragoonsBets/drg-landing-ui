@@ -6,6 +6,7 @@ import DrgButton from '../components/Buttons'
 import Player from '../components/Player'
 import AccordionFAQ from '../components/AccordionFAQ'
 import RoadLine from '../components/RoadLine'
+import SuscribeForm from '../components/SuscribeForm'
 
 const LandingWrapper = styled.div`
 	display: flex;
@@ -207,8 +208,8 @@ export default class Index extends React.Component {
 								<img src='../static/v02-color.svg' alt='logo' width={300} />
 							</HeroLogo>
 							<Typography h={3} weight='bold' size='headline'>
-								Únete a la única plataforma que te permite apostar y apoyar a tu comunidad
-								de eSports.
+								Únete a la única plataforma que te permite apostar y apoyar a tu
+								comunidad de eSports.
 							</Typography>
 							<HeroButton>
 								<DrgButton large='true' arrow='true'>

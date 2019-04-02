@@ -1,35 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
-import axios from 'axios'
-import { Form, Message, Checkbox } from 'semantic-ui-react'
+import { Form, Message, Checkbox, Label } from 'semantic-ui-react'
 import DrgButton from './Buttons'
 import DrgInput from './DrgInputs'
-import Typography from './Typography'
 import { CREATE_USERS } from '../networking/endpoints'
+import axios from 'axios'
 
-const SuscribeFormWrapper = styled.div`
-	&&& {
-		font-family: Raleway;
-		input,
-		h3,
-		h4 {
-			font-family: Raleway;
-		}
-	}
-`
-
-const XForm = styled(Form)`
-	&&& {
-		> div {
-			display: flex;
-		}
-	}
-`
-
-const XCheckbox = styled(Checkbox)`
-	&&& {
-		margin: 30px 0;
-	}
+const FormWrapper = styled.div`
+	color: white;
+	flex: 1;
+	justify-content: center;
 `
 
 export default class SuscribeForm extends React.Component {
@@ -105,62 +85,67 @@ export default class SuscribeForm extends React.Component {
 
 	render() {
 		return (
-			<SuscribeFormWrapper>
-				<Typography h={3} weight='bold' size='jumbo'>
-					Suscríbete a Dragoons
-				</Typography>
-				<Typography h={4} weight='thin' size='title'>
-					Grandes premios y sorpresas te esperan si sos de los primeros
-				</Typography>
-				<XForm success onSubmit={this.handleSubmit}>
-					<DrgInput
-						name='firstName'
-						label='Nombre'
-						placeholder='Emilio'
-						onChange={this.handleInputChange}
-						required
-					/>
-					<br />
-					<DrgInput
-						name='lastName'
-						label='Apellido'
-						placeholder='Gorzy'
-						onChange={this.handleInputChange}
-						required
-					/>
-					<br />
-					<DrgInput
-						name='email'
-						label='Email'
-						icon='email'
-						placeholder='john@dragoons.gg'
-						onChange={this.handleInputChange}
-						required
-					/>
-					<XCheckbox
-						name='termsAccepted'
-						onChange={this.handleInputChange}
-						label='Acepto términos y condiciones'
-					/>
-					<div>
-						<Message
-							hidden={!this.state.success}
-							visible={this.state.success}
-							header='Registro exitoso'
-							content='Gracias por registrarte en Dragoons!'
+			<FormWrapper>
+				<Form success onSubmit={this.handleSubmit}>
+					<Form.Group widths='equal'>
+						<DrgInput
+							fluid
+							name='firstName'
+							label='Nombre'
+							placeholder='Emilio'
+							onChange={this.handleInputChange}
+							required
 						/>
-						<Message
-							visible={this.state.error}
-							hidden={!this.state.error}
-							header='Action Forbidden'
-							content={this.state.errorMessage}
+						<DrgInput
+							fluid
+							name='lastName'
+							label='Apellido'
+							placeholder='Gorzy'
+							onChange={this.handleInputChange}
+							required
 						/>
-					</div>
+					</Form.Group>
+					<Form.Group widths='equal'>
+						<DrgInput
+							fluid
+							name='email'
+							label='Email'
+							icon='email'
+							iconPosition='left'
+							placeholder='john@dragoons.gg'
+							onChange={this.handleInputChange}
+							required
+						/>
+						{/* <Calendar
+							onChange={this.handleInputChange}
+							value={this.state.date}
+						/> */}
+					</Form.Group>
+					<Form.Field>
+						<Label
+							color='#141928'
+							pointing='right'
+							content='Acepto los terminos y condiciones'
+						/>
+						<Checkbox name='termsAccepted' onChange={this.handleInputChange} />
+					</Form.Field>
+					<Message
+						hidden={!this.state.success}
+						visible={this.state.success}
+						header='Registro exitoso'
+						content='Gracias por registrarte en Dragoons!'
+					/>
+					<Message
+						visible={this.state.error}
+						hidden={!this.state.error}
+						header='Action Forbidden'
+						content={this.state.errorMessage}
+					/>
 					<DrgButton type='submit' large>
-						Regístrate
+						Submit
 					</DrgButton>
-				</XForm>
-			</SuscribeFormWrapper>
+				</Form>
+			</FormWrapper>
 		)
 	}
 }

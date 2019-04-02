@@ -12,6 +12,7 @@
 		"@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.0-rc",
 		"@zeit/next-css": "^1.0.1",
 		"axios": "^0.18.0",
+		"fontfaceobserver": "^2.1.0",
 		"moment": "^2.24.0",
 		"next": "^8.0.3",
 		"react": "^16.8.6",
