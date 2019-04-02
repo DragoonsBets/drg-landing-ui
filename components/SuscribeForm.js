@@ -138,9 +138,14 @@ export default class SuscribeForm extends React.Component {
 						required
 					/>
 					<XCheckbox
-						name='termsAccepted'
+						name='terms'
 						onChange={this.handleInputChange}
 						label='Acepto términos y condiciones'
+					/>
+					<XCheckbox
+						name='newsletter'
+						onChange={this.handleInputChange}
+						label='Deseo recibir noticias y novedades sobre Dragoons'
 					/>
 					<div>
 						<Message

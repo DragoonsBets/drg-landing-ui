@@ -6,17 +6,22 @@ import DrgButton from '../components/Buttons'
 import Player from '../components/Player'
 import AccordionFAQ from '../components/AccordionFAQ'
 import RoadLine from '../components/RoadLine'
-import SuscribeForm from '../components/SuscribeForm'
+import Navigation from '../components/Navigation'
 
 const LandingWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	/* position: relative; */
 	> div:nth-child(even) {
 		background-color: #111e3c;
 	}
 	> div:nth-child(odd) {
 		background-color: #141928;
+	}
+	/* Navigation */
+	> div:last-child {
+		background-color: transparent;
 	}
 `
 
@@ -180,9 +185,9 @@ export default class Index extends React.Component {
 		this.state = {
 			videoWidth: '1',
 			videoHeight: '1',
-			scroll: 0
+			scroll: 0,
+			videoAutoPlay: false
 		}
-		this.updateDimensions = this.updateDimensions.bind(this)
 	}
 
 	componentDidMount() {
@@ -199,15 +204,10 @@ export default class Index extends React.Component {
 		window.addEventListener('resize', this.updateDimensions)
 	}
 
-	updateDimensions() {
-		window.location.reload()
-	}
-
 	render() {
 		var videoJsOptions = {
 			techOrder: ['youtube'],
-			autoplay: false,
-			controls: true,
+			controls: false,
 			sources: [
 				{
 					src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
@@ -230,13 +230,16 @@ export default class Index extends React.Component {
 								comunidad de eSports.
 							</Typography>
 							<HeroButton>
-								<DrgButton large='true' arrow='true'>
+								<DrgButton
+									large='true'
+									arrow='true'
+									onClick={this.videoAutoPlayHandler}>
 									Regístrate {this.state.scroll}
 								</DrgButton>
 							</HeroButton>
 						</div>
 					</Hero>
-					<VideoWrapper>
+					<VideoWrapper id='video'>
 						{this.state.videoWidth === '1' ? (
 							<VideoLoading>
 								<img src='../static/v01-white.svg' alt='loading' width={100} />
@@ -244,12 +247,13 @@ export default class Index extends React.Component {
 						) : (
 							<Player
 								{...videoJsOptions}
-								width={this.state.videoWidth}
+								autoplay={this.state.videoAutoPlay}
 								height={this.state.videoHeight - 72}
+								width={this.state.videoWidth}
 							/>
 						)}
 					</VideoWrapper>
-					<Features>
+					<Features id='features'>
 						<FeaturesTitle>
 							<Typography h={2} weight='bold' size='jumbo'>
 								¡Gana dinero mirando eSports!
@@ -314,7 +318,7 @@ export default class Index extends React.Component {
 							</div>
 						</FeaturesItems>
 					</Features>
-					<Timeline>
+					<Timeline id='timeline'>
 						<div>
 							<Typography h={3} weight='bold' size='jumbo'>
 								Próximos pasos
@@ -322,9 +326,10 @@ export default class Index extends React.Component {
 						</div>
 						<RoadLine />
 					</Timeline>
-					<FAQ>
+					<FAQ id='faq'>
 						<AccordionFAQ />
 					</FAQ>
+					<Navigation />
 				</LandingWrapper>
 			</Layout>
 		)
