@@ -6,7 +6,7 @@ const NavigationWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	position: fixed;
-	right: 30px;
+	right: 45px;
 	top: 50%;
 `
 

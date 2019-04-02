@@ -7,6 +7,7 @@ import Player from '../components/Player'
 import AccordionFAQ from '../components/AccordionFAQ'
 import RoadLine from '../components/RoadLine'
 import Navigation from '../components/Navigation'
+import UpArrowNavigation from '../components/UpArrowNavigation'
 
 const LandingWrapper = styled.div`
 	display: flex;
@@ -19,8 +20,8 @@ const LandingWrapper = styled.div`
 	> div:nth-child(odd) {
 		background-color: #141928;
 	}
-	/* Navigation */
-	> div:last-child {
+	/* Navigation, UpArrowNavigation */
+	> div:nth-last-child(2) {
 		background-color: transparent;
 	}
 `
@@ -207,7 +208,7 @@ export default class Index extends React.Component {
 	render() {
 		var videoJsOptions = {
 			techOrder: ['youtube'],
-			controls: false,
+			controls: true,
 			sources: [
 				{
 					src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
@@ -220,7 +221,7 @@ export default class Index extends React.Component {
 				title='Landing title'
 				description='A description about the landing page'>
 				<LandingWrapper>
-					<Hero>
+					<Hero id='top'>
 						<div>
 							<HeroLogo>
 								<img src='../static/v02-color.svg' alt='logo' width={300} />
@@ -330,6 +331,7 @@ export default class Index extends React.Component {
 						<AccordionFAQ />
 					</FAQ>
 					<Navigation />
+					<UpArrowNavigation scroll={this.state.scroll} />
 				</LandingWrapper>
 			</Layout>
 		)
