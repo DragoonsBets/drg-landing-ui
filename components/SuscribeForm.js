@@ -20,6 +20,7 @@ export default class SuscribeForm extends React.Component {
 			lastName: '',
 			email: '',
 			termsAccepted: '',
+			marketingAccepted: '',
 			birthday: '',
 			error: false,
 			success: false
@@ -46,13 +47,13 @@ export default class SuscribeForm extends React.Component {
 		if (!event.target.checkValidity()) {
 			// form is invalid! so we do nothing
 			this.state.error = true
-			this.state.errorMessage = 'Ocurrió un error enviando el formulario'
+			this.state.errorMessage = 'Ocurrió un error enviando el formulario.'
 			return
 		}
 
 		if (!this.state.termsAccepted) {
 			this.state.error = true
-			this.state.errorMessage = 'Debes aceptar los términos y condiciones'
+			this.state.errorMessage = 'Debes aceptar los términos y condiciones.'
 			return
 		}
 
@@ -92,7 +93,7 @@ export default class SuscribeForm extends React.Component {
 							fluid
 							name='firstName'
 							label='Nombre'
-							placeholder='Emilio'
+							placeholder='Ingresa tu nombre'
 							onChange={this.handleInputChange}
 							required
 						/>
@@ -100,7 +101,7 @@ export default class SuscribeForm extends React.Component {
 							fluid
 							name='lastName'
 							label='Apellido'
-							placeholder='Gorzy'
+							placeholder='Ingresa tu apellido'
 							onChange={this.handleInputChange}
 							required
 						/>
@@ -109,10 +110,10 @@ export default class SuscribeForm extends React.Component {
 						<DrgInput
 							fluid
 							name='email'
-							label='Email'
+							label='e-mail'
 							icon='email'
 							iconPosition='left'
-							placeholder='john@dragoons.gg'
+							placeholder='Ingresa tu email'
 							onChange={this.handleInputChange}
 							required
 						/>
@@ -122,17 +123,25 @@ export default class SuscribeForm extends React.Component {
 						/> */}
 					</Form.Group>
 					<Form.Field>
-						<Label color='#141928' pointing='right' content='Acepto los terminos y condiciones' ></Label>
 						<Checkbox
 							name='termsAccepted'
 							onChange={this.handleInputChange}
 						/>
+						<Label color='#141928' pointing='left' content='Acepto los términos y condiciones.' ></Label>
+					</Form.Field>
+					<Form.Field>
+						<Checkbox
+							name='marketingAccepted'
+							onChange={this.handleInputChange}
+							checked='true'
+						/>
+						<Label color='#141928' pointing='left' content='Deseo recibir noticias y novedades de Dragoons.' ></Label>
 					</Form.Field>
 					<Message
 						hidden={!this.state.success}
 						visible={this.state.success}
 						header='Registro exitoso'
-						content='Gracias por registrarte en Dragoons!'
+						content='¡Gracias por registrarte!'
 					/>
 					<Message
 						visible={this.state.error}
@@ -140,7 +149,7 @@ export default class SuscribeForm extends React.Component {
 						header='Action Forbidden'
 						content={this.state.errorMessage}
 					/>
-					<DrgButton type='submit' large>Submit</DrgButton>
+					<DrgButton type='submit' large>Registrame</DrgButton>
 				</Form>
 			</FormWrapper>
 		)

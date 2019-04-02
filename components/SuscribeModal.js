@@ -30,12 +30,13 @@ export default class SuscribeModal extends Component {
 				size='small'>
 				<Modal.Header>
 					<Typography h={4} weight='bold' size='title'>
-						Suscribite a Dragoons
+						¡Registrate para recibir noticias y reserva tu lugar!
 					</Typography>
 				</Modal.Header>
 				<Modal.Content>
 					<Typography h={5} size='subheader'>
-						Grandes premios y sorpresas te esperan si sos un early adopter
+						No te pierdas esta oportunidad única de participar de la Beta Cerrada de Dragoons. 
+						Contamos con tu ayuda para construir un producto genial. 😃
 					</Typography>
 					<SuscribeFormContainer />
 				</Modal.Content>

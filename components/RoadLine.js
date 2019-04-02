@@ -84,27 +84,23 @@ function RoadLine(props) {
 	return (
 		<RoadLineWrapper>
 			<RoadLineItem>
-				<div>Beta cerrada</div>
+				<div>Beta cerrada - Q2 2019</div>
 				<div>
-					Se seleccionará a un grupo de usuarios que tendrá la posibilidad de
-					probar la plataforma, brindar sus comentarios y obtener una recompensa
-					por participar del proceso.
+					<strong>Registrate ahora</strong> para tener la oportunidad de participar del proceso de 
+					creación de nuestra plataforma, brindar tus comentarios y ¡obtener una recompensa
+					por participar!.
 				</div>
 			</RoadLineItem>
 			<RoadLineItem>
-				<div>Beta abierta</div>
+				<div>Beta abierta - Q3 2019</div>
 				<div>
-					Los usuarios podrán participar de todo el ciclo; crear apuestas,
-					validar y seleccionar a los distintos equipos, streamers, ligas y
-					organizaciones que apoyarán utilizando dinero ficticio. Se
-					recompensará aquellos usuarios que participen y brinden sus
-					comentarios.
+					Podrás utilizar el sitio web completo utilizando dinero ficticio.
 				</div>
 			</RoadLineItem>
 			<RoadLineItem>
-				<div>Lanzamiento</div>
+				<div>Lanzamiento - Q4 2019</div>
 				<div>
-					Go live de la plataforma, en donde podrás apostar, votar y apoyar a tu
+					Go live de la plataforma en donde podrás apostar, votar y apoyar a tu
 					comunidad.
 				</div>
 			</RoadLineItem>
