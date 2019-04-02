@@ -55,7 +55,15 @@ const HeroButton = styled.div`
 	margin: 30px 0 0 0;
 `
 
-const VideoWrapper = styled.div``
+const VideoWrapper = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: calc(100vh - 90px);
+`
+
+const VideoLoading = styled.div``
 
 const Features = styled.div`
 	display: flex;
@@ -170,26 +178,36 @@ export default class Index extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			viewportWidth: '1',
-			viewportHeight: '1'
+			videoWidth: '1',
+			videoHeight: '1',
+			scroll: 0
 		}
+		this.updateDimensions = this.updateDimensions.bind(this)
 	}
+
 	componentDidMount() {
 		this.setState({
-			viewportWidth: window.innerWidth,
-			viewportHeight: window.innerHeight
+			videoWidth: window.innerWidth,
+			videoHeight: window.innerHeight,
+			scroll: window.scrollY
 		})
-		// window.addEventListener('resize', () =>
-		// 	this.setState({ viewportWidth: window.innerWidth })
-		// )
+
+		window.addEventListener('scroll', () =>
+			this.setState({ scroll: window.scrollY })
+		)
+
+		window.addEventListener('resize', this.updateDimensions)
 	}
+
+	updateDimensions() {
+		window.location.reload()
+	}
+
 	render() {
-		const videoJsOptions = {
+		var videoJsOptions = {
 			techOrder: ['youtube'],
 			autoplay: false,
 			controls: true,
-			width: this.state.viewportWidth,
-			height: this.state.viewportHeight - 90,
 			sources: [
 				{
 					src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
@@ -213,16 +231,22 @@ export default class Index extends React.Component {
 							</Typography>
 							<HeroButton>
 								<DrgButton large='true' arrow='true'>
-									Regístrate
+									Regístrate {this.state.scroll}
 								</DrgButton>
 							</HeroButton>
 						</div>
 					</Hero>
 					<VideoWrapper>
-						{this.state.viewportWidth === '1' ? (
-							<div>Loading...</div>
+						{this.state.videoWidth === '1' ? (
+							<VideoLoading>
+								<img src='../static/v01-white.svg' alt='loading' width={100} />
+							</VideoLoading>
 						) : (
-							<Player {...videoJsOptions} />
+							<Player
+								{...videoJsOptions}
+								width={this.state.videoWidth}
+								height={this.state.videoHeight - 90}
+							/>
 						)}
 					</VideoWrapper>
 					<Features>

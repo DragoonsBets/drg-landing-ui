@@ -10,7 +10,6 @@ const Fonts = () => {
 	document.head.appendChild(link)
 
 	raleway.load().then(() => {
-		console.log(document.head)
 		document.documentElement.classList.add('raleway')
 	})
 }
