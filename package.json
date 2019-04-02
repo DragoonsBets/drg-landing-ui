@@ -5,7 +5,7 @@
 		"dev": "next",
 		"build": "next build",
 		"start": "next start",
-		"export": "npm run build && next export",
+		"export": "yarn build && next export",
 		"test": "echo No test defined"
 	},
 	"dependencies": {
