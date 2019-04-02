@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Navbar from './Navbar'
 // import an empty css in static
 import 'video.js/dist/video-js.css'
+
 import Footer from './Footer'
 
 // fonts to be added more elegantly
@@ -47,7 +48,7 @@ export default ({
 				href='https://fonts.googleapis.com/css?family=Raleway:200,300,400,500'
 				rel='stylesheet'
 			/>
-			{/* <meta httpEquiv='Content-Security-Policy' content='upgrade-insecure-requests' /> */}
+			<meta httpEquiv='Content-Security-Policy' content='upgrade-insecure-requests' />
 		</Head>
 		<Navbar />
 		<LayoutWrapper>{children}</LayoutWrapper>
