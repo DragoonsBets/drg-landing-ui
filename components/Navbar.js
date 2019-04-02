@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Link from 'next/link'
 import FullScreenModal from './FullScreenModal'
 import SuscribeForm from './SuscribeForm'
 
@@ -25,9 +26,11 @@ const NavbarWrapper = styled.header`
 function Navbar() {
 	return (
 		<NavbarWrapper>
-			<div>
-				<img src='../static/v03-white.svg' alt='logo' width={200} />
-			</div>
+			<Link href='/'>
+				<a>
+					<img src='../static/v03-white.svg' alt='logo' width={200} />
+				</a>
+			</Link>
 			<FullScreenModal>
 				<SuscribeForm />
 			</FullScreenModal>
