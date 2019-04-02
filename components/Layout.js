@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Navbar from './Navbar'
 // import an empty css in static
 import 'video.js/dist/video-js.css'
+
 import Footer from './Footer'
 import Fonts from './Fonts'
 
