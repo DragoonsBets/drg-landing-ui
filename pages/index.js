@@ -24,7 +24,7 @@ const Hero = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	padding: 0 5vw;
 	@media (min-width: 900px) {
 		width: 100%;
@@ -60,7 +60,7 @@ const VideoWrapper = styled.div`
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	height: calc(100vh - 90px);
+	height: calc(100vh - 72px);
 `
 
 const VideoLoading = styled.div``
@@ -71,7 +71,7 @@ const Features = styled.div`
 	align-items: center;
 	justify-content: center;
 	padding: 50px 0 0 0;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	@media (min-width: 1050px) {
 		padding: 50px 0;
 	}
@@ -128,7 +128,7 @@ const FAQ = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	> div:nth-child(1) {
 		text-align: center;
 		z-index: 999;
@@ -154,7 +154,7 @@ const Timeline = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	> div:nth-child(1) {
 		text-align: center;
 		z-index: 999;
@@ -245,7 +245,7 @@ export default class Index extends React.Component {
 							<Player
 								{...videoJsOptions}
 								width={this.state.videoWidth}
-								height={this.state.videoHeight - 90}
+								height={this.state.videoHeight - 72}
 							/>
 						)}
 					</VideoWrapper>

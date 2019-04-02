@@ -10,7 +10,7 @@ import Fonts from './Fonts'
 // https://www.npmjs.com/package/styled-jsx#server-side-rendering
 const LayoutWrapper = styled.div`
 	color: white;
-	padding: 90px 0 0 0;
+	padding: 72px 0 0 0;
 	font-weight: 200;
 	min-height: 100vh;
 	caption {

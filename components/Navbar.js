@@ -21,16 +21,36 @@ const NavbarWrapper = styled.header`
 		display: flex;
 		align-items: center;
 	}
+	> div:nth-child(1) {
+		display: none;
+	}
+	@media (min-width: 500px) {
+		> div:nth-child(1) {
+			display: block;
+		}
+		> div:nth-child(2) {
+			display: none;
+		}
+	}
 `
 
 function Navbar() {
 	return (
 		<NavbarWrapper>
-			<Link href='/'>
-				<a>
-					<img src='../static/v03-white.svg' alt='logo' width={200} />
-				</a>
-			</Link>
+			<div>
+				<Link href='/'>
+					<a>
+						<img src='../static/v03-white.svg' alt='logo' width={200} />
+					</a>
+				</Link>
+			</div>
+			<div>
+				<Link href='/'>
+					<a>
+						<img src='../static/v01-white.svg' alt='logo' width={42} />
+					</a>
+				</Link>
+			</div>
 			<FullScreenModal>
 				<SuscribeForm />
 			</FullScreenModal>
