@@ -244,8 +244,8 @@ export default class Index extends React.Component {
 								¡Gana dinero mirando eSports!
 							</Typography>
 							<Typography h={3} weight='thin' size='title'>
-								En Dragoons podrás ganar dinero haciendo lo que más te gusta,
-								mientras apoyas al desarrollo de la comunidad de eSports en
+								Podrás ganar dinero haciendo lo que más te gusta,
+								mientras apoyas el desarrollo de la comunidad de eSports en
 								LATAM.
 							</Typography>
 						</FeaturesTitle>
@@ -259,36 +259,36 @@ export default class Index extends React.Component {
 									/>
 								</FeaturesItemsImg>
 								<Typography h={4} weight='bold' size='headline'>
-									Desafía a otros gamers
+									Desafía a otros
 								</Typography>
 								<p>
-									Desafía otros gamers, creando apuestas y demostrando cuánto
-									sabes de esports, en el sistema más transparente y confiable
-									de la industria.
+									Apuesta contra otros y demustra cuánto sabes de eSports
+									en el sistema de apuestas en bolsa más transparente y
+									confiable de la industria.
 								</p>
 							</div>
 							<div>
 								<FeaturesItemsImg>
 									<img
 										src='../static/features-vote.svg'
-										alt='desafía a otros gamers'
+										alt='vota resultados'
 										width={100}
 									/>
 								</FeaturesItemsImg>
 								<Typography h={4} weight='bold' size='headline'>
-									Gana votando
+									Vota resultados
 								</Typography>
 								<p>
-									Los usuarios podrán votar el resultado de las apuestas
-									creadas, si votas de forma correcta podrás ganar dinero de
-									forma directa.
+									Te pagaremos por hacer lo que más te gusta, ¡mirar eSports!. 
+									Lo único que debes hacer es enviar estadísticas.
+									¿Quién ganó la partida?, ¿en que minuto cayó la torre?, etc.
 								</p>
 							</div>
 							<div>
 								<FeaturesItemsImg>
 									<img
 										src='../static/features-community.svg'
-										alt='desafía a otros gamers'
+										alt='apoya tu comunidad'
 										width={100}
 									/>
 								</FeaturesItemsImg>
@@ -296,9 +296,10 @@ export default class Index extends React.Component {
 									Apoya a tu comunidad
 								</Typography>
 								<p>
-									Con el dinero recolectado, mensualmente se apoyará
-									económicamente a distintos equipos, streamers, ligas y
-									organizaciones elegidas por la comunidad.
+									Parte del dinero recaudado en las apuestas será utilizado 
+									para apoyar económicamente a equipos, jugadores, streamers, 
+									ligas u organizaciones de eSports elegidas por el voto de la comunidad.
+									¡Tu decides!
 								</p>
 							</div>
 						</FeaturesItems>

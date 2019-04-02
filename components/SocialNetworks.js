@@ -14,10 +14,10 @@ function SocialNetworks(props) {
 				<a href='//instagram.com/dragoons' target='_blank' rel="noopener noreferrer">
 					<Icon size='big' inverted link name='instagram' />
 				</a>
-				<a href='//twitter.com/dragoons' target='_blank' rel="noopener noreferrer">
+				<a href='//twitter.com/DragoonsBets' target='_blank' rel="noopener noreferrer">
 					<Icon size='big' inverted link name='twitter' />
 				</a>
-				<a href='//discord.com/dragoons' target='_blank' rel="noopener noreferrer">
+				<a href='//discord.gg/vbeeKZd' target='_blank' rel="noopener noreferrer">
 					<Icon size='big' inverted link name='discord' />
 				</a>
 		</SocialNetworksWrapper>

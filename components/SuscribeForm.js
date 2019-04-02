@@ -41,6 +41,7 @@ export default class SuscribeForm extends React.Component {
 			lastName: '',
 			email: '',
 			termsAccepted: '',
+			marketingAccepted: '',
 			birthday: '',
 			error: false,
 			success: false
@@ -67,13 +68,13 @@ export default class SuscribeForm extends React.Component {
 		if (!event.target.checkValidity()) {
 			// form is invalid! so we do nothing
 			this.state.error = true
-			this.state.errorMessage = 'Ocurrió un error enviando el formulario'
+			this.state.errorMessage = 'Ocurrió un error enviando el formulario.'
 			return
 		}
 
 		if (!this.state.termsAccepted) {
 			this.state.error = true
-			this.state.errorMessage = 'Debes aceptar los términos y condiciones'
+			this.state.errorMessage = 'Debes aceptar los términos y condiciones.'
 			return
 		}
 
