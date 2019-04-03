@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import jump from 'jump.js'
 import Layout from '../components/Layout'
 import Typography from '../components/Typography'
 import DrgButton from '../components/Buttons'
@@ -13,17 +14,6 @@ const LandingWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* position: relative; */
-	> div:nth-child(even) {
-		background-color: #111e3c;
-	}
-	> div:nth-child(odd) {
-		background-color: #141928;
-	}
-	/* Navigation, UpArrowNavigation */
-	> div:nth-last-child(2) {
-		background-color: transparent;
-	}
 `
 
 const Hero = styled.div`
@@ -184,38 +174,27 @@ export default class Index extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			videoWidth: '1',
-			videoHeight: '1',
-			scroll: 0,
-			videoAutoPlay: false
+			scroll: undefined,
+			autoplay: false
 		}
+	}
+
+	autoplayToggle() {
+		this.setState({ autoplay: true })
+		jump('#video', {
+			duration: 1000,
+			offset: -72
+		})
 	}
 
 	componentDidMount() {
-		this.setState({
-			videoWidth: window.innerWidth,
-			videoHeight: window.innerHeight,
-			scroll: window.scrollY
-		})
-
+		this.setState({ scroll: window.scrollY })
 		window.addEventListener('scroll', () =>
 			this.setState({ scroll: window.scrollY })
 		)
-
-		window.addEventListener('resize', this.updateDimensions)
 	}
 
 	render() {
-		var videoJsOptions = {
-			techOrder: ['youtube'],
-			controls: true,
-			sources: [
-				{
-					src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
-					type: 'video/youtube'
-				}
-			]
-		}
 		return (
 			<Layout
 				title='Landing title'
@@ -234,24 +213,29 @@ export default class Index extends React.Component {
 								<DrgButton
 									large='true'
 									arrow='true'
-									onClick={this.videoAutoPlayHandler}>
-									Regístrate {this.state.scroll}
+									onClick={this.autoplayToggle.bind(this)}>
+									Ver video
 								</DrgButton>
 							</HeroButton>
 						</div>
 					</Hero>
 					<VideoWrapper id='video'>
-						{this.state.videoWidth === '1' ? (
+						{typeof window !== 'undefined' && this.state.scroll !== 0 ? (
+							<Player
+								sources={[
+									{
+										src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
+										type: 'video/youtube'
+									}
+								]}
+								techOrder={['youtube']}
+								controls={true}
+								autoplay={this.state.autoplay}
+							/>
+						) : (
 							<VideoLoading>
 								<img src='../static/v01-white.svg' alt='loading' width={100} />
 							</VideoLoading>
-						) : (
-							<Player
-								{...videoJsOptions}
-								autoplay={this.state.videoAutoPlay}
-								height={this.state.videoHeight - 72}
-								width={this.state.videoWidth}
-							/>
 						)}
 					</VideoWrapper>
 					<Features id='features'>

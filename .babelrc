@@ -2,6 +2,6 @@
 	"presets": ["next/babel"],
 	"plugins": [
 		"@quickbaseoss/babel-plugin-styled-components-css-namespace",
-		"styled-components"
+		["styled-components", { "ssr": true }]
 	]
 }

@@ -60,7 +60,7 @@ export default class FullScreenModal extends Component {
 		return (
 			<ModalWrapper
 				trigger={
-					<DrgButton onClick={this.handleOpen} large='true' arrow='true' on>
+					<DrgButton onClick={this.handleOpen} large='true' arrow='true'>
 						Regístrate
 					</DrgButton>
 				}

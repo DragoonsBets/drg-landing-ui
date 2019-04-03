@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import axios from 'axios'
-import { Form, Message, Checkbox } from 'semantic-ui-react'
+import { Form, Message, Checkbox, Divider } from 'semantic-ui-react'
 import DrgButton from './Buttons'
 import DrgInput from './DrgInputs'
+import DrgDropdown from './DrgDropdown'
 import Typography from './Typography'
 import { CREATE_USERS } from '../networking/endpoints'
 
@@ -104,13 +105,35 @@ export default class SuscribeForm extends React.Component {
 	}
 
 	render() {
+		const days = []
+		const months = []
+		const years = []
+
+		var d = new Date()
+		var currentYear = d.getFullYear()
+		var oldest = d.getFullYear() - 81
+
+		for (let i = 1; i < 32; i++) {
+			var day = { key: i, value: i, text: i }
+			days.push(day)
+		}
+
+		for (let i = 1; i < 13; i++) {
+			var month = { key: i, value: i, text: i }
+			months.push(month)
+		}
+
+		for (let i = currentYear; i > oldest; i--) {
+			var year = { key: i, value: i, text: i }
+			years.push(year)
+		}
 		return (
 			<SuscribeFormWrapper>
 				<Typography h={3} weight='bold' size='jumbo'>
 					Suscríbete a Dragoons
 				</Typography>
 				<Typography h={4} weight='thin' size='title'>
-					Grandes premios y sorpresas te esperan si sos de los primeros
+					Ingresa tus datos personales
 				</Typography>
 				<XForm success onSubmit={this.handleSubmit}>
 					<DrgInput
@@ -132,11 +155,20 @@ export default class SuscribeForm extends React.Component {
 					<DrgInput
 						name='email'
 						label='Email'
-						icon='email'
 						placeholder='john@dragoons.gg'
 						onChange={this.handleInputChange}
 						required
 					/>
+					<br />
+					<Divider />
+					<Typography h={4} weight='thin' size='title'>
+						Ingresa tu fecha de nacimiento
+					</Typography>
+					<div>
+						<DrgDropdown tag={'Día'} options={days} />
+						<DrgDropdown tag={'Mes'} options={months} />
+						<DrgDropdown tag={'Año'} options={years} />
+					</div>
 					<XCheckbox
 						name='terms'
 						onChange={this.handleInputChange}
@@ -161,7 +193,7 @@ export default class SuscribeForm extends React.Component {
 							content={this.state.errorMessage}
 						/>
 					</div>
-					<DrgButton type='submit' large>
+					<DrgButton type='submit' large='true'>
 						Regístrate
 					</DrgButton>
 				</XForm>

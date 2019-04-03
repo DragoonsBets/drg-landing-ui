@@ -19,7 +19,7 @@ const FooterWrapper = styled.footer`
 		flex-direction: column;
 		height: 200px;
 		> div {
-			flex: 1
+			flex: 1;
 		}
 	}
 `
@@ -33,25 +33,31 @@ const CopyrightWrapper = styled.div`
 	}
 `
 
-
+const ImgWrapper = styled.div`
+	flex: 2;
+	display: flex;
+	justify-content: center;
+`
 
 function Footer(props) {
 	return (
 		<FooterWrapper>
 			<CopyrightWrapper>
-				<span><Icon size='small' inverted name='copyright'/></span>
+				<span>
+					<Icon size='small' inverted name='copyright' />
+				</span>
 				<Typography h={5} weight='thin' size='subheader'>
-					2019 - Todos los derechos reservados 
+					2019 - Todos los derechos reservados
 				</Typography>
 			</CopyrightWrapper>
-			<div style={{'flex' : '2', 'display' : 'flex', 'justify-content' : 'center'}}>
+			<ImgWrapper>
 				<img
 					src='/static/v01-white.svg'
 					alt='Dragoons logo'
 					width={60}
 					height={60}
 				/>
-			</div>
+			</ImgWrapper>
 			<div>
 				<SocialNetworks />
 			</div>
