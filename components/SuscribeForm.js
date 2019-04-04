@@ -83,8 +83,6 @@ export default class SuscribeForm extends React.Component {
 			lastName: this.state['lastName'],
 			email: this.state['email'],
 			birthday: this.state['birthday'],
-			password1: '12345678',
-			password2: '12345678'
 		}
 
 		axios
@@ -170,6 +168,7 @@ export default class SuscribeForm extends React.Component {
 						<DrgDropdown tag={'Mes'} options={months} />
 						<DrgDropdown tag={'Año'} options={years} />
 					</div>
+					<Divider />
 					<XCheckbox
 						name='terms'
 						onChange={this.handleInputChange}
