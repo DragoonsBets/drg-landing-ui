@@ -30,7 +30,7 @@ const DrgInputWrapper = styled(Input)`
 
 const LabelWrapper = styled(Label)`
 	background: transparent;
-	opacity: 0.5;
+	opacity: 0.7;
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
@@ -47,7 +47,7 @@ function DrgInput(props) {
 	return (
 		<DrgInputContainer>
 			{ props.label && <LabelWrapper>{props.label}</LabelWrapper> }
-			<DrgInputWrapper label={null} {...props}/>
+			<DrgInputWrapper { ...props} label={null}/>
 		</DrgInputContainer>
 	)
 }

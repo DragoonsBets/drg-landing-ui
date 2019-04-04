@@ -33,6 +33,7 @@ function DrgDropdown(props) {
 			search
 			selection
 			options={props.options}
+			{...props}
 		/>
 	)
 }
