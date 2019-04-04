@@ -22,6 +22,7 @@ const Hero = styled.div`
 	justify-content: center;
 	min-height: calc(100vh - 72px);
 	padding: 0 5vw;
+	background-image: url('../static/hero.jpg');
 	@media (min-width: 900px) {
 		width: 100%;
 		background-size: cover;
@@ -31,7 +32,6 @@ const Hero = styled.div`
 		justify-content: flex-end;
 		flex-direction: row;
 		color: #171b27;
-		background-image: url('../static/hero.jpg');
 	}
 	> div {
 		text-align: center;
