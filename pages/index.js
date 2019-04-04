@@ -1,30 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
+import jump from 'jump.js'
 import Layout from '../components/Layout'
 import Typography from '../components/Typography'
 import DrgButton from '../components/Buttons'
 import Player from '../components/Player'
 import AccordionFAQ from '../components/AccordionFAQ'
 import RoadLine from '../components/RoadLine'
+import Navigation from '../components/Navigation'
+import UpArrowNavigation from '../components/UpArrowNavigation'
 
 const LandingWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	> div:nth-child(even) {
-		background-color: #111e3c;
-	}
-	> div:nth-child(odd) {
-		background-color: #141928;
-	}
 `
 
 const Hero = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	padding: 0 5vw;
+	background-image: url('../static/hero.jpg');
 	@media (min-width: 900px) {
 		width: 100%;
 		background-size: cover;
@@ -34,7 +32,6 @@ const Hero = styled.div`
 		justify-content: flex-end;
 		flex-direction: row;
 		color: #171b27;
-		background-image: url('../static/hero.jpg');
 	}
 	> div {
 		text-align: center;
@@ -54,7 +51,15 @@ const HeroButton = styled.div`
 	margin: 30px 0 0 0;
 `
 
-const VideoWrapper = styled.div``
+const VideoWrapper = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: calc(100vh - 72px);
+`
+
+const VideoLoading = styled.div``
 
 const Features = styled.div`
 	display: flex;
@@ -62,7 +67,7 @@ const Features = styled.div`
 	align-items: center;
 	justify-content: center;
 	padding: 50px 0 0 0;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	@media (min-width: 1050px) {
 		padding: 50px 0;
 	}
@@ -119,7 +124,7 @@ const FAQ = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	> div:nth-child(1) {
 		text-align: center;
 		z-index: 999;
@@ -145,7 +150,7 @@ const Timeline = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 72px);
 	> div:nth-child(1) {
 		text-align: center;
 		z-index: 999;
@@ -169,62 +174,71 @@ export default class Index extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			viewportWidth: '1',
-			viewportHeight: '1'
+			scroll: undefined,
+			autoplay: false
 		}
 	}
-	componentDidMount() {
-		this.setState({
-			viewportWidth: window.innerWidth,
-			viewportHeight: window.innerHeight
+
+	autoplayToggle() {
+		this.setState({ autoplay: true })
+		jump('#video', {
+			duration: 1000,
+			offset: -72
 		})
-		// window.addEventListener('resize', () =>
-		// 	this.setState({ viewportWidth: window.innerWidth })
-		// )
 	}
+
+	componentDidMount() {
+		this.setState({ scroll: window.scrollY })
+		window.addEventListener('scroll', () =>
+			this.setState({ scroll: window.scrollY })
+		)
+	}
+
 	render() {
-		const videoJsOptions = {
-			techOrder: ['youtube'],
-			autoplay: false,
-			controls: true,
-			width: this.state.viewportWidth,
-			height: this.state.viewportHeight - 90,
-			sources: [
-				{
-					src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
-					type: 'video/youtube'
-				}
-			]
-		}
 		return (
 			<Layout
 				title='Landing title'
 				description='A description about the landing page'>
 				<LandingWrapper>
-					<Hero>
+					<Hero id='top'>
 						<div>
 							<HeroLogo>
 								<img src='../static/v02-color.svg' alt='logo' width={300} />
 							</HeroLogo>
 							<Typography h={3} weight='bold' size='headline'>
-								Únete a la única plataforma que te permite apostar y apoyar a tu comunidad
-								de eSports.
+								Únete a la única plataforma que te permite apostar y apoyar a tu
+								comunidad de eSports.
 							</Typography>
 							<HeroButton>
-								<DrgButton large='true' arrow='true'>
-									Regístrate
+								<DrgButton
+									large='true'
+									arrow='true'
+									onClick={this.autoplayToggle.bind(this)}>
+									Ver video
 								</DrgButton>
 							</HeroButton>
 						</div>
 					</Hero>
-					<VideoWrapper>
-						{this.state.viewportWidth === '1' ? (
-							<div>Loading...</div>
+					<VideoWrapper id='video'>
+						{typeof window !== 'undefined' && this.state.scroll !== 0 ? (
+							<Player
+								sources={[
+									{
+										src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
+										type: 'video/youtube'
+									}
+								]}
+								techOrder={['youtube']}
+								controls={true}
+								autoplay={this.state.autoplay}
+							/>
 						) : (
-							<Player {...videoJsOptions} />
+							<VideoLoading>
+								<img src='../static/v01-white.svg' alt='loading' width={100} />
+							</VideoLoading>
 						)}
 					</VideoWrapper>
-					<Features>
+					<Features id='features'>
 						<FeaturesTitle>
 							<Typography h={2} weight='bold' size='jumbo'>
 								¡Gana dinero mirando eSports!
@@ -290,7 +304,7 @@ export default class Index extends React.Component {
 							</div>
 						</FeaturesItems>
 					</Features>
-					<Timeline>
+					<Timeline id='timeline'>
 						<div>
 							<Typography h={3} weight='bold' size='jumbo'>
 								Próximos pasos
@@ -298,9 +312,11 @@ export default class Index extends React.Component {
 						</div>
 						<RoadLine />
 					</Timeline>
-					<FAQ>
+					<FAQ id='faq'>
 						<AccordionFAQ />
 					</FAQ>
+					<Navigation />
+					<UpArrowNavigation scroll={this.state.scroll} />
 				</LandingWrapper>
 			</Layout>
 		)

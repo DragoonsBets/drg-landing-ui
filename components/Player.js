@@ -1,33 +1,42 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
 import videojs from 'video.js'
 import 'videojs-youtube'
 import 'video.js/dist/video-js.css'
 
+const XVideo = styled.video`
+	width: 100vw;
+	pointer-events: none;
+	button {
+		top: calc(50% - 20px);
+		left: calc(50% - 43px);
+	}
+`
+
 class Player extends Component {
 	componentDidMount() {
 		// instantiate Video.js
-		this.player = videojs(
-			this.videoNode,
-			this.props,
-			function onPlayerReady() {}
-		)
+		this.player = videojs(this.videoNode, this.props, function onPlayerReady() {
+			// callback
+		})
 	}
 
-	// destroy player on unmount
 	componentWillUnmount() {
+		// destroy player on unmount
 		if (this.player) {
 			this.player.dispose()
 		}
 	}
 
-	// wrap the player in a div with a `data-vjs-player` attribute
-	// so videojs won't create additional wrapper in the DOM
-	// see https://github.com/videojs/video.js/pull/3856
 	render() {
 		return (
 			<div>
 				<div data-vjs-player>
-					<video ref={node => (this.videoNode = node)} className='video-js vjs-big-play-centered'/>
+					<XVideo
+						ref={node => (this.videoNode = node)}
+						className='video-js'
+						style={{ height: window.innerHeight - 72 }}
+					/>
 				</div>
 			</div>
 		)
