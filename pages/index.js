@@ -68,6 +68,7 @@ const Features = styled.div`
 	justify-content: center;
 	padding: 50px 0 0 0;
 	min-height: calc(100vh - 72px);
+	width: 100%;
 	@media (min-width: 1050px) {
 		padding: 50px 0;
 	}
@@ -244,9 +245,8 @@ export default class Index extends React.Component {
 								¡Gana dinero mirando eSports!
 							</Typography>
 							<Typography h={3} weight='thin' size='title'>
-								Podrás ganar dinero haciendo lo que más te gusta,
-								mientras apoyas el desarrollo de la comunidad de eSports en
-								LATAM.
+								Podrás ganar dinero haciendo lo que más te gusta, mientras
+								apoyas el desarrollo de la comunidad de eSports en LATAM.
 							</Typography>
 						</FeaturesTitle>
 						<FeaturesItems>
@@ -262,9 +262,9 @@ export default class Index extends React.Component {
 									Desafía a otros
 								</Typography>
 								<p>
-									Apuesta contra otros y demustra cuánto sabes de eSports
-									en el sistema de apuestas en bolsa más transparente y
-									confiable de la industria.
+									Apuesta contra otros y demustra cuánto sabes de eSports en el
+									sistema de apuestas en bolsa más transparente y confiable de
+									la industria.
 								</p>
 							</div>
 							<div>
@@ -279,9 +279,9 @@ export default class Index extends React.Component {
 									Vota resultados
 								</Typography>
 								<p>
-									Te pagaremos por hacer lo que más te gusta, ¡mirar eSports!. 
-									Lo único que debes hacer es enviar estadísticas.
-									¿Quién ganó la partida?, ¿en que minuto cayó la torre?, etc.
+									Te pagaremos por hacer lo que más te gusta, ¡mirar eSports!.
+									Lo único que debes hacer es enviar estadísticas. ¿Quién ganó
+									la partida?, ¿en que minuto cayó la torre?, etc.
 								</p>
 							</div>
 							<div>
@@ -296,10 +296,10 @@ export default class Index extends React.Component {
 									Apoya a tu comunidad
 								</Typography>
 								<p>
-									Parte del dinero recaudado en las apuestas será utilizado 
-									para apoyar económicamente a equipos, jugadores, streamers, 
-									ligas u organizaciones de eSports elegidas por el voto de la comunidad.
-									¡Tu decides!
+									Parte del dinero recaudado en las apuestas será utilizado para
+									apoyar económicamente a equipos, jugadores, streamers, ligas u
+									organizaciones de eSports elegidas por el voto de la
+									comunidad. ¡Tu decides!
 								</p>
 							</div>
 						</FeaturesItems>
