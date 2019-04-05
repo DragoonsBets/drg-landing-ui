@@ -181,7 +181,7 @@ export default class SuscribeForm extends React.Component {
 					<DrgInput
 						name='email'
 						label='Email'
-						placeholder='john@dragoons.gg'
+						placeholder='egorzy@dragoons.gg'
 						onChange={this.handleInputChange}
 						required
 					/>

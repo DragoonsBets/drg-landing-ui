@@ -6,9 +6,6 @@ import DrgButton from './Buttons'
 const ModalWrapper = styled(Modal)`
 	display: flex !important;
 	height: 1000px;
-	opacity: 0.25;
-  border-radius: 4px;
-  background-color: #ffffff;
 	justify-content: center;
 	align-items: center;
 	min-height: 100%;
