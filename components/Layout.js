@@ -48,11 +48,6 @@ class Layout extends React.Component {
 						rel='stylesheet'
 						href='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css'
 					/>
-					{/* <link
-						href='https://fonts.googleapis.com/css?family=Raleway:200,300,400,500'
-						rel='stylesheet'
-					/> */}
-					{/* <meta httpEquiv='Content-Security-Policy' content='upgrade-insecure-requests' /> */}
 				</Head>
 				<Navbar />
 				<LayoutWrapper>{children}</LayoutWrapper>
