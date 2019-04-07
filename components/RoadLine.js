@@ -17,43 +17,7 @@ const RoadLineWrapper = styled.div`
 		position: absolute;
 		top: 70px;
 		left: 13px;
-		height: 440px;
-		@media (min-width: 369px) {
-			height: 420px;
-		}
-		@media (min-width: 381px) {
-			height: 410px;
-		}
-		@media (min-width: 434px) {
-			height: 390px;
-		}
-		@media (min-width: 477px) {
-			height: 350px;
-		}
-		@media (min-width: 658px) {
-			height: 330px;
-		}
-		@media (min-width: 681px) {
-			height: 330px;
-		}
-		@media (min-width: 700px) {
-			height: 390px;
-		}
-		@media (min-width: 780px) {
-			height: 390px;
-		}
-		@media (min-width: 858px) {
-			height: 375px;
-		}
-		@media (min-width: 1000px) {
-			height: 350px;
-		}
-		@media (min-width: 1100px) {
-			height: 335px;
-		}
-		@media (min-width: 1300px) {
-			height: 300px;
-		}
+		height: ${props => props.roadlineTotal};
 	}
 `
 
@@ -80,32 +44,51 @@ const RoadLineItem = styled.div`
 	}
 `
 
-function RoadLine(props) {
-	return (
-		<RoadLineWrapper>
-			<RoadLineItem>
-				<div>Beta cerrada - Q2 2019</div>
-				<div>
-					<strong>Registrate ahora</strong> para tener la oportunidad de participar del proceso de 
-					creación de nuestra plataforma, brindar tus comentarios y ¡obtener una recompensa
-					por participar!.
-				</div>
-			</RoadLineItem>
-			<RoadLineItem>
-				<div>Beta abierta - Q3 2019</div>
-				<div>
-					Podrás utilizar el sitio web completo utilizando dinero ficticio.
-				</div>
-			</RoadLineItem>
-			<RoadLineItem>
-				<div>Lanzamiento - Q4 2019</div>
-				<div>
-					Go live de la plataforma en donde podrás apostar, votar y apoyar a tu
-					comunidad.
-				</div>
-			</RoadLineItem>
-		</RoadLineWrapper>
-	)
+class RoadLine extends React.Component {
+	constructor(props) {
+		super(props)
+		this.state = { roadline1: undefined, roadline2: undefined }
+	}
+	componentDidMount() {
+		this.setState({
+			roadline1: document.getElementById('roadline1').clientHeight,
+			roadline2: document.getElementById('roadline2').clientHeight
+		})
+		window.addEventListener('resize', () =>
+			this.setState({
+				roadline1: document.getElementById('roadline1').clientHeight,
+				roadline2: document.getElementById('roadline2').clientHeight
+			})
+		)
+	}
+	render() {
+		return (
+			<RoadLineWrapper
+				roadlineTotal={`${this.state.roadline1 + this.state.roadline2 + 60}px`}>
+				<RoadLineItem id='roadline1'>
+					<div>Beta cerrada - Q2 2019</div>
+					<div>
+						<strong>Registrate ahora</strong> para tener la oportunidad de
+						participar del proceso de creación de nuestra plataforma, brindar
+						tus comentarios y ¡obtener una recompensa por participar!.
+					</div>
+				</RoadLineItem>
+				<RoadLineItem id='roadline2'>
+					<div>Beta abierta - Q3 2019</div>
+					<div>
+						Podrás utilizar el sitio web completo utilizando dinero ficticio.
+					</div>
+				</RoadLineItem>
+				<RoadLineItem>
+					<div>Lanzamiento - Q4 2019</div>
+					<div>
+						Go live de la plataforma en donde podrás apostar, votar y apoyar a
+						tu comunidad.
+					</div>
+				</RoadLineItem>
+			</RoadLineWrapper>
+		)
+	}
 }
 
 export default RoadLine
