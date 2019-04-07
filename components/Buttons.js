@@ -23,6 +23,10 @@ const DrgButtonWrapper = styled(Button)`
 		color: white;
 		box-shadow: 0 0 1pt 1pt #13317b;
 	}
+	:active {
+		border-bottom: 4px solid #16164f;
+		padding: 10px 16px;
+	}
 	span:nth-child(1) {
 		font-size: ${props =>
 			props.large ? '12px' : props.small ? '10px' : 'inherit'};
@@ -48,9 +52,17 @@ function DrgButton(props) {
 			arrow={props.arrow}
 			disabled={props.disabled}
 			{...props}>
-			{ props.star && <span style={{'margin': '-7px', 'marginLeft': '10px'}}><Icon size='tiny' inverted name='star'/></span> }
-			{ props.children }
-			{ props.arrow && <span style={{'margin': '-7px', 'marginLeft': '10px'}}><Icon size='tiny' inverted name='arrow right'/></span> }
+			{props.star && (
+				<span style={{ margin: '-7px', marginLeft: '10px' }}>
+					<Icon size='tiny' inverted name='star' />
+				</span>
+			)}
+			{props.children}
+			{props.arrow && (
+				<span style={{ margin: '-7px', marginLeft: '10px' }}>
+					<Icon size='tiny' inverted name='arrow right' />
+				</span>
+			)}
 		</DrgButtonWrapper>
 	)
 }
