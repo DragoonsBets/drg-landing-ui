@@ -120,32 +120,32 @@ export default class SuscribeForm extends React.Component {
 							onChange={this.handleInputChange}
 							value={this.state.date}
 						/> */}
-          </Form.Group>
-          <Form.Field>
-            <Label
-              color="#272d3b"
-              pointing="right"
-              content="Acepto los terminos y condiciones"
-            />
-            <Checkbox name="termsAccepted" onChange={this.handleInputChange} />
-          </Form.Field>
-          <Message
-            hidden={!this.state.success}
-            visible={this.state.success}
-            header="Registro exitoso"
-            content="Gracias por registrarte en Dragoons!"
-          />
-          <Message
-            visible={this.state.error}
-            hidden={!this.state.error}
-            header="Action Forbidden"
-            content={this.state.errorMessage}
-          />
-          <DrgButton type="submit" large>
-            Submit
-          </DrgButton>
-        </Form>
-      </FormWrapper>
-    )
-  }
+					</Form.Group>
+					<Form.Field>
+						<Label
+							color='#131929'
+							pointing='right'
+							content='Acepto los terminos y condiciones'
+						/>
+						<Checkbox name='termsAccepted' onChange={this.handleInputChange} />
+					</Form.Field>
+					<Message
+						hidden={!this.state.success}
+						visible={this.state.success}
+						header='Registro exitoso'
+						content='Gracias por registrarte en Dragoons!'
+					/>
+					<Message
+						visible={this.state.error}
+						hidden={!this.state.error}
+						header='Action Forbidden'
+						content={this.state.errorMessage}
+					/>
+					<DrgButton type='submit' large>
+						Submit
+					</DrgButton>
+				</Form>
+			</FormWrapper>
+		)
+	}
 }
