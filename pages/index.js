@@ -174,27 +174,27 @@ const Timeline = styled.div`
 export default class Index extends React.Component {
 	constructor(props) {
 		super(props)
+		this.child = React.createRef()
 		this.state = {
-			scroll: undefined,
-			autoplay: false
+			scroll: 0,
+			// play: false
 		}
 	}
 
-	autoplayToggle() {
-		this.setState({ autoplay: true })
+	autoplayToggle = () => {
 		jump('#video', {
 			duration: 1000,
 			offset: -72
 		})
+		this.child.current.playVideo();
 	}
 
 	componentDidMount() {
-		this.setState({ scroll: window.scrollY })
-		window.addEventListener('scroll', () =>
+		window.addEventListener('scroll', () =>	 
 			this.setState({ scroll: window.scrollY })
 		)
 	}
-
+	
 	render() {
 		return (
 			<Layout
@@ -214,14 +214,14 @@ export default class Index extends React.Component {
 								<DrgButton
 									large='true'
 									arrow='true'
-									onClick={this.autoplayToggle.bind(this)}>
+									onClick={this.autoplayToggle}>
 									Ver video
 								</DrgButton>
 							</HeroButton>
 						</div>
 					</Hero>
 					<VideoWrapper id='video'>
-						{typeof window !== 'undefined' && this.state.scroll !== 0 ? (
+						{typeof window !== 'undefined' ? (
 							<Player
 								sources={[
 									{
@@ -231,7 +231,7 @@ export default class Index extends React.Component {
 								]}
 								techOrder={['youtube']}
 								controls={true}
-								autoplay={this.state.autoplay}
+								ref={this.child}
 							/>
 						) : (
 							<VideoLoading>
