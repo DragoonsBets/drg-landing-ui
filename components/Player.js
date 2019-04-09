@@ -15,15 +15,9 @@ const XVideo = styled.video`
 class Player extends React.Component {
 	constructor(props) {
 		super(props)
-		this.state = {
-			playing: false
-		}
 	}
 
 	playVideo = () => {
-		this.setState({
-			playing: true
-		})
 		this.player.play()
 	}
 
