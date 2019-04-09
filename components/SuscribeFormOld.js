@@ -123,7 +123,7 @@ export default class SuscribeForm extends React.Component {
 					</Form.Group>
 					<Form.Field>
 						<Label
-							color='#141928'
+							color='#131929'
 							pointing='right'
 							content='Acepto los terminos y condiciones'
 						/>

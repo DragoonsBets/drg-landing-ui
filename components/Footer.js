@@ -6,7 +6,7 @@ import Typography from './Typography'
 
 const FooterWrapper = styled.footer`
 	align-items: center;
-	background-color: #141928;
+	background-color: #131929;
 	color: white;
 	display: flex;
 	height: 112px;

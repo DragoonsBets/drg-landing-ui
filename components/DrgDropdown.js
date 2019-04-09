@@ -16,7 +16,7 @@ const XDropdown = styled(Dropdown)`
 			border: 0;
 			outline: none;
 			:hover {
-				background-color: #141928;
+				background-color: ;
 			}
 		}
 		::placeholder {

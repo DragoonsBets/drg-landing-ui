@@ -8,11 +8,12 @@ const DrgButtonWrapper = styled(Button)`
 	font-weight: bold;
 	color: ${props => (props.disabled ? 'rgba(255, 255, 255, 0.6)' : 'white')};
 	font-size: ${props =>
-		props.large ? '18px' : props.small ? '16px' : 'inherit'};
+		props.large ? '16px' : props.small ? '14px' : 'inherit'};
 	padding: ${props =>
-		props.large ? '12px 16px' : props.small ? '7px 14px' : '8px'};
+		props.large ? '12px 16px' : props.small ? '6px 16px' : '8px'};
 	border-radius: 4px;
 	min-width: ${props => (props.large ? '88px' : props.small ? '80px' : '0')};
+	height: ${props => (props.large ? '48px' : props.small ? '32px' : '0')};
 	background-position: center;
 	background-image: linear-gradient(to right, #822b55, #5b2a61);
 	:hover {
