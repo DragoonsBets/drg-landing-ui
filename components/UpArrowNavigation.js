@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Arrow = styled.div`
   position: fixed;
-  right: 30px;
+  right: calc(3vw - 10px);
   bottom: 100px;
   border-radius: 50%;
   width: 50px;

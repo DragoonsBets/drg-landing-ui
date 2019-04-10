@@ -16,6 +16,7 @@ const LandingWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(100vh);
   scroll-behavior: smooth;
   position: relative;
   height: 100vh;
@@ -67,9 +68,13 @@ const Video = styled.div`
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  min-height: 100vh;
   background-color: black;
   scroll-snap-align: start;
+  min-height: 100vh;
+  @media (min-width: 1050px) {
+    height: auto;
+    justify-content: center;
+  }
 `
 
 const VideoLoading = styled.div``
@@ -78,15 +83,11 @@ const Features = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 50px 0 0 0;
-  padding: 72px 0 0 0;
-  min-height: 100vh;
+  padding: 72px 0;
   scroll-snap-align: start;
   width: 100%;
-  @media (min-width: 1050px) {
-    padding: 50px 0;
-  }
+  min-height: 200vh;
+  justify-content: center;
   position: relative;
   background-image: url('../static/features-background.png');
   background-size: cover;
@@ -99,6 +100,10 @@ const Features = styled.div`
     left: 0;
     background-image: linear-gradient(to bottom right, #000000, #000000);
     opacity: 0.6;
+  }
+  @media (min-width: 1050px) {
+    min-height: 100vh;
+    height: auto;
   }
   > div {
     z-index: 999;
@@ -141,8 +146,12 @@ const Timeline = styled.div`
   flex-direction: column;
   width: 100%;
   padding: 72px 0 0 0;
-  min-height: 100vh;
   scroll-snap-align: start;
+  min-height: 100vh;
+  @media (min-width: 1050px) {
+    height: auto;
+    justify-content: center;
+  }
   > div:nth-child(1) {
     text-align: center;
     z-index: 999;
@@ -165,15 +174,15 @@ const Timeline = styled.div`
 const FAQ = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   width: 100%;
   padding: 72px 0 0 0;
-  min-height: 100vh;
   scroll-snap-align: start;
+  min-height: 100vh;
   > div:nth-child(1) {
     text-align: center;
-    z-index: 999;
+    z-index: 99999;
   }
   position: relative;
   background-image: url('../static/faq-background.jpg');
@@ -248,6 +257,7 @@ export default class Index extends React.Component {
             ]}
             techOrder={['youtube']}
             controls={true}
+            // poster="https://upload.wikimedia.org/wikipedia/commons/9/99/SOME_LIKE_IT_HOT_TITLE.jpg"
             ref={this.child}
           />
         ) : (
@@ -336,9 +346,8 @@ export default class Index extends React.Component {
     )
     const faqSection = (
       <FAQ id="faq">
-        <div />
         <AccordionFAQ />
-        {/* <Footer /> */}
+        <Footer />
       </FAQ>
     )
     return (

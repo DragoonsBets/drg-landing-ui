@@ -5,8 +5,8 @@ const NavigationWrapper = styled.div`
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 2vw;
-  top: 50%;
+  right: 3vw;
+  top: 40%;
 `
 
 const Dots = styled.div`
