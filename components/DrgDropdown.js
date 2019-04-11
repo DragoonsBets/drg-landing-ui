@@ -4,14 +4,14 @@ import { Dropdown } from 'semantic-ui-react'
 
 const XDropdown = styled(Dropdown)`
 	&&& {
-		background-color: #131e3a;
+		background-color: #242A38;
 		color: white;
 		margin: 0 10px 0 0;
 		:nth-last-child() {
 			margin: 0;
 		}
 		div {
-			background-color: #131e3a;
+			background-color: #242A38;
 			color: white;
 			border: 0;
 			outline: none;
