@@ -19,7 +19,7 @@ const DrgInputWrapper = styled(Input)`
 		}
 		> input {
 			flex: 1;
-			background-color: #131e3a;
+			background-color: #242A38;
 			color: white;
 			::placeholder {
 				color: #ffffff64;
