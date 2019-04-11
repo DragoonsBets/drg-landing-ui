@@ -15,8 +15,6 @@ const LandingWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  scroll-snap-type: y mandatory;
-  scroll-snap-points-y: repeat(100vh);
   scroll-behavior: smooth;
   position: relative;
   height: 100vh;
@@ -24,6 +22,10 @@ const LandingWrapper = styled.div`
   overflow-x: hidden;
   ::-webkit-scrollbar {
     width: 0;
+  }
+  @media (min-width: 1050px) {
+    scroll-snap-type: y mandatory;
+    scroll-snap-points-y: repeat(100vh);
   }
 `
 
@@ -68,26 +70,26 @@ const Video = styled.div`
   display: flex;
   align-items: flex-end;
   width: 100vw;
+  height: 100vh;
   background-color: black;
   scroll-snap-align: start;
   min-height: 100vh;
   @media (min-width: 1050px) {
-    height: auto;
     justify-content: center;
   }
 `
 
-const VideoLoading = styled.div``
+const VideoLoading = styled.div`
+  min-height: 100vh;
+`
 
 const Features = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 72px 0;
+  padding: 64px 0;
   scroll-snap-align: start;
   width: 100%;
-  min-height: 200vh;
-  justify-content: center;
   position: relative;
   background-image: url('../static/features-background.png');
   background-size: cover;
@@ -103,7 +105,6 @@ const Features = styled.div`
   }
   @media (min-width: 1050px) {
     min-height: 100vh;
-    height: auto;
   }
   > div {
     z-index: 999;
@@ -113,7 +114,6 @@ const Features = styled.div`
 const FeaturesTitle = styled.div`
   text-align: center;
   padding: 0 10vw;
-  margin: 70px 0 0 0;
   @media (min-width: 1050px) {
     margin: 50px 0 0 0;
     > div {
@@ -149,6 +149,12 @@ const FeaturesItems = styled.div`
       margin: 40px 20px 0 0;
     }
   }
+  > div:last-child {
+    margin: 40px 0 0 0;
+    @media (min-width: 1050px) {
+      margin: 40px 20px 0 0;
+    }
+  }
 `
 
 const FeaturesItemsImg = styled.div`
@@ -164,12 +170,10 @@ const Timeline = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  padding: 72px 0 0 0;
+  padding: 64px 20px;
   scroll-snap-align: start;
-  min-height: 100vh;
   @media (min-width: 1050px) {
-    height: auto;
-    justify-content: center;
+    min-height: 100vh;
   }
   > div:nth-child(1) {
     text-align: center;
@@ -193,12 +197,10 @@ const Timeline = styled.div`
 const FAQ = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   width: 100%;
-  padding: 72px 0 0 0;
+  padding: 64px 0;
   scroll-snap-align: start;
-  min-height: 100vh;
   > div:nth-child(1) {
     text-align: center;
     z-index: 99999;
@@ -216,6 +218,10 @@ const FAQ = styled.div`
     background-image: linear-gradient(to bottom right, #000000, #000000);
     opacity: 0.6;
   }
+  @media (min-width: 1050px) {
+    justify-content: center;
+    min-height: 100vh;
+  }
 `
 export default class Index extends React.Component {
   constructor(props) {
@@ -231,14 +237,14 @@ export default class Index extends React.Component {
     this.child.current.playVideo()
   }
 
-  componentDidMount(prevState) {
+  componentDidMount() {
     document.getElementById('wrapper').addEventListener('scroll', () =>
       this.setState(prevState => ({
         scroll: document.getElementById('wrapper').scrollTop,
         featuresSeen:
-          this.state.scroll > 1400
+          this.state.scroll > 1200
             ? true
-            : prevState.featuresSeen === true
+            : prevState.featuresSeen
             ? true
             : false,
       })),
@@ -260,7 +266,7 @@ export default class Index extends React.Component {
           <HeroButton>
             <a href="#video">
               <DrgButton
-                large="true"
+                small="true"
                 arrow="true"
                 onClick={this.autoplayToggle}
               >

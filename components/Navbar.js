@@ -13,8 +13,9 @@ const NavbarWrapper = styled.header`
   left: 0;
   z-index: 99999;
   width: 100%;
-  background-color: #141928;
-  padding: 14px 24px;
+  background-color: #131929;
+  padding: 9px 24px;
+  height: 64px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   button {
     font-family: Raleway;
@@ -42,7 +43,7 @@ function Navbar() {
       <div>
         <Link href="/">
           <a>
-            <img src="../static/v03-white.svg" alt="logo" width={200} />
+            <img src="../static/v03-white.svg" alt="logo" width={150} />
           </a>
         </Link>
       </div>

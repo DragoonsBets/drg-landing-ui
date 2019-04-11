@@ -8,6 +8,7 @@ const Arrow = styled.div`
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  z-index: 9999999999;
   margin: 0 0 15px 0;
   cursor: pointer;
   transform: ${props =>

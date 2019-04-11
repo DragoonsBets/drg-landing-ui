@@ -5,7 +5,7 @@ import Typography from '../components/Typography'
 import Navbar from '../components/Navbar'
 
 const TermsWrapper = styled.div`
-  margin: 72px 0 0 0;
+  margin: 64px 0 0 0;
   color: black;
   padding: 2vw;
 `
