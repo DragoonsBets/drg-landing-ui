@@ -138,6 +138,10 @@ const FeaturesItems = styled.div`
     background-color: white;
     border-radius: 4px;
     color: #131929;
+    transform: ${props =>
+      props.appear ? 'translateY(0px)' : 'translateY(150px)'};
+    opacity: ${props => (props.appear ? '1' : '0.2')};
+    transition: 1s;
     > h4 {
       color: #0e3080;
     }
@@ -219,6 +223,7 @@ export default class Index extends React.Component {
     this.child = React.createRef()
     this.state = {
       scroll: 0,
+      featuresSeen: false,
     }
   }
 
@@ -226,12 +231,18 @@ export default class Index extends React.Component {
     this.child.current.playVideo()
   }
 
-  componentDidMount() {
-    document
-      .getElementById('wrapper')
-      .addEventListener('scroll', () =>
-        this.setState({ scroll: document.getElementById('wrapper').scrollTop }),
-      )
+  componentDidMount(prevState) {
+    document.getElementById('wrapper').addEventListener('scroll', () =>
+      this.setState(prevState => ({
+        scroll: document.getElementById('wrapper').scrollTop,
+        featuresSeen:
+          this.state.scroll > 1400
+            ? true
+            : prevState.featuresSeen === true
+            ? true
+            : false,
+      })),
+    )
   }
 
   render() {
@@ -291,11 +302,12 @@ export default class Index extends React.Component {
           <div>
             <Typography h={3} weight="thin" size="title">
               Podrás ganar dinero haciendo lo que más te gusta, mientras apoyas
-              el desarrollo de la comunidad de eSports en LATAM.
+              el desarrollo de la comunidad de eSports en LATAM.{' '}
+              {this.state.scrollAcumulated}
             </Typography>
           </div>
         </FeaturesTitle>
-        <FeaturesItems>
+        <FeaturesItems appear={this.state.featuresSeen}>
           <div>
             <FeaturesItemsImg>
               <img
