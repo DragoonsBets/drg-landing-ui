@@ -113,6 +113,14 @@ const Features = styled.div`
 const FeaturesTitle = styled.div`
   text-align: center;
   padding: 0 10vw;
+  margin: 70px 0 0 0;
+  @media (min-width: 1050px) {
+    margin: 50px 0 0 0;
+    > div {
+      padding: 0 22vw;
+      margin: 15px 0 0 0;
+    }
+  }
 `
 
 const FeaturesItems = styled.div`
@@ -124,10 +132,17 @@ const FeaturesItems = styled.div`
     width: 1000px;
   }
   > div {
+    flex: 1;
     margin: 40px 0 50px 0;
-    padding: 0 10px;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 4px;
+    color: #131929;
+    > h4 {
+      color: #0e3080;
+    }
     @media (min-width: 1050px) {
-      margin: 40px 10px 0 0;
+      margin: 40px 20px 0 0;
     }
   }
 `
@@ -273,10 +288,12 @@ export default class Index extends React.Component {
           <Typography h={2} weight="bold" size="jumbo">
             ¡Gana dinero mirando eSports!
           </Typography>
-          <Typography h={3} weight="thin" size="title">
-            Podrás ganar dinero haciendo lo que más te gusta, mientras apoyas el
-            desarrollo de la comunidad de eSports en LATAM.
-          </Typography>
+          <div>
+            <Typography h={3} weight="thin" size="title">
+              Podrás ganar dinero haciendo lo que más te gusta, mientras apoyas
+              el desarrollo de la comunidad de eSports en LATAM.
+            </Typography>
+          </div>
         </FeaturesTitle>
         <FeaturesItems>
           <div>
