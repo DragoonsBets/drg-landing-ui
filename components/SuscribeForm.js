@@ -134,8 +134,21 @@ export default class SuscribeForm extends React.Component {
 
   render() {
     const days = []
-    const months = []
     const years = []
+    const months = [
+      { key: 'enero', value: 'enero', text: 'enero' },
+      { key: 'febrero', value: 'febrero', text: 'febrero' },
+      { key: 'marzo', value: 'marzo', text: 'marzo' },
+      { key: 'abril', value: 'abril', text: 'abril' },
+      { key: 'mayo', value: 'mayo', text: 'mayo' },
+      { key: 'junio', value: 'junio', text: 'junio' },
+      { key: 'julio', value: 'julio', text: 'julio' },
+      { key: 'agosto', value: 'agosto', text: 'agosto' },
+      { key: 'setiembre', value: 'setiembre', text: 'setiembre' },
+      { key: 'octubre', value: 'octubre', text: 'octubre' },
+      { key: 'noviembre', value: 'noviembre', text: 'noviembre' },
+      { key: 'diciembre', value: 'diciembre', text: 'diciembre' },
+    ]
 
     var d = new Date()
     var currentYear = d.getFullYear()
@@ -146,15 +159,13 @@ export default class SuscribeForm extends React.Component {
       days.push(day)
     }
 
-    for (let i = 1; i < 13; i++) {
-      var month = { key: i, value: i, text: i }
-      months.push(month)
-    }
-
     for (let i = currentYear; i > oldest; i--) {
       var year = { key: i, value: i, text: i }
       years.push(year)
     }
+
+    console.log(days)
+    console.log(months)
 
     return (
       <SuscribeFormWrapper>

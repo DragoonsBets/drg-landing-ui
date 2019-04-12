@@ -2,37 +2,45 @@ import React from 'react'
 import styled from 'styled-components'
 
 const NavigationWrapper = styled.div`
-  display: flex;
+  display: none;
   flex-direction: column;
   position: fixed;
   z-index: 9999999999;
   right: 3vw;
   top: 40%;
+  @media (min-width: 500px) {
+    display: flex;
+  }
 `
 
 const Dots = styled.div`
-  background-color: grey;
+  position: relative;
+  background-color: ${props => (props.selected ? 'white' : 'grey')};
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
+  transform: ${props => (props.selected ? 'scale(1.5)' : 'scale(1)')};
   margin: 0 0 15px 0;
   cursor: pointer;
 `
 
-function Navigation() {
+function Navigation(props) {
   return (
     <NavigationWrapper>
+      <a href="#top">
+        <Dots selected={props.section === 0} />
+      </a>
       <a href="#video">
-        <Dots />
+        <Dots selected={props.section === 1} />
       </a>
       <a href="#features">
-        <Dots />
+        <Dots selected={props.section === 2} />
       </a>
       <a href="#timeline">
-        <Dots />
+        <Dots selected={props.section === 3} />
       </a>
       <a href="#faq">
-        <Dots />
+        <Dots selected={props.section === 4} />
       </a>
     </NavigationWrapper>
   )

@@ -22,6 +22,9 @@ const RoadLineWrapper = styled.div`
 `
 
 const RoadLineItem = styled.div`
+  > div {
+    transform: translateY(-10px);
+  }
   > div:nth-child(1) {
     margin: 0 0 0 50px;
     line-height: 35px;
