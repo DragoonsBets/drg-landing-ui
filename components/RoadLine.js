@@ -10,6 +10,9 @@ const RoadLineWrapper = styled.div`
   @media (min-width: 700px) {
     width: 50%;
   }
+  @media (min-width: 1600px) {
+    width: 30%;
+  }
   :before {
     content: '';
     width: 5px;

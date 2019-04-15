@@ -24,26 +24,36 @@ const Dots = styled.div`
   cursor: pointer;
 `
 
-function Navigation(props) {
-  return (
-    <NavigationWrapper>
-      <a href="#top">
-        <Dots selected={props.section === 0} />
-      </a>
-      <a href="#video">
-        <Dots selected={props.section === 1} />
-      </a>
-      <a href="#features">
-        <Dots selected={props.section === 2} />
-      </a>
-      <a href="#timeline">
-        <Dots selected={props.section === 3} />
-      </a>
-      <a href="#faq">
-        <Dots selected={props.section === 4} />
-      </a>
-    </NavigationWrapper>
-  )
+class Navigation extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  click = () => {
+    this.props.parentMethod()
+  }
+
+  render() {
+    return (
+      <NavigationWrapper onClick={this.click}>
+        <a href="#top">
+          <Dots selected={this.props.section === 0} />
+        </a>
+        <a href="#video">
+          <Dots selected={this.props.section === 1} />
+        </a>
+        <a href="#features">
+          <Dots selected={this.props.section === 2} />
+        </a>
+        <a href="#timeline">
+          <Dots selected={this.props.section === 3} />
+        </a>
+        <a href="#faq">
+          <Dots selected={this.props.section === 4} />
+        </a>
+      </NavigationWrapper>
+    )
+  }
 }
 
 export default Navigation

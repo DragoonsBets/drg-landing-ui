@@ -138,7 +138,7 @@ const FeaturesItems = styled.div`
   text-align: center;
   width: 300px;
   margin: 30px 0 0 0;
-  height: 100%;
+  /* height: 100%; */
   @media (min-width: 1050px) {
     display: flex;
     width: 1000px;
@@ -237,7 +237,7 @@ const FAQ = styled.div`
   }
   @media (min-width: 1050px) {
     height: 100vh;
-    min-height: 789px;
+    /* min-height: 789px; */
   }
 `
 export default class Index extends React.Component {
@@ -253,6 +253,38 @@ export default class Index extends React.Component {
 
   autoplayToggle = () => {
     this.child.current.playVideo()
+  }
+
+  // Safari navigation dots bug: when clicking navigation buttons the scroll event listener would not fire,
+  // so a function should be declared to run states onClick
+  clickMethod = () => {
+    document.getElementById('wrapper').addEventListener('scroll', () =>
+      this.setState(prevState => ({
+        scroll: document.getElementById('wrapper').scrollTop,
+        currentSection:
+          this.state.scroll < window.innerHeight - 300
+            ? 0
+            : window.innerHeight - 300 <= this.state.scroll &&
+              this.state.scroll < window.innerHeight * 2 - 300
+            ? 1
+            : window.innerHeight * 2 - 300 <= this.state.scroll &&
+              this.state.scroll < window.innerHeight * 3 - 300
+            ? 2
+            : window.innerHeight * 3 - 300 <= this.state.scroll &&
+              this.state.scroll < window.innerHeight * 4 - 300
+            ? 3
+            : window.innerHeight * 4 - 300 <= this.state.scroll &&
+              this.state.scroll < window.innerHeight * 5 - 300
+            ? 4
+            : null,
+        featuresSeen:
+          this.state.scroll > 1200
+            ? true
+            : prevState.featuresSeen
+            ? true
+            : false,
+      })),
+    )
   }
 
   componentDidMount() {
@@ -430,7 +462,10 @@ export default class Index extends React.Component {
           {featuresSection}
           {timelineSection}
           {faqSection}
-          <Navigation section={this.state.currentSection} />
+          <Navigation
+            section={this.state.currentSection}
+            parentMethod={this.clickMethod}
+          />
           <UpArrowNavigation scroll={this.state.scroll} />
         </LandingWrapper>
       </Layout>
