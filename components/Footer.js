@@ -9,7 +9,7 @@ const FooterWrapper = styled.footer`
   position: absolute;
   bottom: 0;
 	align-items: center;
-	background-color: #131929;
+	background-color: #141928;
 	color: white;
 	display: flex;
 	height: 112px;
@@ -21,7 +21,6 @@ const FooterWrapper = styled.footer`
 		flex: 1;
 	}
 	@media (max-width: 660px) {
-		display: none;
 		flex-direction: column;
 		height: 200px;
 		> div {

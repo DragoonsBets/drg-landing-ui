@@ -12,8 +12,10 @@ const ModalWrapper = styled(Modal)`
   width: 100%;
   top: 0;
   right: -450px;
-  box-shadow: none;
-	background-color: #131929;
+	box-shadow: none;
+  opacity: 1;
+  background: #131929;
+  background-color: #131929;
   color: white;
   button {
     font-family: Raleway;
@@ -66,8 +68,9 @@ export default class FullScreenModal extends Component {
 					</DrgButton>
 				}
 				open={this.state.modalOpen}
-				onClose={this.handleClose}
-				dimmer='blurring'>
+        onClose={this.handleClose}
+        dimmer='blurring'
+      >
 				<ModalCenter>{this.props.children}</ModalCenter>
 				<Cross>
 					<Icon name='close' size='big' onClick={this.handleClose} />
