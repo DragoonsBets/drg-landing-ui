@@ -51,6 +51,9 @@ class Navigation extends React.Component {
         <a href="#faq">
           <Dots selected={this.props.section === 4} />
         </a>
+        <a href="#contact">
+          <Dots selected={this.props.section === 5} />
+        </a>
       </NavigationWrapper>
     )
   }

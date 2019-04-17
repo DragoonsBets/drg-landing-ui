@@ -7,7 +7,7 @@ import Typography from './Typography'
 const FooterWrapper = styled.footer`
   display: flex;
   align-items: center;
-  background-color: #272d3b;
+  background-color: #131929;
   color: white;
   position: absolute;
   bottom: 0;
@@ -20,7 +20,6 @@ const FooterWrapper = styled.footer`
     flex: 1;
   }
   @media (max-width: 660px) {
-    display: none;
     flex-direction: column;
     height: 200px;
     > div {

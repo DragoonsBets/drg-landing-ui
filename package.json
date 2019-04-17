@@ -22,7 +22,7 @@
 		"semantic-ui-react": "^0.86.0",
 		"styled-components": "^4.0.0",
 		"url-loader": "^0.6.2",
-		"video.js": "^6.7.3",
+		"video.js": "^7.4.1",
 		"videojs-youtube": "^2.4.1"
 	},
 	"devDependencies": {

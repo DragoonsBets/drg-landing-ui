@@ -11,6 +11,7 @@ const animation = keyframes`
 
 const DrgButtonWrapper = styled(Button)`
   display: flex;
+  justify-content: center;
   font-weight: bold;
   color: ${props => (props.disabled ? 'rgba(255, 255, 255, 0.6)' : 'white')};
   font-size: ${props =>
@@ -21,10 +22,10 @@ const DrgButtonWrapper = styled(Button)`
   min-width: ${props => (props.large ? '88px' : props.small ? '80px' : '0')};
   background-image: linear-gradient(to right, #ab1e4d, #51286a);
   background-size: 180% 200%;
-  transition: 1s;
+  transition: 0.5s;
   :hover {
     animation-name: ${animation};
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     background-position: 100% 50%;
     background-image: linear-gradient(to right, #ab1e4d, #51286a);

@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Typography from '../components/Typography'
 import DrgButton from '../components/Buttons'
+import MailForm from '../components/MailForm'
 import Player from '../components/Player'
 import AccordionFAQ from '../components/AccordionFAQ'
 import RoadLine from '../components/RoadLine'
@@ -212,10 +213,46 @@ const Timeline = styled.div`
 const FAQ = styled.div`
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 120px 0;
+  scroll-snap-align: start;
+  position: relative;
+  background-image: url('../static/faq-background.jpg');
+  background-size: cover;
+  > div:nth-child(1) {
+    text-align: center;
+    z-index: 999;
+  }
+  :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #000000, #000000);
+    opacity: 0.6;
+  }
+  @media (min-width: 770px) {
+    height: 100vh;
+    justify-content: flex-start;
+    min-height: 789px;
+  }
+  @media (min-width: 1600px) {
+    min-height: 100vh;
+    padding: 300px 500px 0 500px;
+  }
+`
+
+const Contact = styled.div`
+  display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 64px 0;
+  padding: 64px 20px 200px 20px;
   scroll-snap-align: start;
   position: relative;
   background-image: url('../static/faq-background.jpg');
@@ -223,7 +260,7 @@ const FAQ = styled.div`
   min-height: 100vh;
   > div:nth-child(1) {
     text-align: center;
-    z-index: 99999;
+    z-index: 999;
   }
   :before {
     content: '';
@@ -236,8 +273,9 @@ const FAQ = styled.div`
     opacity: 0.6;
   }
   @media (min-width: 1050px) {
+    padding: 64px 10px 200px 10px;
     height: 100vh;
-    /* min-height: 789px; */
+    padding: 64px 0;
   }
 `
 export default class Index extends React.Component {
@@ -276,6 +314,9 @@ export default class Index extends React.Component {
             : window.innerHeight * 4 - 300 <= this.state.scroll &&
               this.state.scroll < window.innerHeight * 5 - 300
             ? 4
+            : window.innerHeight * 5 - 300 <= this.state.scroll &&
+              this.state.scroll < window.innerHeight * 6 - 300
+            ? 5
             : null,
         featuresSeen:
           this.state.scroll > 1200
@@ -306,6 +347,9 @@ export default class Index extends React.Component {
             : window.innerHeight * 4 - 300 <= this.state.scroll &&
               this.state.scroll < window.innerHeight * 5 - 300
             ? 4
+            : window.innerHeight * 5 - 300 <= this.state.scroll &&
+              this.state.scroll < window.innerHeight * 6 - 300
+            ? 5
             : null,
         featuresSeen:
           this.state.scroll > 1200
@@ -448,8 +492,13 @@ export default class Index extends React.Component {
     const faqSection = (
       <FAQ id="faq">
         <AccordionFAQ />
-        <Footer />
       </FAQ>
+    )
+    const sendMailSection = (
+      <Contact id="contact">
+        <MailForm />
+        <Footer />
+      </Contact>
     )
     return (
       <Layout
@@ -462,6 +511,7 @@ export default class Index extends React.Component {
           {featuresSection}
           {timelineSection}
           {faqSection}
+          {sendMailSection}
           <Navigation
             section={this.state.currentSection}
             parentMethod={this.clickMethod}
