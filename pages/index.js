@@ -139,7 +139,6 @@ const FeaturesItems = styled.div`
   text-align: center;
   width: 300px;
   margin: 30px 0 0 0;
-  /* height: 100%; */
   @media (min-width: 1050px) {
     display: flex;
     width: 1000px;
@@ -236,9 +235,11 @@ const FAQ = styled.div`
     opacity: 0.6;
   }
   @media (min-width: 770px) {
-    height: 100vh;
     justify-content: flex-start;
     min-height: 789px;
+  }
+  @media (min-width: 1050px) {
+    height: 100%;
   }
   @media (min-width: 1600px) {
     min-height: 100vh;
@@ -252,7 +253,7 @@ const Contact = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 64px 20px 200px 20px;
+  padding: 64px 20px 260px 20px;
   scroll-snap-align: start;
   position: relative;
   background-image: url('../static/faq-background.jpg');

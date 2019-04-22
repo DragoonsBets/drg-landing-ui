@@ -17,10 +17,10 @@ const ModalWrapper = styled(Modal)`
   background-color: #131929;
   color: white;
   overflow-y: scroll;
-  /* padding: 100px 0 0 0; */
+  padding: 30px 0 0 0;
   button {
     font-family: Raleway;
-    margin: 0 0 10px;
+    margin: 0 0 30px;
   }
   label {
     color: white;
