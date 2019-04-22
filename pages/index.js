@@ -266,7 +266,7 @@ export default class Index extends React.Component {
           <HeroButton>
             <a href="#video">
               <DrgButton
-                small="true"
+                large="true"
                 arrow="true"
                 onClick={this.autoplayToggle}
               >

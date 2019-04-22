@@ -5,28 +5,28 @@ import { Icon } from 'semantic-ui-react'
 import Typography from './Typography'
 
 const FooterWrapper = styled.footer`
-  display: flex;
   align-items: center;
-  background-color: #272d3b;
-  color: white;
   position: absolute;
   bottom: 0;
-  height: 80px;
-  justify-content: space-between;
-  padding: 20px;
-  z-index: 99999;
+	align-items: center;
+	background-color: #131929;
+	color: white;
+	display: flex;
+	height: 112px;
+	justify-content: space-between;
+	padding: 20px;
+	z-index: 99999;
   width: 100%;
-  > div {
-    flex: 1;
-  }
-  @media (max-width: 660px) {
-    display: none;
-    flex-direction: column;
-    height: 200px;
-    > div {
-      flex: 1;
-    }
-  }
+	> div {
+		flex: 1;
+	}
+	@media (max-width: 660px) {
+		flex-direction: column;
+		height: 200px;
+		> div {
+			flex: 1;
+		}
+	}
 `
 
 const CopyrightWrapper = styled.div`
