@@ -12,6 +12,7 @@
 		"@fullpage/react-fullpage": "^0.1.13",
 		"@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.0-rc",
 		"@zeit/next-css": "^1.0.1",
+		"await-to-js": "^2.1.1",
 		"axios": "^0.18.0",
 		"fontfaceobserver": "^2.1.0",
 		"moment": "^2.24.0",

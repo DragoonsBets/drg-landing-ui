@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Accordion } from 'semantic-ui-react'
-import { GET_FAQ } from '../networking/endpoints'
-import axios from 'axios'
 import Typography from './Typography'
+import to from '../lib/to';
+import { loadFaqs, processFaq }   from './FAQUtils'
+
 
 const DrgAccordionWarning = styled(Accordion)`
   margin: 30px 0 0 0;
@@ -37,48 +38,43 @@ const DrgAccordion = styled(Accordion)`
   }
 `
 
-function processFaq(items) {
-  let processedFaqs = []
-  for (let i = 0; i < items.length; i++) {
-    let faq = {}
-    let temp = items[i].title
-    faq.key = i
-    faq.title = temp
-    temp = items[i].body
-    faq.content = temp
-    processedFaqs.push(faq)
-  }
-  return processedFaqs
-}
-
 export default class AccordionFAQ extends React.Component {
   constructor() {
     super()
     this.state = {
       loading: true,
       faqs: [],
-    }
+      error: false, 
+    }    
+
   }
 
-  componentDidMount() {
-    axios
-      .get(GET_FAQ + 'type=bets.faqPage&fields=body', {
-        headers: {
-          'Content-Type': 'application/json;',
-        },
+  async componentDidMount() {
+
+    this.setState({
+      loading: true,
+    });
+
+    let [error, faqs] = await loadFaqs();
+
+    console.log("Outside faqs: ", error, faqs);
+
+    if (error) {
+      this.setState({
+        faqs: [],
+        error: error, 
+        loading: false
       })
-      .then(res => {
-        let processedFaqs = processFaq(res.data.items)
-        this.setState({
-          faqs: processedFaqs,
-        })
-        this.state.loading = false
+    }
+    else{
+      let processedFaqs = processFaq(faqs)
+      this.setState({
+        error: null, 
+        faqs: processedFaqs,
+        loading: false
       })
-      .catch(error => {
-        this.state.loading = false
-        this.state.faqs = []
-        this.state.error = error
-      })
+    }    
+
   }
 
   render() {
