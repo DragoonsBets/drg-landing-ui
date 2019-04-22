@@ -61,6 +61,7 @@ const SocialNetworksWrapper = styled.div`
   order: 2;
   @media (min-width: 500px) {
     order: 3;
+    justify-content: flex-end;
   }
 `
 

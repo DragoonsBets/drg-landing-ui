@@ -6,7 +6,7 @@ import DrgButton from './Buttons'
 const ModalWrapper = styled(Modal)`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   border-radius: 0;
   height: 100vh;
   width: 100vw;
@@ -16,8 +16,11 @@ const ModalWrapper = styled(Modal)`
   box-shadow: none;
   background-color: #131929;
   color: white;
+  overflow-y: scroll;
+  /* padding: 100px 0 0 0; */
   button {
     font-family: Raleway;
+    margin: 0 0 10px;
   }
   label {
     color: white;
@@ -28,13 +31,20 @@ const ModalWrapper = styled(Modal)`
   input:focus + label {
     color: white;
   }
+  @media (min-width: 500px) {
+    align-items: center;
+  }
 `
 
 const ModalCenter = styled.div`
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   position: relative;
   height: 100%;
+  @media (min-width: 500px) {
+    align-items: center;
+  }
 `
 
 const Cross = styled.div`

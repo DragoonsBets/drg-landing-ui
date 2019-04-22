@@ -82,7 +82,7 @@ class MailForm extends React.Component {
             <DrgInput
               name="email"
               label="Email"
-              placeholder="ejemplo@hotmail.com"
+              placeholder="ejemplo@mail.com"
               onChange={this.handleInputChange}
               required
             />
