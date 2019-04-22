@@ -9,7 +9,7 @@ const FooterWrapper = styled.footer`
   position: absolute;
   bottom: 0;
 	align-items: center;
-	background-color: #141928;
+	background-color: #131929;
 	color: white;
 	display: flex;
 	height: 112px;
