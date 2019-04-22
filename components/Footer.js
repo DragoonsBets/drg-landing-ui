@@ -1,70 +1,87 @@
 import React from 'react'
 import styled from 'styled-components'
 import SocialNetworks from '../components/SocialNetworks'
-import { Icon } from 'semantic-ui-react'
-import Typography from './Typography'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const FooterWrapper = styled.footer`
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #131929;
   color: white;
   position: absolute;
   bottom: 0;
-  height: 80px;
-  justify-content: space-between;
   padding: 20px;
+  height: 180px;
   z-index: 99999;
   width: 100%;
   > div {
-    flex: 1;
-  }
-  @media (max-width: 660px) {
-    flex-direction: column;
-    height: 200px;
-    > div {
+    @media (max-width: 1000px) {
       flex: 1;
     }
+  }
+  @media (min-width: 500px) {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
   }
 `
 
 const CopyrightWrapper = styled.div`
-  display: inline-flex;
-  justify-content: center;
-  height: 30px;
+  text-align: center;
+  order: 3;
+  max-height: 20px;
   > h5 {
     margin: 0 0 0 5px;
+  }
+  @media (min-width: 500px) {
+    text-align: left;
+    order: 1;
   }
 `
 
 const ImgWrapper = styled.div`
-  flex: 2;
   display: flex;
   justify-content: center;
+  order: 1;
+  @media (min-width: 500px) {
+    order: 2;
+  }
+`
+
+const XFontAwesomeIcon = styled(FontAwesomeIcon)`
+  color: white;
+  margin: 0 3px 0 0;
+  transform: translateY(1px);
+`
+
+const SocialNetworksWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  order: 2;
+  @media (min-width: 500px) {
+    order: 3;
+  }
 `
 
 function Footer(props) {
   return (
     <FooterWrapper>
       <CopyrightWrapper>
-        <span>
-          <Icon size="small" inverted name="copyright" />
-        </span>
-        <Typography h={5} weight="thin" size="subheader">
-          2019 - Todos los derechos reservados
-        </Typography>
+        <XFontAwesomeIcon icon={['fa', 'copyright']} fixedWidth size="1x" />
+        2019 - Todos los derechos reservados
       </CopyrightWrapper>
       <ImgWrapper>
         <img
           src="/static/v01-white.svg"
           alt="Dragoons logo"
-          width={60}
-          height={60}
+          width={50}
+          height={50}
         />
       </ImgWrapper>
-      <div>
+      <SocialNetworksWrapper>
         <SocialNetworks />
-      </div>
+      </SocialNetworksWrapper>
     </FooterWrapper>
   )
 }

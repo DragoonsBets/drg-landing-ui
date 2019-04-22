@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Icon } from 'semantic-ui-react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SocialNetworksWrapper = styled.div`
   display: flex;
@@ -8,26 +8,38 @@ const SocialNetworksWrapper = styled.div`
   justify-content: flex-end;
 `
 
+const XFontAwesomeIcon = styled(FontAwesomeIcon)`
+  color: white;
+`
+
+const SocialLink = styled.a`
+  margin: 0 10px 0 0;
+`
+
 function SocialNetworks() {
   return (
     <SocialNetworksWrapper>
-      <a
+      <SocialLink
         href="/instagram.com/dragoons"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon name="instagram" size="big" inverted link />
-      </a>
-      <a
+        <XFontAwesomeIcon icon={['fab', 'instagram']} fixedWidth size="2x" />
+      </SocialLink>
+      <SocialLink
         href="/twitter.com/DragoonsBets"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icon name="twitter" size="big" inverted link />
-      </a>
-      <a href="/discord.gg/vbeeKZd" target="_blank" rel="noopener noreferrer">
-        <Icon name="discord" size="big" inverted link />
-      </a>
+        <XFontAwesomeIcon icon={['fab', 'twitter']} fixedWidth size="2x" />
+      </SocialLink>
+      <SocialLink
+        href="/discord.gg/vbeeKZd"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <XFontAwesomeIcon icon={['fab', 'discord']} fixedWidth size="2x" />
+      </SocialLink>
     </SocialNetworksWrapper>
   )
 }

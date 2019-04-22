@@ -9,6 +9,10 @@
 		"test": "echo No test defined"
 	},
 	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.17",
+		"@fortawesome/free-brands-svg-icons": "^5.8.1",
+		"@fortawesome/free-solid-svg-icons": "^5.8.1",
+		"@fortawesome/react-fontawesome": "^0.1.4",
 		"@fullpage/react-fullpage": "^0.1.13",
 		"@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.0-rc",
 		"@zeit/next-css": "^1.0.1",
