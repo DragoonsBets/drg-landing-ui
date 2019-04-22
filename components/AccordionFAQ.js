@@ -18,7 +18,7 @@ const DrgAccordion = styled(Accordion)`
     flex-direction: column;
     width: 90vw;
     margin: 40px 0 0 0;
-    background-color: rgb(46, 60, 93, 0.5);
+    background-color: rgba(46, 60, 93, 0.5);
     z-index: 999;
     @media (min-width: 1050px) {
       width: 70vw;
