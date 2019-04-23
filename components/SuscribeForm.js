@@ -56,6 +56,8 @@ export default class SuscribeForm extends React.Component {
     this.handleInputChange = this.handleInputChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleDropdownChange = this.handleDropdownChange.bind(this)
+    this.handleMonthChange = this.handleMonthChange.bind(this)
+
   }
 
   handleInputChange(event, data) {
@@ -77,6 +79,27 @@ export default class SuscribeForm extends React.Component {
     this.setState({ birthday })
   }
 
+  handleMonthChange(event, data) {
+    console.log('Month change: ', data)
+
+    const name = data.name
+    
+    var birthday = { ...this.state.birthday }
+
+    data.options.find(function(option) {
+      if (data.value == option.value){
+        console.log("Value option match: ", option)
+        console.log("birthday: ", birthday)
+        birthday[name] = option.key
+        console.log("birthday after update: ", birthday)
+        return 
+      }
+    });
+
+    this.setState({ birthday })
+
+  }
+
   handleSubmit = event => {
     event.preventDefault()
     const form = event.target
@@ -96,17 +119,21 @@ export default class SuscribeForm extends React.Component {
       return
     }
 
+    console.log('user: ', this.state['birthday'])
+
     const user = {
       first_name: this.state['firstName'],
       last_name: this.state['lastName'],
       email: this.state['email'],
       birthday: new Date(
         this.state['birthday']['year'],
-        this.state['birthday']['month'],
+        this.state['birthday']['month'] - 1,
         this.state['birthday']['day'],
       ),
       subscribed_to_news: this.state['suscribeAccepted'],
     }
+
+    console.log('user: ', user)
 
     axios
       .post(
@@ -209,7 +236,7 @@ export default class SuscribeForm extends React.Component {
               tag={'Mes'}
               name="month"
               options={months}
-              onChange={this.handleDropdownChange}
+              onChange={this.handleMonthChange}
             />
             <DrgDropdown
               tag={'Año'}
@@ -235,14 +262,14 @@ export default class SuscribeForm extends React.Component {
               visible={this.state.success}
               header="Registro exitoso"
               success={this.state.success}
-              content={this.state.successMessage}
+              content={this.state.message}
             />
             <Message
               visible={this.state.error}
               hidden={!this.state.error}
               header="Ocurrió un error"
-              error={this.state.errorMessage}
-              content={this.state.errorMessage}
+              error={this.state.error}
+              content={this.state.message}
             />
           </div>
           <DrgButton type="submit" large="true">
