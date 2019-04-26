@@ -168,10 +168,10 @@ export default class SuscribeForm extends React.Component {
             <Typography h={4} weight="thin" size="title">
               Ingresa con redes sociales
             </Typography>
-            <DrgButton small="true" type='submit' onClick={socialLogin("steam")}>Steam Login</DrgButton>
-            <DrgButton small="true" type='submit' onClick={socialLogin("twitch")}>Twitch Login</DrgButton>
-            <DrgButton small="true" type='submit' onClick={socialLogin("facebook")}>Facebook Login</DrgButton>
-            <DrgButton small="true" type='submit' onClick={socialLogin("google")}>Google Login</DrgButton>
+            <DrgButton small="true" type='submit' onClick={() => socialLogin('steam')}>Steam</DrgButton>
+            <DrgButton small="true" type='submit' onClick={() => socialLogin("twitch")}>Twitch</DrgButton>
+            <DrgButton small="true" type='submit' onClick={() => socialLogin('facebook')}>Facebook</DrgButton>
+            <DrgButton small="true" type='submit' onClick={() => socialLogin('google')}>Google</DrgButton>
           </Form.Group>
         <Divider />
 
