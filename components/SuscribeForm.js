@@ -168,10 +168,23 @@ export default class SuscribeForm extends React.Component {
             <Typography h={4} weight="thin" size="title">
               Ingresa con redes sociales
             </Typography>
-            <DrgButton small="true" type='submit' onClick={() => socialLogin('steam')}>Steam</DrgButton>
-            <DrgButton small="true" type='submit' onClick={() => socialLogin("twitch")}>Twitch</DrgButton>
-            <DrgButton small="true" type='submit' onClick={() => socialLogin('facebook')}>Facebook</DrgButton>
-            <DrgButton small="true" type='submit' onClick={() => socialLogin('google')}>Google</DrgButton>
+            
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/steam/login/?process=login">
+              <DrgButton small="true" type='submit'>Steam</DrgButton>
+            </form>
+
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/twitch/login/?process=login">
+              <DrgButton small="true" type='submit'>Twitch</DrgButton>
+            </form>
+
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/google/login/?process=login">
+              <DrgButton small="true" type='submit'>Google</DrgButton>
+            </form>
+
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/facebook/login/?process=login">
+              <DrgButton small="true" type='submit'>Facebook</DrgButton>
+            </form>
+
           </Form.Group>
         <Divider />
 
