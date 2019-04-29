@@ -10,6 +10,7 @@ const DrgAccordionWarning = styled(Accordion)`
   margin: 30px 0 0 0;
   z-index: 999;
   color: grey;
+  text-align: center;
 `
 
 const DrgAccordion = styled(Accordion)`
