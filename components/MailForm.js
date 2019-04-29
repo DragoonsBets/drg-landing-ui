@@ -79,14 +79,22 @@ class MailForm extends React.Component {
               onChange={this.handleInputChange}
               required
             />
-            <DrgInput
-              name="email"
-              label="Email"
-              placeholder="ejemplo@mail.com"
+            <XDrgInput
+              name="lastName"
+              label="Apellido"
+              placeholder="Gorzy"
               onChange={this.handleInputChange}
               required
             />
           </div>
+          <Divider />
+          <DrgInput
+              name="email"
+              label="Email"
+              placeholder="hola@dragoons.gg"
+              onChange={this.handleInputChange}
+              required
+            />
           <Divider />
           <div>
             <DrgInput
