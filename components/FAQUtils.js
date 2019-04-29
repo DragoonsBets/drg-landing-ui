@@ -1,6 +1,8 @@
 import { GET_FAQ, GET_FAQ_SLUG } from '../networking/endpoints'
 import axios from 'axios'
 import to from '../lib/to';
+import React from 'react'
+import ReactHtmlParser from 'react-html-parser';
 
 export const loadFaqs = async () => {
   let error, error2, response, faqs;
@@ -30,7 +32,10 @@ export const processFaq = (items) => {
     faq.key = i
     faq.title = temp
     temp = items[i].body
-    faq.content = temp
+    faq.content = {
+      content: ReactHtmlParser(temp)
+    }
+    console.log('FAQ: ', faq)
     processedFaqs.push(faq)
   }
   return processedFaqs
