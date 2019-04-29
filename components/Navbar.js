@@ -9,10 +9,13 @@ const NavbarWrapper = styled.header`
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
+	top: 0;
+  left: 0;
 	z-index: 99999;
 	width: 100%;
-	background-color: #141928;
-	padding: 14px 24px;
+	background-color: #131929;
+	padding: 9px 24px;
+  height: 64px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	button {
 		font-family: Raleway;
@@ -35,27 +38,27 @@ const NavbarWrapper = styled.header`
 `
 
 function Navbar() {
-	return (
-		<NavbarWrapper>
-			<div>
-				<Link href='/'>
-					<a>
-						<img src='../static/v03-white.svg' alt='logo' width={200} />
-					</a>
-				</Link>
-			</div>
-			<div>
-				<Link href='/'>
-					<a>
-						<img src='../static/v01-white.svg' alt='logo' width={42} />
-					</a>
-				</Link>
-			</div>
-			<FullScreenModal>
-				<SuscribeForm />
-			</FullScreenModal>
-		</NavbarWrapper>
-	)
+  return (
+    <NavbarWrapper>
+      <div>
+        <Link href="/">
+          <a>
+            <img src="../static/v03-white.svg" alt="logo" width={150} />
+          </a>
+        </Link>
+      </div>
+      <div>
+        <Link href="/">
+          <a>
+            <img src="../static/v01-white.svg" alt="logo" width={42} />
+          </a>
+        </Link>
+      </div>
+      <FullScreenModal>
+        <SuscribeForm />
+      </FullScreenModal>
+    </NavbarWrapper>
+  )
 }
 
 export default Navbar

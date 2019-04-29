@@ -4,58 +4,62 @@ import { Modal, Icon } from 'semantic-ui-react'
 import DrgButton from './Buttons'
 
 const ModalWrapper = styled(Modal)`
-	display: flex !important;
-	height: 1000px;
-	justify-content: center;
-	align-items: center;
-	min-height: 100%;
-	width: 100%;
-	top: 0;
-	right: -450px;
-	box-shadow: none;
-	background-color: transparent;
-	color: white;
-	button {
-		font-family: Raleway;
-	}
-	label {
-		color: white;
-	}
-	label:hover {
-		color: white;
-	}
-	input:focus + label {
-		color: white;
-	}
-	@media (min-width: 1025px) {
-		left: 450px;
-	}
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 0;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  margin: 0;
+  box-shadow: none;
+  background-color: #131929;
+  color: white;
+  overflow-y: scroll;
+  padding: 30px 0 0 0;
+  button {
+    font-family: Raleway;
+    margin: 0 0 30px;
+  }
+  label {
+    color: white;
+  }
+  label:hover {
+    color: white;
+  }
+  input:focus + label {
+    color: white;
+  }
+  @media (min-width: 500px) {
+    align-items: center;
+  }
 `
 
 const ModalCenter = styled.div`
-	display: flex;
-	justify-content: center;
-	position: relative;
-	min-height: 100%;
-	width: 80%;
-	@media (min-width: 1025px) {
-		width: 100%;
-	}
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  height: 100%;
+  @media (min-width: 500px) {
+    align-items: center;
+  }
 `
 
 const Cross = styled.div`
-	position: absolute;
-	right: 2vw;
-	top: 2vw;
-	cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
 `
 
 export default class FullScreenModal extends Component {
-	state = { modalOpen: false }
+  state = { modalOpen: false }
 
-	handleOpen = () => this.setState({ modalOpen: true })
+  handleOpen = () => this.setState({ modalOpen: true })
 
-	handleClose = () => this.setState({ modalOpen: false })
+  handleClose = () => this.setState({ modalOpen: false })
 
 	render() {
 		return (

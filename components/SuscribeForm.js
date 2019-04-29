@@ -9,28 +9,31 @@ import Typography from './Typography'
 import { CREATE_USERS } from '../networking/endpoints'
 
 const SuscribeFormWrapper = styled.div`
-	&&& {
-		font-family: Raleway;
-		input,
-		h3,
-		h4 {
-			font-family: Raleway;
-		}
-	}
+  &&& {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-family: Raleway;
+    input,
+    h3,
+    h4 {
+      font-family: Raleway;
+    }
+  }
 `
 
 const XForm = styled(Form)`
-	&&& {
-		> div {
-			display: flex;
-		}
-	}
+  &&& {
+    > div {
+      display: flex;
+    }
+  }
 `
 
 const XCheckbox = styled(Checkbox)`
-	&&& {
-		margin: 30px 0;
-	}
+  &&& {
+    margin: 30px 0;
+  }
 `
 
 export default class SuscribeForm extends React.Component {
@@ -132,8 +135,6 @@ export default class SuscribeForm extends React.Component {
       ),
       subscribed_to_news: this.state['suscribeAccepted'],
     }
-
-    console.log('user: ', user)
 
     axios
       .post(

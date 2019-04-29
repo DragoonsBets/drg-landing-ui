@@ -1,39 +1,62 @@
 import React from 'react'
 import styled from 'styled-components'
-import jump from 'jump.js'
 
 const NavigationWrapper = styled.div`
-	display: flex;
-	flex-direction: column;
-	position: fixed;
-	right: 45px;
-	top: 50%;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  z-index: 9999999999;
+  right: 3vw;
+  top: 40%;
+  @media (min-width: 500px) {
+    display: flex;
+  }
 `
 
 const Dots = styled.div`
-	background-color: grey;
-	border-radius: 50%;
-	width: 20px;
-	height: 20px;
-	margin: 0 0 15px 0;
-	cursor: pointer;
+  position: relative;
+  background-color: ${props => (props.selected ? 'white' : 'grey')};
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  transform: ${props => (props.selected ? 'scale(1.5)' : 'scale(1)')};
+  margin: 0 0 15px 0;
+  cursor: pointer;
 `
 
-function Navigation() {
-	function handleClick(e) {
-		jump(e, {
-			duration: 1000,
-			offset: -72
-		})
-	}
-	return (
-		<NavigationWrapper>
-			<Dots onClick={() => handleClick('#video')} />
-			<Dots onClick={() => handleClick('#features')} />
-			<Dots onClick={() => handleClick('#timeline')} />
-			<Dots onClick={() => handleClick('#faq')} />
-		</NavigationWrapper>
-	)
+class Navigation extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  click = () => {
+    this.props.parentMethod()
+  }
+
+  render() {
+    return (
+      <NavigationWrapper onClick={this.click}>
+        <a href="#top">
+          <Dots selected={this.props.section === 0} />
+        </a>
+        <a href="#video">
+          <Dots selected={this.props.section === 1} />
+        </a>
+        <a href="#features">
+          <Dots selected={this.props.section === 2} />
+        </a>
+        <a href="#timeline">
+          <Dots selected={this.props.section === 3} />
+        </a>
+        <a href="#faq">
+          <Dots selected={this.props.section === 4} />
+        </a>
+        <a href="#contact">
+          <Dots selected={this.props.section === 5} />
+        </a>
+      </NavigationWrapper>
+    )
+  }
 }
 
 export default Navigation
