@@ -61,23 +61,22 @@ export default class FullScreenModal extends Component {
 
   handleClose = () => this.setState({ modalOpen: false })
 
-  render() {
-    return (
-      <ModalWrapper
-        trigger={
-          <DrgButton onClick={this.handleOpen} small="true" arrow="true">
-            Regístrate
-          </DrgButton>
-        }
-        open={this.state.modalOpen}
-        onClose={this.handleClose}
-        dimmer="blurring"
-      >
-        <ModalCenter>{this.props.children}</ModalCenter>
-        <Cross>
-          <Icon name="close" size="big" onClick={this.handleClose} />
-        </Cross>
-      </ModalWrapper>
-    )
-  }
+	render() {
+		return (
+			<ModalWrapper
+				trigger={
+					<DrgButton onClick={this.handleOpen} small='true' arrow='true'>
+						Regístrate
+					</DrgButton>
+				}
+				open={this.state.modalOpen}
+				onClose={this.handleClose}
+				dimmer='blurring'>
+				<ModalCenter>{this.props.children}</ModalCenter>
+				<Cross>
+					<Icon name='close' size='big' onClick={this.handleClose} />
+				</Cross>
+			</ModalWrapper>
+		)
+	}
 }
