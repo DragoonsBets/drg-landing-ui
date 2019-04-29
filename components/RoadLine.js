@@ -10,6 +10,9 @@ const RoadLineWrapper = styled.div`
   @media (min-width: 700px) {
     width: 50%;
   }
+  @media (min-width: 1600px) {
+    width: 30%;
+  }
   :before {
     content: '';
     width: 5px;
@@ -22,6 +25,9 @@ const RoadLineWrapper = styled.div`
 `
 
 const RoadLineItem = styled.div`
+  > div {
+    transform: translateY(-10px);
+  }
   > div:nth-child(1) {
     margin: 0 0 0 50px;
     line-height: 35px;

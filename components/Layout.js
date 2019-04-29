@@ -46,6 +46,11 @@ class Layout extends React.Component {
             rel="stylesheet"
             href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css"
           />
+          {/*  */}
+          <link
+            href="https://use.fontawesome.com/releases/v5.2.0/css/svg-with-js.css"
+            rel="stylesheet"
+          />
           {/* favicon */}
           <link
             rel="apple-touch-icon"

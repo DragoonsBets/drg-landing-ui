@@ -10,6 +10,9 @@ import { CREATE_USERS } from '../networking/endpoints'
 
 const SuscribeFormWrapper = styled.div`
   &&& {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
     font-family: Raleway;
     input,
     h3,
@@ -134,8 +137,21 @@ export default class SuscribeForm extends React.Component {
 
   render() {
     const days = []
-    const months = []
     const years = []
+    const months = [
+      { key: 'enero', value: 'enero', text: 'enero' },
+      { key: 'febrero', value: 'febrero', text: 'febrero' },
+      { key: 'marzo', value: 'marzo', text: 'marzo' },
+      { key: 'abril', value: 'abril', text: 'abril' },
+      { key: 'mayo', value: 'mayo', text: 'mayo' },
+      { key: 'junio', value: 'junio', text: 'junio' },
+      { key: 'julio', value: 'julio', text: 'julio' },
+      { key: 'agosto', value: 'agosto', text: 'agosto' },
+      { key: 'setiembre', value: 'setiembre', text: 'setiembre' },
+      { key: 'octubre', value: 'octubre', text: 'octubre' },
+      { key: 'noviembre', value: 'noviembre', text: 'noviembre' },
+      { key: 'diciembre', value: 'diciembre', text: 'diciembre' },
+    ]
 
     var d = new Date()
     var currentYear = d.getFullYear()
@@ -146,102 +162,102 @@ export default class SuscribeForm extends React.Component {
       days.push(day)
     }
 
-    for (let i = 1; i < 13; i++) {
-      var month = { key: i, value: i, text: i }
-      months.push(month)
-    }
-
     for (let i = currentYear; i > oldest; i--) {
       var year = { key: i, value: i, text: i }
       years.push(year)
     }
 
+    console.log(days)
+    console.log(months)
+
     return (
       <SuscribeFormWrapper>
-        <Typography h={3} weight="bold" size="jumbo">
-          Suscríbete a Dragoons
-        </Typography>
-        <Typography h={4} weight="thin" size="title">
-          Ingresa tus datos personales
-        </Typography>
-        <XForm onSubmit={this.handleSubmit}>
-          <DrgInput
-            name="firstName"
-            label="Nombre"
-            placeholder="Emilio"
-            onChange={this.handleInputChange}
-            required
-          />
-          <br />
-          <DrgInput
-            name="lastName"
-            label="Apellido"
-            placeholder="Gorzy"
-            onChange={this.handleInputChange}
-            required
-          />
-          <br />
-          <DrgInput
-            name="email"
-            label="Email"
-            placeholder="egorzy@dragoons.gg"
-            onChange={this.handleInputChange}
-            required
-          />
-          <br />
-          <Divider />
-          <Typography h={4} weight="thin" size="title">
-            Ingresa tu fecha de nacimiento
+        <div>
+          <Typography h={3} weight="bold" size="jumbo">
+            Suscríbete a Dragoons
           </Typography>
-          <div>
-            <DrgDropdown
-              tag={'Día'}
-              name="day"
-              options={days}
-              onChange={this.handleDropdownChange}
+          <Typography h={4} weight="thin" size="title">
+            Ingresa tus datos personales
+          </Typography>
+          <XForm onSubmit={this.handleSubmit}>
+            <DrgInput
+              name="firstName"
+              label="Nombre"
+              placeholder="Emilio"
+              onChange={this.handleInputChange}
+              required
             />
-            <DrgDropdown
-              tag={'Mes'}
-              name="month"
-              options={months}
-              onChange={this.handleDropdownChange}
+            <br />
+            <DrgInput
+              name="lastName"
+              label="Apellido"
+              placeholder="Gorzy"
+              onChange={this.handleInputChange}
+              required
             />
-            <DrgDropdown
-              tag={'Año'}
-              name="year"
-              options={years}
-              onChange={this.handleDropdownChange}
+            <br />
+            <DrgInput
+              name="email"
+              label="Email"
+              placeholder="egorzy@dragoons.gg"
+              onChange={this.handleInputChange}
+              required
             />
-          </div>
-          <Divider />
-          <XCheckbox
-            name="termsAccepted"
-            onChange={this.handleInputChange}
-            label="Acepto términos y condiciones"
-          />
-          <XCheckbox
-            name="suscribeAccepted"
-            onChange={this.handleInputChange}
-            label="Deseo recibir noticias y novedades sobre Dragoons"
-          />
-          <div>
-            <Message
-              hidden={!this.state.success}
-              visible={this.state.success}
-              header="Registro exitoso"
-              content={this.state.successMessage}
+            <br />
+            <Divider />
+            <Typography h={4} weight="thin" size="title">
+              Ingresa tu fecha de nacimiento
+            </Typography>
+            <div>
+              <DrgDropdown
+                tag={'Día'}
+                name="day"
+                options={days}
+                onChange={this.handleDropdownChange}
+              />
+              <DrgDropdown
+                tag={'Mes'}
+                name="month"
+                options={months}
+                onChange={this.handleDropdownChange}
+              />
+              <DrgDropdown
+                tag={'Año'}
+                name="year"
+                options={years}
+                onChange={this.handleDropdownChange}
+              />
+            </div>
+            <Divider />
+            <XCheckbox
+              name="termsAccepted"
+              onChange={this.handleInputChange}
+              label="Acepto términos y condiciones"
             />
-            <Message
-              visible={this.state.error}
-              hidden={!this.state.error}
-              header="Ocurrió un error"
-              content={this.state.errorMessage}
+            <XCheckbox
+              name="suscribeAccepted"
+              onChange={this.handleInputChange}
+              label="Deseo recibir noticias y novedades sobre Dragoons"
             />
-          </div>
-          <DrgButton type="submit" large="true">
-            Regístrate
-          </DrgButton>
-        </XForm>
+            <div>
+              <Message
+                hidden={!this.state.success}
+                visible={this.state.success}
+                header="Registro exitoso"
+                content={this.state.successMessage}
+              />
+              <Message
+                visible={this.state.error}
+                hidden={!this.state.error}
+                header="Ocurrió un error"
+                content={this.state.errorMessage}
+              />
+            </div>
+            <DrgButton type="submit" large="true">
+              Regístrate
+            </DrgButton>
+          </XForm>
+        </div>
       </SuscribeFormWrapper>
     )
   }

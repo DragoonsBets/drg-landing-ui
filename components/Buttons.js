@@ -2,9 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import { Button } from 'semantic-ui-react'
 import { Icon } from 'semantic-ui-react'
+import { keyframes } from 'styled-components'
+
+const animation = keyframes`
+  0%{background-position:10% 50%}
+  100%{background-position:100% 50%}
+`
 
 const DrgButtonWrapper = styled(Button)`
   display: flex;
+  justify-content: center;
   font-weight: bold;
   color: ${props => (props.disabled ? 'rgba(255, 255, 255, 0.6)' : 'white')};
   font-size: ${props =>
@@ -13,10 +20,15 @@ const DrgButtonWrapper = styled(Button)`
     props.large ? '15px 16px' : props.small ? '9px 14px' : '8px'};
   border-radius: 4px;
   min-width: ${props => (props.large ? '88px' : props.small ? '80px' : '0')};
-  background-position: center;
   background-image: linear-gradient(to right, #ab1e4d, #51286a);
+  background-size: 180% 200%;
+  transition: 0.5s;
   :hover {
-    background-image: linear-gradient(to right, #ab1e4d 15%, #51286a 60%);
+    animation-name: ${animation};
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    background-position: 100% 50%;
+    background-image: linear-gradient(to right, #ab1e4d, #51286a);
     color: white;
   }
   :focus {
