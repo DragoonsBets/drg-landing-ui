@@ -7,6 +7,7 @@ import DrgInput from './DrgInputs'
 import DrgDropdown from './DrgDropdown'
 import Typography from './Typography'
 import { CREATE_USERS } from '../networking/endpoints'
+import { socialLogin } from './SocialLoginHelper'
 
 const SuscribeFormWrapper = styled.div`
   &&& {
@@ -194,6 +195,32 @@ export default class SuscribeForm extends React.Component {
         <Typography h={3} weight="bold" size="jumbo">
           Suscríbete a Dragoons
         </Typography>
+
+        <Divider />
+          <Form.Group widths='equal'>
+            <Typography h={4} weight="thin" size="title">
+              Ingresa con redes sociales
+            </Typography>
+            
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/steam/login/?process=login">
+              <DrgButton small="true" type='submit'>Steam</DrgButton>
+            </form>
+
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/twitch/login/?process=login">
+              <DrgButton small="true" type='submit'>Twitch</DrgButton>
+            </form>
+
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/google/login/?process=login">
+              <DrgButton small="true" type='submit'>Google</DrgButton>
+            </form>
+
+            <form action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/facebook/login/?process=login">
+              <DrgButton small="true" type='submit'>Facebook</DrgButton>
+            </form>
+
+          </Form.Group>
+        <Divider />
+
         <Typography h={4} weight="thin" size="title">
           Ingresa tus datos personales
         </Typography>
