@@ -226,12 +226,6 @@ export default class SuscribeForm extends React.Component {
             </DrgButton>
           </ZForm>
 
-          <ZForm action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/twitch/login/?process=login">
-            <DrgButton small="true" type="submit">
-              Twitch
-            </DrgButton>
-          </ZForm>
-
           <ZForm action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/google/login/?process=login">
             <DrgButton small="true" type="submit">
               Google

@@ -4,6 +4,7 @@ import {
   faTwitter,
   faInstagram,
   faDiscord,
+  faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faTwitter, faInstagram, faDiscord, faCopyright)
+library.add(faTwitter, faInstagram, faDiscord, faCopyright, faFacebook)

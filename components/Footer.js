@@ -30,11 +30,11 @@ const FooterWrapper = styled.footer`
 const CopyrightWrapper = styled.div`
   text-align: center;
   order: 3;
-  max-height: 20px;
   > h5 {
     margin: 0 0 0 5px;
   }
   @media (min-width: 500px) {
+    width: 200px;
     text-align: left;
     order: 1;
   }
@@ -59,7 +59,9 @@ const SocialNetworksWrapper = styled.div`
   display: flex;
   justify-content: center;
   order: 2;
+  margin: 20px 0;
   @media (min-width: 500px) {
+    width: 200px;
     order: 3;
     justify-content: flex-end;
   }

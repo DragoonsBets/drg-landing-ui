@@ -10,7 +10,7 @@ class Typography extends React.Component {
     return (
       <H
         style={{
-          // color: this.props.color ? this.props.color : 'white',
+          color: this.props.color ? this.props.color : 'white',
           lineHeight:
             this.props.size === 'mega'
               ? '80px'

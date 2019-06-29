@@ -48,7 +48,7 @@ const Hero = styled.div`
   }
   @media (min-width: 1025px) {
     align-items: center;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     flex-direction: row;
     color: #171b27;
   }
@@ -370,7 +370,7 @@ export default class Index extends React.Component {
           <HeroLogo>
             <img src="../static/v02-color.svg" alt="logo" width={300} />
           </HeroLogo>
-          <Typography h={3} weight="bold" size="headline">
+          <Typography h={3} weight="thin" size="headline">
             Únete a la única plataforma que te permite apostar y apoyar a tu
             comunidad de eSports.
           </Typography>
@@ -490,11 +490,11 @@ export default class Index extends React.Component {
         <RoadLine />
       </Timeline>
     )
-    const faqSection = (
-      <FAQ id="faq">
-        <AccordionFAQ />
-      </FAQ>
-    )
+    // const faqSection = (
+    //   <FAQ id="faq">
+    //     <AccordionFAQ />
+    //   </FAQ>
+    // )
     const sendMailSection = (
       <Contact id="contact">
         <MailForm />
@@ -511,7 +511,7 @@ export default class Index extends React.Component {
           {videoSection}
           {featuresSection}
           {timelineSection}
-          {faqSection}
+          {/* {faqSection} */}
           {sendMailSection}
           <Navigation
             section={this.state.currentSection}
