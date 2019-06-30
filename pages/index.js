@@ -501,8 +501,8 @@ export default class Index extends React.Component {
     )
     return (
       <Layout
-        title="Landing title"
-        description="A description about the landing page"
+        title="Apuestas - eSports | Dragoons"
+        description="Dragoons es un sitio de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad y votás resultados."
       >
         <LandingWrapper id="wrapper">
           {heroSection}

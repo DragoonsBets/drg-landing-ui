@@ -167,7 +167,7 @@ export default class SuscribeForm extends React.Component {
       )
       .then(res => {
         this.state.success = true
-        this.state.message = 'Gracias por registrarte en Dragoons'
+        this.state.message = 'Gracias por registrarte'
         this.state.loading = false
       })
       .catch(error => {
