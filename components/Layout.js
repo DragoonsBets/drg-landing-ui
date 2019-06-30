@@ -29,8 +29,8 @@ class Layout extends React.Component {
   render() {
     const {
       children,
-      title = 'This is the default title',
-      description = 'This is the default description',
+      title = 'Apuestas - eSports | Dragoons',
+      description = 'Dragoons es un sitio de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad y votás resultados.',
     } = this.props
     return (
       <React.Fragment>

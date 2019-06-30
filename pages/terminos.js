@@ -11,7 +11,7 @@ const TermsWrapper = styled.div`
 `
 
 export default () => (
-  <Layout title="TyC title" description="A description about the TyC page">
+  <Layout title="Términos y condiciones" description="Terminos y condiciones para acceder a los servicios de la plataforma Dragoons.gg">
     <TermsWrapper>
       <Navbar />
       Términos y condiciones

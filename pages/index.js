@@ -102,7 +102,7 @@ const Features = styled.div`
   scroll-snap-align: start;
   width: 100%;
   position: relative;
-  background-image: url('../static/features-background.png');
+  background-image: url('../static/features-background.jpg');
   background-size: cover;
   min-height: 100%;
   :before {
@@ -113,7 +113,7 @@ const Features = styled.div`
     bottom: 0;
     left: 0;
     background-image: linear-gradient(to bottom right, #000000, #000000);
-    opacity: 0.6;
+    opacity: 0.7;
   }
   @media (min-width: 1050px) {
     min-height: 100vh;
@@ -195,7 +195,7 @@ const Timeline = styled.div`
     z-index: 999;
   }
   position: relative;
-  background-image: url('../static/roadmap-background.jpg');
+  background-image: url('../static/timeline-background-ow.jpg');
   background-size: cover;
   :before {
     content: '';
@@ -205,7 +205,7 @@ const Timeline = styled.div`
     bottom: 0;
     left: 0;
     background-image: linear-gradient(to bottom right, #000000, #000000);
-    opacity: 0.6;
+    opacity: 0.75;
   }
 `
 
@@ -256,7 +256,7 @@ const Contact = styled.div`
   padding: 64px 20px 260px 20px;
   scroll-snap-align: start;
   position: relative;
-  background-image: url('../static/faq-background.jpg');
+  background-image: url('../static/contact-background.jpg');
   background-size: cover;
   min-height: 100vh;
   > div:nth-child(1) {
@@ -371,8 +371,7 @@ export default class Index extends React.Component {
             <img src="../static/v02-color.svg" alt="logo" width={300} />
           </HeroLogo>
           <Typography h={3} weight="thin" size="headline">
-            Únete a la única plataforma que te permite apostar y apoyar a tu
-            comunidad de eSports.
+            ¡Apostá, votá resultados y ganá! Somos un club de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad.
           </Typography>
           <HeroButton>
             <a href="#video">
@@ -381,7 +380,7 @@ export default class Index extends React.Component {
                 arrow="true"
                 onClick={this.autoplayToggle}
               >
-                Ver video
+                Ver más
               </DrgButton>
             </a>
           </HeroButton>
@@ -394,13 +393,13 @@ export default class Index extends React.Component {
           <Player
             sources={[
               {
-                src: 'https://youtu.be/bs2QZCbUkzQ',
+                src: 'https://youtu.be/E3ttiFtSyko',
                 type: 'video/youtube',
               },
             ]}
             techOrder={['youtube']}
             controls={true}
-            // poster="https://upload.wikimedia.org/wikipedia/commons/9/99/SOME_LIKE_IT_HOT_TITLE.jpg"
+            //poster="../static/v01-color.svg"
             ref={this.child}
           />
         ) : (
