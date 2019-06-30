@@ -427,13 +427,13 @@ export default class Index extends React.Component {
           <div>
             <FeaturesItemsImg>
               <img
-                src="../static/features-trophy.svg"
+                src="../static/features-apostar.svg"
                 alt="desafía a otros gamers"
-                width={100}
+                width={50}
               />
             </FeaturesItemsImg>
-            <Typography h={4} weight="bold" size="headline">
-              Desafía a otros
+            <Typography h={4} weight="bold" size="headline" color="black">
+              Apostá
             </Typography>
             <p>
               Apuesta contra otros y demustra cuánto sabes de eSports en el
@@ -444,36 +444,35 @@ export default class Index extends React.Component {
           <div>
             <FeaturesItemsImg>
               <img
-                src="../static/features-vote.svg"
+                src="../static/features-votar.svg"
                 alt="vota resultados"
-                width={100}
+                width={50}
               />
             </FeaturesItemsImg>
-            <Typography h={4} weight="bold" size="headline">
-              Vota resultados
+            <Typography h={4} weight="bold" size="headline" color="black">
+              Votá resultados
             </Typography>
             <p>
               Te pagaremos por hacer lo que más te gusta, ¡mirar eSports!. Lo
-              único que debes hacer es enviar estadísticas. ¿Quién ganó la
-              partida?, ¿en que minuto cayó la torre?, etc.
+              único que debes hacer es enviar los resultados correctos.
             </p>
           </div>
           <div>
             <FeaturesItemsImg>
               <img
-                src="../static/features-community.svg"
+                src="../static/features-apoya.svg"
                 alt="apoya tu comunidad"
-                width={100}
+                width={50}
+                fill="blue"
               />
             </FeaturesItemsImg>
-            <Typography h={4} weight="bold" size="headline">
-              Apoya a tu comunidad
+            <Typography h={4} weight="bold" size="headline" color="black">
+              Apoyá a tu comunidad
             </Typography>
             <p>
               Parte del dinero recaudado en las apuestas será utilizado para
-              apoyar económicamente a equipos, jugadores, streamers, ligas u
-              organizaciones de eSports elegidas por el voto de la comunidad.
-              ¡Tu decides!
+              apoyar económicamente a equipos, jugadores o ligas de eSports
+              ¡Tu decides con tu voto!
             </p>
           </div>
         </FeaturesItems>
