@@ -7,11 +7,11 @@ import DrgButton from './Buttons'
 
 const MailFormWrapper = styled.div`
   &&& {
-    font-family: Raleway;
+    font-family: Montserrat, Raleway;
     input,
     h3,
     h4 {
-      font-family: Raleway;
+      font-family: Montserrat, Raleway;
     }
   }
 `
@@ -44,6 +44,7 @@ const TextArea = styled(Form.TextArea)`
     > textarea {
       background-color: #131e3a;
       color: white;
+      max-height: 300px;
     }
   }
 `
@@ -68,21 +69,21 @@ class MailForm extends React.Component {
     return (
       <MailFormWrapper>
         <Typography h={3} weight="bold" size="jumbo">
-          Contáctanos
+          Contacto
         </Typography>
         <XForm onSubmit={this.handleSubmit}>
           <div>
             <XDrgInput
               name="firstName"
               label="Nombre"
-              placeholder="Emilio"
+              placeholder="tu nombre"
               onChange={this.handleInputChange}
               required
             />
             <DrgInput
               name="email"
               label="Email"
-              placeholder="ejemplo@mail.com"
+              placeholder="tu email"
               onChange={this.handleInputChange}
               required
             />
@@ -92,12 +93,12 @@ class MailForm extends React.Component {
             <DrgInput
               name="about"
               label="Asunto"
-              placeholder="Consulta"
+              placeholder="ingresa un asunto"
               onChange={this.handleInputChange}
               required
             />
             <br />
-            <TextArea label="Cuerpo" placeholder="Cuéntanos más..." rows="6" />
+            <TextArea label="Texto" placeholder="" rows="6" />
           </div>
           <Divider />
           <div>

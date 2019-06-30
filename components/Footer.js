@@ -34,7 +34,7 @@ const CopyrightWrapper = styled.div`
     margin: 0 0 0 5px;
   }
   @media (min-width: 500px) {
-    width: 200px;
+    width: 300px;
     text-align: left;
     order: 1;
   }
@@ -77,7 +77,7 @@ function Footer(props) {
       <ImgWrapper>
         <img
           src="/static/v01-white.svg"
-          alt="Dragoons logo"
+          alt="Dragoons-logo"
           width={50}
           height={50}
         />

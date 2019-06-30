@@ -63,7 +63,7 @@ export default class FullScreenModal extends Component {
       <ModalWrapper
         trigger={
           <DrgButton onClick={this.handleOpen} small="true" arrow="true">
-            Regístrate
+            Unite
           </DrgButton>
         }
         open={this.state.modalOpen}

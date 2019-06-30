@@ -394,7 +394,7 @@ export default class Index extends React.Component {
           <Player
             sources={[
               {
-                src: 'https://www.youtube.com/watch?v=jSJr3dXZfcg',
+                src: 'https://youtu.be/bs2QZCbUkzQ',
                 type: 'video/youtube',
               },
             ]}
@@ -490,11 +490,11 @@ export default class Index extends React.Component {
         <RoadLine />
       </Timeline>
     )
-    // const faqSection = (
-    //   <FAQ id="faq">
-    //     <AccordionFAQ />
-    //   </FAQ>
-    // )
+    const faqSection = (
+      <FAQ id="faq">
+        <AccordionFAQ />
+      </FAQ>
+    )
     const sendMailSection = (
       <Contact id="contact">
         <MailForm />
@@ -511,7 +511,7 @@ export default class Index extends React.Component {
           {videoSection}
           {featuresSection}
           {timelineSection}
-          {/* {faqSection} */}
+          {faqSection}
           {sendMailSection}
           <Navigation
             section={this.state.currentSection}

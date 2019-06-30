@@ -18,7 +18,7 @@ const LayoutWrapper = styled.div`
     line-height: 16px;
   }
   * {
-    font-family: Raleway;
+    font-family: Montserrat, Raleway;
   }
 `
 

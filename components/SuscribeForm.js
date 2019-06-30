@@ -15,11 +15,11 @@ const SuscribeFormWrapper = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 0 20px;
-    font-family: Raleway;
+    font-family: Montserrat, Raleway;
     input,
     h3,
     h4 {
-      font-family: Raleway;
+      font-family: Montserrat, Raleway;
     }
   }
 `
@@ -213,11 +213,11 @@ export default class SuscribeForm extends React.Component {
     return (
       <SuscribeFormWrapper>
         <Typography h={3} weight="bold" size="jumbo">
-          Suscríbete a Dragoons
+          Únete al grupo
         </Typography>
         <Divider />
         <Typography h={4} weight="thin" size="title">
-          Ingresa con redes sociales
+          Ingresa con tus redes sociales
         </Typography>
         <SocialButtons>
           <ZForm action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/steam/login/?process=login">
@@ -239,13 +239,13 @@ export default class SuscribeForm extends React.Component {
           </ZForm>
         </SocialButtons>
         <Typography h={4} weight="thin" size="title">
-          Ingresa con tus datos personales
+          ó crea una cuenta
         </Typography>
         <XForm onSubmit={this.handleSubmit}>
           <DrgInput
             name="firstName"
             label="Nombre"
-            placeholder="Emilio"
+            placeholder="tu nombre"
             onChange={this.handleInputChange}
             required
           />
@@ -253,7 +253,7 @@ export default class SuscribeForm extends React.Component {
           <DrgInput
             name="lastName"
             label="Apellido"
-            placeholder="Gorzy"
+            placeholder="tu apellido"
             onChange={this.handleInputChange}
             required
           />
@@ -261,7 +261,7 @@ export default class SuscribeForm extends React.Component {
           <DrgInput
             name="email"
             label="Email"
-            placeholder="egorzy@dragoons.gg"
+            placeholder="tu email"
             onChange={this.handleInputChange}
             required
           />
@@ -269,7 +269,7 @@ export default class SuscribeForm extends React.Component {
           <Divider />
           <div style={{ flexDirection: 'column', alignItems: 'center' }}>
             <Typography h={4} weight="thin" size="title">
-              Ingresa tu fecha de nacimiento
+              Fecha de nacimiento
             </Typography>
             <div style={{ display: 'flex' }}>
               <DrgDropdown
@@ -297,12 +297,12 @@ export default class SuscribeForm extends React.Component {
           <XCheckbox
             name="termsAccepted"
             onChange={this.handleInputChange}
-            label="Acepto términos y condiciones"
+            label="Acepto los términos y condiciones."
           />
           <XCheckbox
             name="suscribeAccepted"
             onChange={this.handleInputChange}
-            label="Deseo recibir noticias y novedades sobre Dragoons"
+            label="Deseo recibir noticias y novedades."
           />
           <div>
             <Message
@@ -321,7 +321,7 @@ export default class SuscribeForm extends React.Component {
             />
           </div>
           <DrgButton type="submit" large="true">
-            Regístrate
+            Crear
           </DrgButton>
         </XForm>
       </SuscribeFormWrapper>

@@ -18,7 +18,7 @@ const NavbarWrapper = styled.header`
   height: 64px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	button {
-		font-family: Raleway;
+		font-family: Montserrat, Raleway;
 	}
 	> div {
 		display: flex;

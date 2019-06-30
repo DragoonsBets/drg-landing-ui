@@ -21,26 +21,27 @@ function SocialNetworks() {
   return (
     <SocialNetworksWrapper>
       <SocialLink
-        href="/instagram.com/dragoons"
+        href="https://www.instagram.com/dragoonsbets/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <XFontAwesomeIcon icon={['fab', 'instagram']} fixedWidth size="2x" />
       </SocialLink>
-      <Link route="https://www.instagram.com/dragoonsbets/">
-        <SocialLink>
-          <XFontAwesomeIcon icon={['fab', 'twitter']} fixedWidth size="2x" />
-        </SocialLink>
-      </Link>
       <SocialLink
-        href="/discord.gg/vbeeKZd"
+          href="https://twitter.com/DragoonsBets"
+          target="_blank"
+          rel="noopener noreferrer">
+        <XFontAwesomeIcon icon={['fab', 'twitter']} fixedWidth size="2x" />
+      </SocialLink>
+      <SocialLink
+        href="https://discord.gg/vbeeKZd"
         target="_blank"
         rel="noopener noreferrer"
       >
         <XFontAwesomeIcon icon={['fab', 'discord']} fixedWidth size="2x" />
       </SocialLink>
       <SocialLink
-        href="/discord.gg/vbeeKZd"
+        href="https://www.facebook.com/dragoonsbets/"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -6,8 +6,8 @@ const Arrow = styled.div`
   right: calc(3vw - 10px);
   bottom: 100px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   z-index: 9999999999;
   margin: 0 0 15px 0;
   cursor: pointer;

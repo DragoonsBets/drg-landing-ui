@@ -17,9 +17,9 @@ const Dots = styled.div`
   position: relative;
   background-color: ${props => (props.selected ? 'white' : 'grey')};
   border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  transform: ${props => (props.selected ? 'scale(1.5)' : 'scale(1)')};
+  width: 13px;
+  height: 13px;
+  transform: ${props => (props.selected ? 'scale(1.3)' : 'scale(1)')};
   margin: 0 0 15px 0;
   cursor: pointer;
 `

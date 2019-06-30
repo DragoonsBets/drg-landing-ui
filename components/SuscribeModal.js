@@ -20,7 +20,7 @@ export default class SuscribeModal extends Component {
 			<DrgModal
 				trigger={
 					<DrgButton onClick={this.handleOpen} large='true' arrow='true' on>
-						Regístrate
+						Unete al grupo
 					</DrgButton>
 				}
 				open={this.state.modalOpen}
@@ -30,7 +30,7 @@ export default class SuscribeModal extends Component {
 				size='small'>
 				<Modal.Header>
 					<Typography h={4} weight='bold' size='title'>
-						¡Registrate para recibir noticias y reserva tu lugar!
+						¡Unite al grupo para recibir las últimas novedades!
 					</Typography>
 				</Modal.Header>
 				<Modal.Content>
