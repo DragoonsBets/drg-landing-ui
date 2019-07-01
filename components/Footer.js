@@ -51,8 +51,7 @@ const ImgWrapper = styled.div`
 
 const XFontAwesomeIcon = styled(FontAwesomeIcon)`
   color: white;
-  margin: 0 3px 0 0;
-  transform: translateY(1px);
+  margin: 0 5px 0 0;
 `
 
 const SocialNetworksWrapper = styled.div`

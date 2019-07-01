@@ -684,7 +684,7 @@ var ImgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.wi
 var XFontAwesomeIcon = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"]).withConfig({
   displayName: "Footer__XFontAwesomeIcon",
   componentId: "sc-1xm0izr-3"
-})(["&&{color:white;margin:0 3px 0 0;transform:translateY(1px);}"]);
+})(["&&{color:white;margin:0 5px 0 0;}"]);
 var SocialNetworksWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Footer__SocialNetworksWrapper",
   componentId: "sc-1xm0izr-4"
@@ -694,13 +694,13 @@ function Footer(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CopyrightWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(XFontAwesomeIcon, {
@@ -709,13 +709,13 @@ function Footer(props) {
     size: "1x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 73
     },
     __self: this
   }), "2019 - Todos los derechos reservados"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -725,19 +725,19 @@ function Footer(props) {
     height: 50,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 77
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SocialNetworksWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 85
     },
     __self: this
   })));
@@ -2416,7 +2416,7 @@ function (_React$Component) {
           lineNumber: 215
         },
         __self: this
-      }, "\xDAnete al grupo"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
+      }, "Unite al grupo"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 218
@@ -4672,8 +4672,8 @@ function (_React$Component) {
           type: 'video/youtube'
         }],
         techOrder: ['youtube'],
-        controls: true,
-        poster: "../static/v01-color.svg",
+        controls: true //poster="../static/v01-color.svg"
+        ,
         ref: this.child,
         __source: {
           fileName: _jsxFileName,

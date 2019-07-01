@@ -213,7 +213,7 @@ export default class SuscribeForm extends React.Component {
     return (
       <SuscribeFormWrapper>
         <Typography h={3} weight="bold" size="jumbo">
-          Únete al grupo
+          Unite al grupo
         </Typography>
         <Divider />
         <Typography h={4} weight="thin" size="title">
