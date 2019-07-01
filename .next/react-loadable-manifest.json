@@ -327,7 +327,7 @@
       "publicPath": "static/chunks/commons.bd2173bffe096d085a38.js"
     }
   ],
-  "./isString": [
+  "lodash/isString": [
     {
       "id": "4qC0",
       "name": "./node_modules/lodash/isString.js",
@@ -439,7 +439,7 @@
       "publicPath": "static/chunks/commons.bd2173bffe096d085a38.js"
     }
   ],
-  "./keys": [
+  "lodash/keys": [
     {
       "id": "7GkX",
       "name": "./node_modules/lodash/keys.js",
@@ -463,7 +463,7 @@
       "publicPath": "static/chunks/commons.bd2173bffe096d085a38.js"
     }
   ],
-  "../uniq": [
+  "lodash/uniq": [
     {
       "id": "7tbW",
       "name": "./node_modules/lodash/uniq.js",
@@ -1311,7 +1311,7 @@
       "publicPath": "static/chunks/commons.bd2173bffe096d085a38.js"
     }
   ],
-  "./Label": [
+  "../Label/Label": [
     {
       "id": "MqQV",
       "name": "./node_modules/semantic-ui-react/dist/es/elements/Label/Label.js",
@@ -1971,7 +1971,7 @@
       "publicPath": "static/chunks/commons.bd2173bffe096d085a38.js"
     }
   ],
-  "../../modules/_core": [
+  "../modules/_core": [
     {
       "id": "WEpk",
       "name": "./node_modules/core-js/library/modules/_core.js",
@@ -2131,7 +2131,7 @@
       "publicPath": "static/chunks/commons.bd2173bffe096d085a38.js"
     }
   ],
-  "../isPlainObject": [
+  "lodash/isPlainObject": [
     {
       "id": "YO3V",
       "name": "./node_modules/lodash/isPlainObject.js",
@@ -2347,7 +2347,7 @@
       "publicPath": "static/chunks/commons.bd2173bffe096d085a38.js"
     }
   ],
-  "lodash/forEach": [
+  "./forEach": [
     {
       "id": "bNQv",
       "name": "./node_modules/lodash/forEach.js",

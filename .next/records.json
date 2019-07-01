@@ -39,18 +39,23 @@
       "static\\e5OfEU154ziNin8kRfIf0\\pages\\_error.js": 4,
       "static\\e5OfEU154ziNin8kRfIf0\\pages\\index.js": 5,
       "static\\e5OfEU154ziNin8kRfIf0\\pages\\temp.js": 6,
-      "static\\e5OfEU154ziNin8kRfIf0\\pages\\terminos.js": 7
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\terminos.js": 7,
+      "static\\vAS0gLzqhK_8F2V~kk9xW\\pages\\_app.js": 8,
+      "static\\vAS0gLzqhK_8F2V~kk9xW\\pages\\_error.js": 9,
+      "static\\vAS0gLzqhK_8F2V~kk9xW\\pages\\index.js": 10,
+      "static\\vAS0gLzqhK_8F2V~kk9xW\\pages\\temp.js": 11,
+      "static\\vAS0gLzqhK_8F2V~kk9xW\\pages\\terminos.js": 12
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
+      10,
+      11,
+      12,
       2,
-      3,
-      4,
-      5,
-      6,
-      7
+      8,
+      9
     ]
   }
 }
