@@ -1,0 +1,56 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/video.js/dist/video-js.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "multi node_modules/next/dist/client/next": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/video.js/dist/video-js.css 0": 1,
+      "ignored node_modules/global min-document": 2,
+      "ignored node_modules/htmlparser2/lib readable-stream": 3
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/runtime/main.js": 2,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\_app.js": 3,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\_error.js": 4,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\index.js": 5,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\temp.js": 6,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\terminos.js": 7
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

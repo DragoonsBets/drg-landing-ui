@@ -1,0 +1,39 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/_app.js": 0,
+      "multi private-next-pages/_document.js": 1,
+      "multi private-next-pages/index.js": 2,
+      "multi private-next-pages/temp.js": 3,
+      "multi private-next-pages/terminos.js": 4,
+      "multi next/dist/pages/_error": 5
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\_app.js": 0,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\_document.js": 1,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\_error.js": 2,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\index.js": 3,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\temp.js": 4,
+      "static\\e5OfEU154ziNin8kRfIf0\\pages\\terminos.js": 5
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}
