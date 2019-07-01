@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\AccordionFAQ.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/AccordionFAQ.js";
 
 
 
@@ -297,7 +297,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Buttons.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Buttons.js";
 
 
 
@@ -404,7 +404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgDropdown.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgDropdown.js";
 
 
 
@@ -450,7 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgInputs.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgInputs.js";
 
 
 
@@ -664,7 +664,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SocialNetworks */ "./components/SocialNetworks.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Footer.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Footer.js";
 
 
 
@@ -688,7 +688,7 @@ var XFontAwesomeIcon = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(
 var SocialNetworksWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Footer__SocialNetworksWrapper",
   componentId: "sc-1xm0izr-4"
-})(["&&{display:flex;justify-content:center;order:2;margin:20px 0;}@media (min-width:500px){&&{width:200px;order:3;justify-content:flex-end}}"]);
+})(["&&{display:flex;justify-content:center;order:2;margin:20px 0;}@media (min-width:500px){&&{width:300px;order:3;justify-content:flex-end}}"]);
 
 function Footer(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterWrapper, {
@@ -778,7 +778,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\FullScreenModal.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/FullScreenModal.js";
 
 
 
@@ -917,7 +917,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Layout.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Layout.js";
 
 
 
@@ -1145,7 +1145,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\MailForm.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/MailForm.js";
 
 
 
@@ -1358,7 +1358,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _FullScreenModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FullScreenModal */ "./components/FullScreenModal.js");
 /* harmony import */ var _SuscribeForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SuscribeForm */ "./components/SuscribeForm.js");
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navbar.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navbar.js";
 
 
 
@@ -1478,7 +1478,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navigation.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navigation.js";
 
 
 var NavigationWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
@@ -1632,7 +1632,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Page.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Page.js";
 
 
 
@@ -1685,7 +1685,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Player.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Player.js";
 
 
 
@@ -1789,7 +1789,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\RoadLine.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/RoadLine.js";
 
 
 var RoadLineWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2030,7 +2030,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SocialNetworks.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SocialNetworks.js";
 
 
 
@@ -2174,7 +2174,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SuscribeForm.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SuscribeForm.js";
 
 
 
@@ -2711,7 +2711,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Typography.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Typography.js";
  // make it stateless but declare a constant (H) before returning
 
 var Typography =
@@ -2766,7 +2766,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\UpArrowNavigation.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/UpArrowNavigation.js";
 
 
 var Arrow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -4465,7 +4465,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\pages\\index.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js";
 
 
 
@@ -4966,7 +4966,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\pablo\OneDrive\Documentos\GitHub\drg-landing-ui\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
