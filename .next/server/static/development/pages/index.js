@@ -4672,8 +4672,8 @@ function (_React$Component) {
           type: 'video/youtube'
         }],
         techOrder: ['youtube'],
-        controls: true //poster="../static/v01-color.svg"
-        ,
+        controls: true,
+        poster: "../static/v01-color.svg",
         ref: this.child,
         __source: {
           fileName: _jsxFileName,

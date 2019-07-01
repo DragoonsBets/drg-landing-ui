@@ -399,7 +399,7 @@ export default class Index extends React.Component {
             ]}
             techOrder={['youtube']}
             controls={true}
-            //poster="../static/v01-color.svg"
+            poster="../static/v01-color.svg"
             ref={this.child}
           />
         ) : (
