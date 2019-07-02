@@ -122,22 +122,37 @@ export default class SuscribeForm extends React.Component {
     this.setState({ birthday })
   }
 
+  // resetState() {
+  //   this.setState({
+  //     firstName: '',
+  //     lastName: '',
+  //     email: '',
+  //     termsAccepted: false,
+  //     suscribeAccepted: false,
+  //     birthday: {
+  //       day: 1,
+  //       month: 1,
+  //       year: 1970,
+  //     },
+  //     error: false,
+  //     message: '',
+  //     success: false,
+  //     loading: true,
+  //   })
+  // } 
+
   handleSubmit = event => {
     event.preventDefault()
     const form = event.target
-    this.state.loading = true
+    this.setState({loading: true})
 
     if (!form.checkValidity()) {
-      this.state.error = true
-      this.state.message = 'Ocurrió un error enviando el formulario'
-      this.state.loading = false
+      this.setState({success: false, error: true, message: 'Ocurrió un error enviando el formulario. Revisa los campos', loading: false});
       return
     }
 
     if (!this.state.termsAccepted) {
-      this.state.error = true
-      this.state.message = 'Debes aceptar los términos y condiciones'
-      this.state.loading = false
+      this.setState({success: false, error: true, message: 'Debes aceptar los términos y condiciones', loading: false});
       return
     }
 
@@ -166,14 +181,10 @@ export default class SuscribeForm extends React.Component {
         },
       )
       .then(res => {
-        this.state.success = true
-        this.state.message = 'Gracias por registrarte'
-        this.state.loading = false
+        this.setState({success: true, error: false, message: 'Bienvenido a Dragoons. Gracias por registrarte', loading: false});
       })
       .catch(error => {
-        this.state.error = true
-        this.state.message = 'Ocurrió un error registrandote'
-        this.state.loading = false
+        this.setState({success: false, error: true, message: 'Ocurrió un error registrandote. Revisa los campos.', loading: false});
       })
   }
 
@@ -242,21 +253,24 @@ export default class SuscribeForm extends React.Component {
           ó crea una cuenta
         </Typography>
         <XForm onSubmit={this.handleSubmit}>
-          <DrgInput
-            name="firstName"
-            label="Nombre"
-            placeholder="tu nombre"
-            onChange={this.handleInputChange}
-            required
-          />
-          <br />
-          <DrgInput
+          <Form.Group inline>
+            <DrgInput
+              fluid
+              name="firstName"
+              label="Nombre"
+              placeholder="tu nombre"
+              onChange={this.handleInputChange}
+              required
+            />
+            <DrgInput
+            fluid
             name="lastName"
             label="Apellido"
             placeholder="tu apellido"
             onChange={this.handleInputChange}
             required
           />
+          </Form.Group>
           <br />
           <DrgInput
             name="email"
@@ -305,20 +319,20 @@ export default class SuscribeForm extends React.Component {
             label="Deseo recibir noticias y novedades."
           />
           <div>
-            <Message
-              hidden={!this.state.success}
-              visible={this.state.success}
+            {
+              this.state.success && <Message
+              positive
               header="Registro exitoso"
-              success={this.state.success}
               content={this.state.message}
             />
-            <Message
-              visible={this.state.error}
-              hidden={!this.state.error}
-              header="Ocurrió un error"
-              error={this.state.error}
+            }
+            {
+              this.state.error && <Message
+              positive={false}
+              header="Error"
               content={this.state.message}
             />
+            }
           </div>
           <DrgButton type="submit" large="true">
             Crear

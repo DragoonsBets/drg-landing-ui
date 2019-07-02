@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/AccordionFAQ.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/AccordionFAQ.js";
 
 
 
@@ -297,7 +297,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Buttons.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Buttons.js";
 
 
 
@@ -404,7 +404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgDropdown.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgDropdown.js";
 
 
 
@@ -450,7 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgInputs.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgInputs.js";
 
 
 
@@ -664,7 +664,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SocialNetworks */ "./components/SocialNetworks.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Footer.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Footer.js";
 
 
 
@@ -778,7 +778,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/FullScreenModal.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/FullScreenModal.js";
 
 
 
@@ -917,7 +917,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Layout.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Layout.js";
 
 
 
@@ -1126,45 +1126,56 @@ function (_React$Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
-/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _Typography__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Typography */ "./components/Typography.js");
-/* harmony import */ var _DrgInputs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./DrgInputs */ "./components/DrgInputs.js");
-/* harmony import */ var _Buttons__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Buttons */ "./components/Buttons.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _Typography__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Typography */ "./components/Typography.js");
+/* harmony import */ var _DrgInputs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./DrgInputs */ "./components/DrgInputs.js");
+/* harmony import */ var _Buttons__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Buttons */ "./components/Buttons.js");
+/* harmony import */ var _networking_endpoints__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../networking/endpoints */ "./networking/endpoints.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_15__);
 
 
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/MailForm.js";
+
+
+
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/MailForm.js";
 
 
 
 
 
 
-var MailFormWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
+
+
+var MailFormWrapper = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div.withConfig({
   displayName: "MailForm__MailFormWrapper",
   componentId: "sc-17p1637-0"
 })(["&&&&&&{font-family:Montserrat,Raleway;}&&&&&& input,&&&&&& h3,&&&&&& h4{font-family:Montserrat,Raleway;}"]);
-var XForm = styled_components__WEBPACK_IMPORTED_MODULE_6___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Form"]).withConfig({
+var XForm = styled_components__WEBPACK_IMPORTED_MODULE_9___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Form"]).withConfig({
   displayName: "MailForm__XForm",
   componentId: "sc-17p1637-1"
 })(["&&&&&&{text-align:left;}&&&&&& > div:nth-child(1){display:flex;}&&&&&& > div:nth-child(2){display:block;}"]);
-var XDrgInput = styled_components__WEBPACK_IMPORTED_MODULE_6___default()(_DrgInputs__WEBPACK_IMPORTED_MODULE_9__["default"]).withConfig({
+var XDrgInput = styled_components__WEBPACK_IMPORTED_MODULE_9___default()(_DrgInputs__WEBPACK_IMPORTED_MODULE_12__["default"]).withConfig({
   displayName: "MailForm__XDrgInput",
   componentId: "sc-17p1637-2"
 })(["&&&&&&{margin:0 5px 0 0;}"]);
-var TextArea = styled_components__WEBPACK_IMPORTED_MODULE_6___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Form"].TextArea).withConfig({
+var TextArea = styled_components__WEBPACK_IMPORTED_MODULE_9___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Form"].TextArea).withConfig({
   displayName: "MailForm__TextArea",
   componentId: "sc-17p1637-3"
 })(["&&&&&& > label{color:white;font-weight:200;font-size:12px;}&&&&&& > textarea{background-color:#131e3a;color:white;max-height:300px;}"]);
@@ -1172,59 +1183,121 @@ var TextArea = styled_components__WEBPACK_IMPORTED_MODULE_6___default()(semantic
 var MailForm =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(MailForm, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(MailForm, _React$Component);
 
   function MailForm() {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, MailForm);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, MailForm);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(MailForm).call(this));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(MailForm).call(this));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "handleSubmit", function (event) {
+      event.preventDefault();
+      var form = event.target;
+      _this.state.loading = true;
+
+      if (!form.checkValidity()) {
+        _this.state.error = true;
+        _this.state.message = 'Hay errores en el formulario. Revisa que el campo email sea un campo válido';
+        _this.state.loading = false;
+        return;
+      }
+
+      var body = {
+        first_name: _this.state['firstName'],
+        email_from: _this.state['email'],
+        subject: _this.state['subject'],
+        body: _this.state['body']
+      };
+      axios__WEBPACK_IMPORTED_MODULE_15___default.a.post(_networking_endpoints__WEBPACK_IMPORTED_MODULE_14__["CONTACT_FORM"], Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, body), {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      }).then(function (res) {
+        _this.setState({
+          success: true,
+          error: false,
+          message: 'Gracias por contactarnos. Te contactaremos lo antes posible.',
+          loading: false
+        });
+      }).catch(function (error) {
+        _this.setState({
+          success: false,
+          error: true,
+          message: 'Ocurrió un error registrandote. Revisa los campos.',
+          loading: false
+        });
+      });
+    });
+
     _this.state = {
       firstName: '',
-      lastName: '',
       email: '',
-      error: false,
+      subject: '',
+      body: '',
       message: '',
-      success: false // this.handleInputChange = this.handleInputChange.bind(this)
-      // this.handleSubmit = this.handleSubmit.bind(this)
-
+      success: false,
+      error: false
     };
+    _this.handleInputChange = _this.handleInputChange.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this));
+    _this.handleSubmit = _this.handleSubmit.bind(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this)); // this.resetState = this.resetState.bind(this)
+
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(MailForm, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(MailForm, [{
+    key: "handleInputChange",
+    value: function handleInputChange(event, data) {
+      var target = event.target;
+      var value = data && data.type === 'checkbox' ? data.checked : target.value;
+      var name = data && data.type === 'checkbox' ? data.name : target.name;
+      this.setState(Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])({}, name, value));
+    } // resetState() {
+    //   this.setState({
+    //     firstName: '',
+    //     email: '',
+    //     subject: '',
+    //     body: '',
+    //     message: '',
+    //     success: false,
+    //     error: false
+    //   })
+    // } 
+
+  }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(MailFormWrapper, {
+      console.log("State: ", this.state);
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MailFormWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 136
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_11__["default"], {
         h: 3,
         weight: "bold",
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 137
         },
         __self: this
-      }, "Contacto"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(XForm, {
+      }, "Contacto"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XForm, {
         onSubmit: this.handleSubmit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 140
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 141
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(XDrgInput, {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XDrgInput, {
         name: "firstName",
         label: "Nombre",
         placeholder: "tu nombre",
@@ -1232,10 +1305,10 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 142
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_12__["default"], {
         name: "email",
         label: "Email",
         placeholder: "tu email",
@@ -1243,91 +1316,92 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 149
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Divider"], {
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 157
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 158
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        name: "about",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        name: "subject",
         label: "Asunto",
         placeholder: "ingresa un asunto",
         onChange: this.handleInputChange,
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 159
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 166
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(TextArea, {
-        label: "Texto",
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(TextArea, {
+        name: "body",
+        label: "Mensaje",
         placeholder: "",
         rows: "6",
+        onChange: this.handleInputChange,
+        required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 167
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Divider"], {
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 169
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 170
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Message"], {
-        hidden: !this.state.success,
-        visible: this.state.success,
-        header: "Registro exitoso",
-        content: this.state.successMessage,
+      }, this.state.success && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Message"], {
+        positive: true,
+        header: "Contacto exitoso",
+        content: this.state.message,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 172
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_7__["Message"], {
-        visible: this.state.error,
-        hidden: !this.state.error,
-        header: "Ocurri\xF3 un error",
-        content: this.state.errorMessage,
+      }), this.state.error && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_10__["Message"], {
+        positive: false,
+        header: "Error",
+        content: this.state.message,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 179
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 186
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_13__["default"], {
         type: "submit",
         small: "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 187
         },
         __self: this
       }, "Enviar"))));
@@ -1335,7 +1409,7 @@ function (_React$Component) {
   }]);
 
   return MailForm;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (MailForm);
 
@@ -1358,7 +1432,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _FullScreenModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FullScreenModal */ "./components/FullScreenModal.js");
 /* harmony import */ var _SuscribeForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SuscribeForm */ "./components/SuscribeForm.js");
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navbar.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navbar.js";
 
 
 
@@ -1478,7 +1552,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navigation.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navigation.js";
 
 
 var NavigationWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
@@ -1632,7 +1706,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Page.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Page.js";
 
 
 
@@ -1685,7 +1759,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Player.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Player.js";
 
 
 
@@ -1789,7 +1863,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/RoadLine.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/RoadLine.js";
 
 
 var RoadLineWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2030,7 +2104,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SocialNetworks.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SocialNetworks.js";
 
 
 
@@ -2174,7 +2248,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SuscribeForm.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SuscribeForm.js";
 
 
 
@@ -2221,19 +2295,30 @@ function (_React$Component) {
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "handleSubmit", function (event) {
       event.preventDefault();
       var form = event.target;
-      _this.state.loading = true;
+
+      _this.setState({
+        loading: true
+      });
 
       if (!form.checkValidity()) {
-        _this.state.error = true;
-        _this.state.message = 'Ocurrió un error enviando el formulario';
-        _this.state.loading = false;
+        _this.setState({
+          success: false,
+          error: true,
+          message: 'Ocurrió un error enviando el formulario. Revisa los campos',
+          loading: false
+        });
+
         return;
       }
 
       if (!_this.state.termsAccepted) {
-        _this.state.error = true;
-        _this.state.message = 'Debes aceptar los términos y condiciones';
-        _this.state.loading = false;
+        _this.setState({
+          success: false,
+          error: true,
+          message: 'Debes aceptar los términos y condiciones',
+          loading: false
+        });
+
         return;
       }
 
@@ -2250,13 +2335,19 @@ function (_React$Component) {
           'Content-Type': 'application/json'
         }
       }).then(function (res) {
-        _this.state.success = true;
-        _this.state.message = 'Gracias por registrarte';
-        _this.state.loading = false;
+        _this.setState({
+          success: true,
+          error: false,
+          message: 'Bienvenido a Dragoons. Gracias por registrarte',
+          loading: false
+        });
       }).catch(function (error) {
-        _this.state.error = true;
-        _this.state.message = 'Ocurrió un error registrandote';
-        _this.state.loading = false;
+        _this.setState({
+          success: false,
+          error: true,
+          message: 'Ocurrió un error registrandote. Revisa los campos.',
+          loading: false
+        });
       });
     });
 
@@ -2324,7 +2415,25 @@ function (_React$Component) {
       this.setState({
         birthday: birthday
       });
-    }
+    } // resetState() {
+    //   this.setState({
+    //     firstName: '',
+    //     lastName: '',
+    //     email: '',
+    //     termsAccepted: false,
+    //     suscribeAccepted: false,
+    //     birthday: {
+    //       day: 1,
+    //       month: 1,
+    //       year: 1970,
+    //     },
+    //     error: false,
+    //     message: '',
+    //     success: false,
+    //     loading: true,
+    //   })
+    // } 
+
   }, {
     key: "render",
     value: function render() {
@@ -2404,7 +2513,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(SuscribeFormWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 214
+          lineNumber: 225
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -2413,13 +2522,13 @@ function (_React$Component) {
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215
+          lineNumber: 226
         },
         __self: this
       }, "Unite al grupo"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 218
+          lineNumber: 229
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -2428,20 +2537,20 @@ function (_React$Component) {
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 219
+          lineNumber: 230
         },
         __self: this
       }, "Ingresa con tus redes sociales"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(SocialButtons, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 222
+          lineNumber: 233
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ZForm, {
         action: "https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/steam/login/?process=login",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 223
+          lineNumber: 234
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -2449,14 +2558,14 @@ function (_React$Component) {
         type: "submit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 224
+          lineNumber: 235
         },
         __self: this
       }, "Steam")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ZForm, {
         action: "https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/google/login/?process=login",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 229
+          lineNumber: 240
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -2464,14 +2573,14 @@ function (_React$Component) {
         type: "submit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230
+          lineNumber: 241
         },
         __self: this
       }, "Google")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ZForm, {
         action: "https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/facebook/login/?process=login",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 246
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -2479,7 +2588,7 @@ function (_React$Component) {
         type: "submit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236
+          lineNumber: 247
         },
         __self: this
       }, "Facebook"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -2488,17 +2597,25 @@ function (_React$Component) {
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 252
         },
         __self: this
       }, "\xF3 crea una cuenta"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XForm, {
         onSubmit: this.handleSubmit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244
+          lineNumber: 255
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Form"].Group, {
+        inline: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 256
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        fluid: true,
         name: "firstName",
         label: "Nombre",
         placeholder: "tu nombre",
@@ -2506,16 +2623,11 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 245
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 252
+          lineNumber: 257
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        fluid: true,
         name: "lastName",
         label: "Apellido",
         placeholder: "tu apellido",
@@ -2523,13 +2635,13 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253
+          lineNumber: 265
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 260
+          lineNumber: 274
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -2540,19 +2652,19 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 261
+          lineNumber: 275
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 268
+          lineNumber: 282
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 269
+          lineNumber: 283
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -2562,7 +2674,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 270
+          lineNumber: 284
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -2571,7 +2683,7 @@ function (_React$Component) {
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 271
+          lineNumber: 285
         },
         __self: this
       }, "Fecha de nacimiento"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -2580,7 +2692,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 274
+          lineNumber: 288
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgDropdown__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -2590,7 +2702,7 @@ function (_React$Component) {
         onChange: this.handleDropdownChange,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 275
+          lineNumber: 289
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgDropdown__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -2600,7 +2712,7 @@ function (_React$Component) {
         onChange: this.handleMonthChange,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 281
+          lineNumber: 295
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgDropdown__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -2610,19 +2722,19 @@ function (_React$Component) {
         onChange: this.handleDropdownChange,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 287
+          lineNumber: 301
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 295
+          lineNumber: 309
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 296
+          lineNumber: 310
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XCheckbox, {
@@ -2631,7 +2743,7 @@ function (_React$Component) {
         label: "Acepto los t\xE9rminos y condiciones.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 297
+          lineNumber: 311
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XCheckbox, {
@@ -2640,35 +2752,31 @@ function (_React$Component) {
         label: "Deseo recibir noticias y novedades.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 302
+          lineNumber: 316
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 307
+          lineNumber: 321
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Message"], {
-        hidden: !this.state.success,
-        visible: this.state.success,
+      }, this.state.success && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Message"], {
+        positive: true,
         header: "Registro exitoso",
-        success: this.state.success,
         content: this.state.message,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 308
+          lineNumber: 323
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Message"], {
-        visible: this.state.error,
-        hidden: !this.state.error,
-        header: "Ocurri\xF3 un error",
-        error: this.state.error,
+      }), this.state.error && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Message"], {
+        positive: false,
+        header: "Error",
         content: this.state.message,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 315
+          lineNumber: 330
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -2676,7 +2784,7 @@ function (_React$Component) {
         large: "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 323
+          lineNumber: 337
         },
         __self: this
       }, "Crear")));
@@ -2711,7 +2819,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Typography.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Typography.js";
  // make it stateless but declare a constant (H) before returning
 
 var Typography =
@@ -2766,7 +2874,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/UpArrowNavigation.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/UpArrowNavigation.js";
 
 
 var Arrow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -2869,7 +2977,7 @@ function to(promise) {
 /*!*********************************!*\
   !*** ./networking/endpoints.js ***!
   \*********************************/
-/*! exports provided: GET_FAQ, GET_FAQ_SLUG, CREATE_USERS, STEAM_SOCIAL_REGISTER, FACEBOOK_SOCIAL_REGISTER, GOOGLE_SOCIAL_REGISTER, TWITCH_SOCIAL_REGISTER */
+/*! exports provided: GET_FAQ, GET_FAQ_SLUG, CREATE_USERS, CONTACT_FORM, STEAM_SOCIAL_REGISTER, FACEBOOK_SOCIAL_REGISTER, GOOGLE_SOCIAL_REGISTER, TWITCH_SOCIAL_REGISTER */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2877,6 +2985,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GET_FAQ", function() { return GET_FAQ; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GET_FAQ_SLUG", function() { return GET_FAQ_SLUG; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CREATE_USERS", function() { return CREATE_USERS; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CONTACT_FORM", function() { return CONTACT_FORM; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "STEAM_SOCIAL_REGISTER", function() { return STEAM_SOCIAL_REGISTER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FACEBOOK_SOCIAL_REGISTER", function() { return FACEBOOK_SOCIAL_REGISTER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GOOGLE_SOCIAL_REGISTER", function() { return GOOGLE_SOCIAL_REGISTER; });
@@ -2885,6 +2994,7 @@ var API_HOST = 'https://drg-bets.jx-staging.viserion.dragoons.gg';
 var GET_FAQ = API_HOST + '/es/faq/v1/pages/?type=bets.faqPage&fields=body';
 var GET_FAQ_SLUG = API_HOST + '/es/faq/v1/pages/?slug=faq';
 var CREATE_USERS = API_HOST + '/rest-auth/registration/';
+var CONTACT_FORM = API_HOST + '/users/contact/';
 var STEAM_SOCIAL_REGISTER = API_HOST + '/accounts/steam/login/?process=login';
 var FACEBOOK_SOCIAL_REGISTER = API_HOST + '/accounts/facebook/login/?process=login';
 var GOOGLE_SOCIAL_REGISTER = API_HOST + '/accounts/google/login/?process=login';
@@ -4465,7 +4575,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js";
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js";
 
 
 
@@ -4959,14 +5069,14 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
