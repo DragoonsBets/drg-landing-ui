@@ -31,10 +31,10 @@ spec:
               name: tls-drg-landing-ui
               key: tls.key      
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-        volumeMounts:
-        # name must match the volume name below
-        - name: secret-volume
-          mountPath: /etc/secret-volume
+        # volumeMounts:
+        # # name must match the volume name below
+        # - name: secret-volume
+        #   mountPath: /etc/secret-volume
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         ports:
         - containerPort: {{ .Values.service.internalPort }}
