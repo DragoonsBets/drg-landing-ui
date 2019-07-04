@@ -56,8 +56,8 @@ spec:
         resources:
 {{ toYaml .Values.resources | indent 12 }}
       # The secret data is exposed to Containers in the Pod through a Volume.
-      volumes:
-        - name: secret-volume
-          secret:
-            secretName: tls-drg-landing-ui
+      # volumes:
+      #   - name: secret-volume
+      #     secret:
+      #       secretName: tls-drg-landing-ui
       terminationGracePeriodSeconds: {{ .Values.terminationGracePeriodSeconds }}
