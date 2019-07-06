@@ -1,5 +1,6 @@
 
-const API_HOST = 'https://drg-bets.jx-staging.viserion.dragoons.gg'
+const API_HOST_STAGING = 'https://drg-bets.jx-staging.viserion.dragoons.gg'
+const API_HOST = 'https://backend.viserion.dragoons.gg'
 
 export const GET_FAQ = API_HOST + '/es/faq/v1/pages/?type=bets.faqPage&fields=body';
 export const GET_FAQ_SLUG = API_HOST + '/es/faq/v1/pages/?slug=faq';
