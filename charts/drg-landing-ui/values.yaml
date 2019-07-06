@@ -17,7 +17,7 @@ service:
     kubernetes.io/tls-acme: "true"
     nginx.ingress.kubernetes.io/cors-allow-credentials: "true"
     nginx.ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, OPTIONS, DELETE"
-    nginx.ingress.kubernetes.io/cors-allow-origin: "dragoons.gg,drg-landing-ui.jx-production.viserion.dragoons.gg,dragoons.io"
+    nginx.ingress.kubernetes.io/cors-allow-origin: "dragoons.gg,dragoons.io,localhost:3000"
     nginx.ingress.kubernetes.io/enable-cors: "true"
   annotationsStaging:
     fabric8.io/expose: "true"
@@ -25,14 +25,14 @@ service:
     kubernetes.io/tls-acme: "true"
     nginx.ingress.kubernetes.io/cors-allow-credentials: "true"
     nginx.ingress.kubernetes.io/cors-allow-methods: "PUT, GET, POST, OPTIONS, DELETE"
-    nginx.ingress.kubernetes.io/cors-allow-origin: "drg-landing-ui.jx-staging.viserion.dragoons.gg,drg-landing-ui.jx-production.viserion.dragoons.gg,localhost,dragoons.io,dragoons.gg"
+    nginx.ingress.kubernetes.io/cors-allow-origin: "drg-landing-ui.jx-staging.viserion.dragoons.gg,localhost:3000,dragoons.io,dragoons.gg"
     nginx.ingress.kubernetes.io/enable-cors: "true"
 resources:
   limits:
     cpu: 200m
     memory: 128Mi
   requests:
-    cpu: 100m
+    cpu: 50m
     memory: 64Mi
 probePath: /
 livenessProbe:
