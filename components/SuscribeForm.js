@@ -231,19 +231,19 @@ export default class SuscribeForm extends React.Component {
           Ingresa con tus redes sociales
         </Typography>
         <SocialButtons>
-          <ZForm action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/steam/login/?process=login">
+          <ZForm action="https://backend.viserion.dragoons.gg/accounts/steam/login/?process=login">
             <DrgButton small="true" type="submit">
               Steam
             </DrgButton>
           </ZForm>
 
-          <ZForm action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/google/login/?process=login">
+          <ZForm action="https://backend.viserion.dragoons.gg/accounts/google/login/?process=login">
             <DrgButton small="true" type="submit">
               Google
             </DrgButton>
           </ZForm>
 
-          <ZForm action="https://drg-bets.jx-staging.viserion.dragoons.gg/accounts/facebook/login/?process=login">
+          <ZForm action="https://backend.viserion.dragoons.gg/accounts/facebook/login/?process=login">
             <DrgButton small="true" type="submit">
               Facebook
             </DrgButton>
