@@ -45,5 +45,5 @@ readinessProbe:
   successThreshold: 1
   timeoutSeconds: 1
 terminationGracePeriodSeconds: 10
-`production`:
+production:
   enabled: false
