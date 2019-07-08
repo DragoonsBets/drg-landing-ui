@@ -2217,7 +2217,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/pages/_document.js";
+var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/_document.js";
 
 
 
