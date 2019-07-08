@@ -41,7 +41,7 @@ const Hero = styled.div`
   /* important declaration to be reviewd */
   min-height: 100vh !important;
   position: static;
-  background-image: url('../static/hero.jpg');
+  background-image: url('../static/hero.webp');
   scroll-snap-align: start;
   @media (min-width: 900px) {
     width: 100%;
@@ -103,7 +103,7 @@ const Features = styled.div`
   scroll-snap-align: start;
   width: 100%;
   position: relative;
-  background-image: url('../static/features-background.jpg');
+  background-image: url('../static/features-background.webp');
   background-size: cover;
   min-height: 100%;
   :before {
@@ -196,7 +196,7 @@ const Timeline = styled.div`
     z-index: 999;
   }
   position: relative;
-  background-image: url('../static/timeline-background-ow.jpg');
+  background-image: url('../static/timeline-background-ow.webp');
   background-size: cover;
   :before {
     content: '';
@@ -219,7 +219,7 @@ const FAQ = styled.div`
   padding: 120px 0;
   scroll-snap-align: start;
   position: relative;
-  background-image: url('../static/faq-background.jpg');
+  background-image: url('../static/faq-background.webp');
   background-size: cover;
   > div:nth-child(1) {
     text-align: center;
@@ -257,7 +257,7 @@ const Contact = styled.div`
   padding: 64px 20px 260px 20px;
   scroll-snap-align: start;
   position: relative;
-  background-image: url('../static/contact-background.jpg');
+  background-image: url('../static/contact-background.webp');
   background-size: cover;
   min-height: 100vh;
   > div:nth-child(1) {

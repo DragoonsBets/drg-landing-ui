@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -21816,7 +21816,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/_app.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\pages\\_app.js";
 
  // import '../styles/globalstyles'
 

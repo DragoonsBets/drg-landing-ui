@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/AccordionFAQ.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\AccordionFAQ.js";
 
 
 
@@ -297,7 +297,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Buttons.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Buttons.js";
 
 
 
@@ -404,7 +404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgDropdown.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgDropdown.js";
 
 
 
@@ -450,7 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgInputs.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgInputs.js";
 
 
 
@@ -664,7 +664,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SocialNetworks */ "./components/SocialNetworks.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Footer.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Footer.js";
 
 
 
@@ -778,7 +778,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/FullScreenModal.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\FullScreenModal.js";
 
 
 
@@ -917,7 +917,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Layout.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Layout.js";
 
 
 
@@ -1154,7 +1154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/MailForm.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\MailForm.js";
 
 
 
@@ -1433,7 +1433,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FullScreenModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FullScreenModal */ "./components/FullScreenModal.js");
 /* harmony import */ var _SuscribeForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SuscribeForm */ "./components/SuscribeForm.js");
 /* harmony import */ var _SocialRegistrationMessage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SocialRegistrationMessage */ "./components/SocialRegistrationMessage.js");
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navbar.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navbar.js";
 
 
 
@@ -1566,7 +1566,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navigation.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navigation.js";
 
 
 var NavigationWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
@@ -1720,7 +1720,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Page.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Page.js";
 
 
 
@@ -1773,7 +1773,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Player.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Player.js";
 
 
 
@@ -1877,7 +1877,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/RoadLine.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\RoadLine.js";
 
 
 var RoadLineWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2118,7 +2118,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SocialNetworks.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SocialNetworks.js";
 
 
 
@@ -2245,7 +2245,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SocialRegistrationMessage.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SocialRegistrationMessage.js";
 
 
 var SocialRegistrationMessageWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2356,7 +2356,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SuscribeForm.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SuscribeForm.js";
 
 
 
@@ -2920,7 +2920,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Typography.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Typography.js";
  // make it stateless but declare a constant (H) before returning
 
 var Typography =
@@ -2976,7 +2976,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/UpArrowNavigation.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\UpArrowNavigation.js";
 
 
 var Arrow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -4678,7 +4678,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js";
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\pages\\index.js";
 
 
 
@@ -4699,7 +4699,7 @@ var LandingWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.di
 var Hero = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Hero",
   componentId: "sc-1wbo52z-1"
-})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.jpg');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
+})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.webp');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
 var HeroLogo = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__HeroLogo",
   componentId: "sc-1wbo52z-2"
@@ -4719,7 +4719,7 @@ var VideoLoading = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.
 var Features = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Features",
   componentId: "sc-1wbo52z-6"
-})(["&&{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 0;scroll-snap-align:start;width:100%;position:relative;background-image:url('../static/features-background.jpg');background-size:cover;min-height:100%;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.7;}@media (min-width:1050px){&&{min-height:100vh}}&& > div{z-index:999;}"]);
+})(["&&{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 0;scroll-snap-align:start;width:100%;position:relative;background-image:url('../static/features-background.webp');background-size:cover;min-height:100%;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.7;}@media (min-width:1050px){&&{min-height:100vh}}&& > div{z-index:999;}"]);
 var FeaturesTitle = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__FeaturesTitle",
   componentId: "sc-1wbo52z-7"
@@ -4739,15 +4739,15 @@ var FeaturesItemsImg = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.
 var Timeline = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Timeline",
   componentId: "sc-1wbo52z-10"
-})(["&&{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:64px 20px;scroll-snap-align:start;min-height:100vh !important;position:relative;background-image:url('../static/timeline-background-ow.jpg');background-size:cover;}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.75;}"]);
+})(["&&{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:64px 20px;scroll-snap-align:start;min-height:100vh !important;position:relative;background-image:url('../static/timeline-background-ow.webp');background-size:cover;}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.75;}"]);
 var FAQ = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__FAQ",
   componentId: "sc-1wbo52z-11"
-})(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.jpg');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1600px){&&{min-height:100vh;padding:300px 500px 0 500px}}"]);
+})(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.webp');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1600px){&&{min-height:100vh;padding:300px 500px 0 500px}}"]);
 var Contact = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Contact",
   componentId: "sc-1wbo52z-12"
-})(["&&{display:flex;align-items:center;flex-direction:column;justify-content:center;width:100%;padding:64px 20px 260px 20px;scroll-snap-align:start;position:relative;background-image:url('../static/contact-background.jpg');background-size:cover;min-height:100vh;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:1050px){&&{padding:64px 10px 200px 10px;height:100vh;padding:64px 0}}"]);
+})(["&&{display:flex;align-items:center;flex-direction:column;justify-content:center;width:100%;padding:64px 20px 260px 20px;scroll-snap-align:start;position:relative;background-image:url('../static/contact-background.webp');background-size:cover;min-height:100vh;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:1050px){&&{padding:64px 10px 200px 10px;height:100vh;padding:64px 0}}"]);
 
 var Index =
 /*#__PURE__*/
@@ -5179,7 +5179,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! c:\Users\pablo\OneDrive\Documentos\GitHub\drg-landing-ui\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

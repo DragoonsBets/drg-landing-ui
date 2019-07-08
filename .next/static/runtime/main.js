@@ -7182,7 +7182,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/.next");
+      source_map_support_1.rewriteStacktrace(error, "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\.next");
       return error;
     }
   };
@@ -18003,7 +18003,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! c:\Users\pablo\OneDrive\Documentos\GitHub\drg-landing-ui\node_modules\next\dist\client\next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),
