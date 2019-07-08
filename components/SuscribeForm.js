@@ -26,7 +26,10 @@ const SuscribeFormWrapper = styled.div`
 
 const XForm = styled(Form)`
   &&& {
-    width: 500px;
+    width: 300px;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
     > div div:nth-child(1) {
       margin: 0 10px 0 0;
     }
@@ -48,8 +51,11 @@ const SocialButtons = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    width: 500px;
+    width: 300px;
     border-bottom: 1px solid #333333;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
     > form {
       margin: 0 5px;
     }
@@ -67,7 +73,10 @@ const CreateButtonWrapper = styled.div`
 const AgeSelectors = styled.div`
   &&& {
     display: flex;
-    width: 500px;
+    width: 300px;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
     > div {
       flex: 1;
     }
@@ -80,8 +89,11 @@ const CheckboxesWrapper = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 500px;
+    width: 300px;
     margin: 20px 0 10px 0;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
     > div {
       display: inline-flex;
       margin: 10px 0;
