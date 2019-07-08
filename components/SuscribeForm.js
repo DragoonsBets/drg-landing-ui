@@ -162,7 +162,7 @@ export default class SuscribeForm extends React.Component {
       first_name: this.state['firstName'],
       last_name: this.state['lastName'],
       email: this.state['email'],
-      birthday: `${this.state['birthday']['year']}-${this.state['birthday']['month'] - 1}-${this.state['birthday']['day']}`,
+      birthday: `${this.state['birthday']['year']}-${this.state['birthday']['month']}-${this.state['birthday']['day']}`,
       subscribed_to_news: this.state['suscribeAccepted'],
     }
 
