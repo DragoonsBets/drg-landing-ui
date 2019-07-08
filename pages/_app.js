@@ -12,6 +12,7 @@ class MyApp extends App {
       pageProps = await Component.getInitialProps(ctx)
     }
 
+    console.log("Initial props: ", pageProps)
     return { pageProps }
   }
 

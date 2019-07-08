@@ -237,7 +237,7 @@ export default class SuscribeForm extends React.Component {
         this.setState({
           success: true,
           error: false,
-          message: 'Bienvenido a Dragoons. Gracias por registrarte',
+          message: '¡Te registraste correctamente! Te mantendremos al tanto de las novedades via email',
           loading: false,
         })
       })
