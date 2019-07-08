@@ -1448,7 +1448,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/_app.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/pages/_app.js";
 
  // import '../styles/globalstyles'
 
