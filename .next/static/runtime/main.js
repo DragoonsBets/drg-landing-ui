@@ -7931,8 +7931,16 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
       }
     }
 
+<<<<<<< HEAD
     var chainedCheckType = checkType.bind(null, false);
     chainedCheckType.isRequired = checkType.bind(null, true);
+=======
+      source_map_support_1.rewriteStacktrace(error, "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\.next");
+      return error;
+    }
+  };
+}
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
     return chainedCheckType;
   }
@@ -19093,7 +19101,11 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! /Users/hernanalbano/Documents/Proyectos/drg-landing-ui/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+=======
+module.exports = __webpack_require__(/*! c:\Users\pablo\OneDrive\Documentos\GitHub\drg-landing-ui\node_modules\next\dist\client\next-dev */"./node_modules/next/dist/client/next-dev.js");
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 /***/ }),

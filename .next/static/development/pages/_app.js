@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
 /***/ "./components/Buttons.js":
 /*!*******************************!*\
@@ -69470,6 +69470,10 @@ var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages
 
 
 
+<<<<<<< HEAD
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\pages\\_app.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
