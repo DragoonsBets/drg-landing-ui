@@ -55,10 +55,7 @@ function Navbar() {
           </a>
         </Link>
       </div>
-      <FullScreenModal>
-        <SocialRegistrationMessage />
-      </FullScreenModal>
-      <FullScreenModal>
+      <FullScreenModal opened={false}>
         <SuscribeForm />
       </FullScreenModal>
     </NavbarWrapper>

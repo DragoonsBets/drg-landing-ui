@@ -27,6 +27,7 @@ const SocialRegistrationMessageWrapper = styled.div`
 `
 
 class SocialRegistrationMessage extends Component {
+  
   render() {
     return (
       <SocialRegistrationMessageWrapper>

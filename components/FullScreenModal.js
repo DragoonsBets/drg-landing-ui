@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Modal, Icon } from 'semantic-ui-react'
 import DrgButton from './Buttons'
+import Router from 'next/router';
 
 const ModalWrapper = styled(Modal)`
   display: flex;
@@ -53,12 +54,16 @@ const Cross = styled.div`
 `
 
 export default class FullScreenModal extends Component {
-  state = { modalOpen: false }
+  state = { modalOpen: this.props.opened }
 
   handleOpen = () => this.setState({ modalOpen: true })
 
-  handleClose = () => this.setState({ modalOpen: false })
+  handleClose = () => { 
+    this.setState({ modalOpen: false }) 
+    Router.push('/')
+  } 
 
+  
   render() {
     return (
       <ModalWrapper
@@ -71,7 +76,7 @@ export default class FullScreenModal extends Component {
         onClose={this.handleClose}
         dimmer="blurring"
       >
-        <ModalCenter>{this.props.children}</ModalCenter>
+        <ModalCenter>{ this.props.children }</ModalCenter>
         <Cross>
           <Icon name="close" size="big" onClick={this.handleClose} />
         </Cross>

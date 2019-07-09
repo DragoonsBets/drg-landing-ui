@@ -7,7 +7,7 @@ import DrgInput from './DrgInputs'
 import DrgDropdown from './DrgDropdown'
 import Typography from './Typography'
 import { CREATE_USERS } from '../networking/endpoints'
-import { socialLogin } from './SocialLoginHelper'
+import Router from 'next/router';
 
 const SuscribeFormWrapper = styled.div`
   &&& {
@@ -211,8 +211,6 @@ export default class SuscribeForm extends React.Component {
       return
     }
 
-    console.log('user: ', this.state['birthday'])
-
     const user = {
       first_name: this.state['firstName'],
       last_name: this.state['lastName'],
@@ -235,15 +233,21 @@ export default class SuscribeForm extends React.Component {
         this.setState({
           success: true,
           error: false,
-          message: '¡Te registraste correctamente! Te mantendremos al tanto de las novedades via email',
+          message: '¡Bienvenido a Dragoons! Te registraste correctamente.',
           loading: false,
         })
+        Router.push('/?social_login_success=true')
       })
       .catch(error => {
+        console.log("Error: ", error)
+        console.log(error.response)
+        const data = error.response.data
+        let message = data.email && data.email[0].code === 'email_already_registered' ? 'Email ya registrado' : 
+        'Ocurrió un error registrandote. Revisa los campos.'
         this.setState({
           success: false,
           error: true,
-          message: 'Ocurrió un error registrandote. Revisa los campos.',
+          message: message,
           loading: false,
         })
       })
