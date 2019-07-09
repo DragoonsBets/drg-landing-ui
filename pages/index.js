@@ -13,6 +13,7 @@ import Navigation from '../components/Navigation'
 import UpArrowNavigation from '../components/UpArrowNavigation'
 
 const LandingWrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -371,7 +372,9 @@ export default class Index extends React.Component {
             <img src="../static/v02-color.svg" alt="logo" width={300} />
           </HeroLogo>
           <Typography h={3} weight="thin" size="headline">
-            ¡Apostá, votá resultados y ganá! Somos un club de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad.
+            ¡Apostá, votá resultados y ganá! Somos un club de apuestas de
+            eSports para LATAM que te permite ganar dinero mientras apoyas a tu
+            comunidad.
           </Typography>
           <HeroButton>
             <a href="#video">
@@ -471,8 +474,8 @@ export default class Index extends React.Component {
             </Typography>
             <p>
               Parte del dinero recaudado en las apuestas será utilizado para
-              apoyar económicamente a equipos, jugadores o ligas de eSports
-              ¡Tu decides con tu voto!
+              apoyar económicamente a equipos, jugadores o ligas de eSports ¡Tu
+              decides con tu voto!
             </p>
           </div>
         </FeaturesItems>

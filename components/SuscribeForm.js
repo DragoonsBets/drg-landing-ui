@@ -7,7 +7,7 @@ import DrgInput from './DrgInputs'
 import DrgDropdown from './DrgDropdown'
 import Typography from './Typography'
 import { CREATE_USERS } from '../networking/endpoints'
-import { socialLogin } from './SocialLoginHelper'
+import Router from 'next/router';
 
 const SuscribeFormWrapper = styled.div`
   &&& {
@@ -26,15 +26,16 @@ const SuscribeFormWrapper = styled.div`
 
 const XForm = styled(Form)`
   &&& {
+    width: 300px;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
+    > div div:nth-child(1) {
+      margin: 0 10px 0 0;
+    }
     > div {
       display: flex;
     }
-  }
-`
-
-const XCheckbox = styled(Checkbox)`
-  &&& {
-    margin: 30px 0;
   }
 `
 
@@ -50,9 +51,53 @@ const SocialButtons = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    width: 300px;
     border-bottom: 1px solid #333333;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
     > form {
       margin: 0 5px;
+    }
+  }
+`
+
+const CreateButtonWrapper = styled.div`
+  &&& {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+  }
+`
+
+const AgeSelectors = styled.div`
+  &&& {
+    display: flex;
+    width: 300px;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
+    > div {
+      flex: 1;
+    }
+  }
+`
+
+const CheckboxesWrapper = styled.div`
+  &&& {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px 0 10px 0;
+    @media (min-width: 500px) {
+      width: 500px;
+    }
+    > div {
+      display: inline-flex;
+      margin: 10px 0;
+      text-align: center;
     }
   }
 `
@@ -139,24 +184,32 @@ export default class SuscribeForm extends React.Component {
   //     success: false,
   //     loading: true,
   //   })
-  // } 
+  // }
 
   handleSubmit = event => {
     event.preventDefault()
     const form = event.target
-    this.setState({loading: true})
+    this.setState({ loading: true })
 
     if (!form.checkValidity()) {
-      this.setState({success: false, error: true, message: 'Ocurrió un error enviando el formulario. Revisa los campos', loading: false});
+      this.setState({
+        success: false,
+        error: true,
+        message: 'Ocurrió un error enviando el formulario. Revisa los campos',
+        loading: false,
+      })
       return
     }
 
     if (!this.state.termsAccepted) {
-      this.setState({success: false, error: true, message: 'Debes aceptar los términos y condiciones', loading: false});
+      this.setState({
+        success: false,
+        error: true,
+        message: 'Debes aceptar los términos y condiciones',
+        loading: false,
+      })
       return
     }
-
-    console.log('user: ', this.state['birthday'])
 
     const user = {
       first_name: this.state['firstName'],
@@ -177,10 +230,26 @@ export default class SuscribeForm extends React.Component {
         },
       )
       .then(res => {
-        this.setState({success: true, error: false, message: 'Bienvenido a Dragoons. Gracias por registrarte', loading: false});
+        this.setState({
+          success: true,
+          error: false,
+          message: '¡Bienvenido a Dragoons! Te registraste correctamente.',
+          loading: false,
+        })
+        Router.push('/?social_login_success=true')
       })
       .catch(error => {
-        this.setState({success: false, error: true, message: 'Ocurrió un error registrandote. Revisa los campos.', loading: false});
+        console.log("Error: ", error)
+        console.log(error.response)
+        const data = error.response.data
+        let message = data.email && data.email[0].code === 'email_already_registered' ? 'Email ya registrado' : 
+        'Ocurrió un error registrandote. Revisa los campos.'
+        this.setState({
+          success: false,
+          error: true,
+          message: message,
+          loading: false,
+        })
       })
   }
 
@@ -259,13 +328,13 @@ export default class SuscribeForm extends React.Component {
               required
             />
             <DrgInput
-            fluid
-            name="lastName"
-            label="Apellido"
-            placeholder="tu apellido"
-            onChange={this.handleInputChange}
-            required
-          />
+              fluid
+              name="lastName"
+              label="Apellido"
+              placeholder="tu apellido"
+              onChange={this.handleInputChange}
+              required
+            />
           </Form.Group>
           <br />
           <DrgInput
@@ -281,7 +350,7 @@ export default class SuscribeForm extends React.Component {
             <Typography h={4} weight="thin" size="title">
               Fecha de nacimiento
             </Typography>
-            <div style={{ display: 'flex' }}>
+            <AgeSelectors>
               <DrgDropdown
                 tag={'Día'}
                 name="day"
@@ -300,39 +369,50 @@ export default class SuscribeForm extends React.Component {
                 options={years}
                 onChange={this.handleDropdownChange}
               />
-            </div>
+            </AgeSelectors>
           </div>
           <br />
           <Divider />
-          <XCheckbox
-            name="termsAccepted"
-            onChange={this.handleInputChange}
-            label="Acepto los términos y condiciones."
-          />
-          <XCheckbox
-            name="suscribeAccepted"
-            onChange={this.handleInputChange}
-            label="Deseo recibir noticias y novedades."
-          />
-          <div>
-            {
-              this.state.success && <Message
-              positive
-              header="Registro exitoso"
-              content={this.state.message}
+          <CheckboxesWrapper>
+            <Checkbox
+              name="termsAccepted"
+              onChange={this.handleInputChange}
+              label="Acepto los términos y condiciones."
             />
-            }
-            {
-              this.state.error && <Message
-              positive={false}
-              header="Error"
-              content={this.state.message}
+            <Checkbox
+              name="suscribeAccepted"
+              onChange={this.handleInputChange}
+              label="Deseo recibir noticias y novedades."
             />
-            }
+          </CheckboxesWrapper>
+          <div
+            style={{
+              margin: '0 0 20px 0',
+              display: 'flex',
+              width: '100%',
+              justifyContent: 'center',
+            }}
+          >
+            {this.state.success && (
+              <Message
+                positive
+                header="Registro exitoso"
+                content={this.state.message}
+              />
+            )}
+            {this.state.error && (
+              <Message
+                positive={false}
+                header="Error"
+                content={this.state.message}
+              />
+            )}
           </div>
-          <DrgButton type="submit" large="true">
-            Crear
-          </DrgButton>
+          <CreateButtonWrapper>
+            <DrgButton type="submit" large="true">
+              Crear
+            </DrgButton>
+          </CreateButtonWrapper>
         </XForm>
       </SuscribeFormWrapper>
     )

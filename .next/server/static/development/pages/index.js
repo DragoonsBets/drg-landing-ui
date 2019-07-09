@@ -129,7 +129,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/AccordionFAQ.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/AccordionFAQ.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\AccordionFAQ.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -187,7 +191,7 @@ function (_React$Component) {
                 _ref2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, 2);
                 error = _ref2[0];
                 faqs = _ref2[1];
-                console.log("Outside faqs: ", error, faqs);
+                console.log('Outside faqs: ', error, faqs);
 
                 if (error) {
                   this.setState({
@@ -224,13 +228,13 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 78
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 79
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -239,7 +243,7 @@ function (_React$Component) {
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 80
         },
         __self: this
       }, "Preguntas frecuentes")), this.state.faqs.length > 0 ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(DrgAccordion, {
@@ -250,13 +254,13 @@ function (_React$Component) {
         styled: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 85
         },
         __self: this
       }) : react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(DrgAccordionWarning, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 93
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -266,7 +270,7 @@ function (_React$Component) {
         size: "subheader",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 94
         },
         __self: this
       }, "Ocurri\xF3 un error cargando las preguntas frecuentes")));
@@ -297,7 +301,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Buttons.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Buttons.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Buttons.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -404,7 +412,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/DrgDropdown.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgDropdown.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgDropdown.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -450,7 +462,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/DrgInputs.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgInputs.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgInputs.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -664,7 +680,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SocialNetworks */ "./components/SocialNetworks.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Footer.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Footer.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Footer.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -771,6 +791,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _Buttons__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Buttons */ "./components/Buttons.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
@@ -778,7 +800,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/FullScreenModal.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/FullScreenModal.js";
+
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\FullScreenModal.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -786,7 +813,7 @@ var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components
 var ModalWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["Modal"]).withConfig({
   displayName: "FullScreenModal__ModalWrapper",
   componentId: "vin19h-0"
-})(["&&{display:flex;justify-content:center;align-items:flex-start;border-radius:0;height:100vh;width:100vw;top:0;left:0;margin:0;box-shadow:none;background-color:#131929;color:white;overflow-y:scroll;padding:30px 0 0 0;}&& button{font-family:Raleway;margin:0 0 30px;}&& label{color:white;}&& label:hover{color:white;}&& input:focus + label{color:white;}@media (min-width:500px){&&{align-items:center}}"]);
+})(["&&{display:flex;justify-content:center;align-items:flex-start;border-radius:0;height:100vh;width:100vw;top:0;left:0;margin:0;box-shadow:none;background-color:#131929;color:white;overflow-y:scroll;overflow-x:hidden;padding:30px 0 0 0;}&& button{font-family:Raleway;margin:0 0 30px;}&& label{color:white;}&& label:hover{color:white;}&& input:focus + label{color:white;}@media (min-width:500px){&&{align-items:center}}"]);
 var ModalCenter = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "FullScreenModal__ModalCenter",
   componentId: "vin19h-1"
@@ -815,7 +842,7 @@ function (_Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(FullScreenModal)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
-      modalOpen: false
+      modalOpen: _this.props.opened
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleOpen", function () {
@@ -825,9 +852,11 @@ function (_Component) {
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleClose", function () {
-      return _this.setState({
+      _this.setState({
         modalOpen: false
       });
+
+      next_router__WEBPACK_IMPORTED_MODULE_11___default.a.push('/');
     });
 
     return _this;
@@ -843,7 +872,7 @@ function (_Component) {
           arrow: "true",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 65
+            lineNumber: 71
           },
           __self: this
         }, "Unite"),
@@ -852,19 +881,19 @@ function (_Component) {
         dimmer: "blurring",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(ModalCenter, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 79
         },
         __self: this
       }, this.props.children), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Cross, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 80
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["Icon"], {
@@ -873,7 +902,7 @@ function (_Component) {
         onClick: this.handleClose,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 81
         },
         __self: this
       })));
@@ -917,7 +946,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Layout.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Layout.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Layout.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1154,7 +1187,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/MailForm.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/MailForm.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\MailForm.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1432,7 +1469,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _FullScreenModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FullScreenModal */ "./components/FullScreenModal.js");
 /* harmony import */ var _SuscribeForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SuscribeForm */ "./components/SuscribeForm.js");
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Navbar.js";
+/* harmony import */ var _SocialRegistrationMessage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SocialRegistrationMessage */ "./components/SocialRegistrationMessage.js");
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navbar.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navbar.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
+
 
 
 
@@ -1447,26 +1490,26 @@ function Navbar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavbarWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1475,26 +1518,26 @@ function Navbar() {
     width: 150,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1503,19 +1546,20 @@ function Navbar() {
     width: 42,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 54
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_FullScreenModal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    opened: false,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SuscribeForm__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 59
     },
     __self: this
   })));
@@ -1552,7 +1596,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Navigation.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navigation.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navigation.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 var NavigationWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
@@ -1706,7 +1754,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Page.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Page.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Page.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1759,7 +1811,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Player.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Player.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Player.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1863,7 +1919,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/RoadLine.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/RoadLine.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\RoadLine.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 var RoadLineWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -1994,99 +2054,6 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/SocialLoginHelper.js":
-/*!*****************************************!*\
-  !*** ./components/SocialLoginHelper.js ***!
-  \*****************************************/
-/*! exports provided: socialLogin */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "socialLogin", function() { return socialLogin; });
-/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
-/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var _networking_endpoints__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../networking/endpoints */ "./networking/endpoints.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _lib_to__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../lib/to */ "./lib/to.js");
-
-
-
-
-
-var socialLogin =
-/*#__PURE__*/
-function () {
-  var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  /*#__PURE__*/
-  _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(provider) {
-    var response;
-    return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-      while (1) {
-        switch (_context.prev = _context.next) {
-          case 0:
-            console.log('Provider: ', provider);
-            response = undefined;
-            _context.t0 = provider;
-            _context.next = _context.t0 === 'steam' ? 5 : _context.t0 === 'google' ? 10 : _context.t0 === 'facebook' ? 15 : _context.t0 === 'twitch' ? 20 : 25;
-            break;
-
-          case 5:
-            _context.next = 7;
-            return axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(_networking_endpoints__WEBPACK_IMPORTED_MODULE_2__["STEAM_SOCIAL_REGISTER"]);
-
-          case 7:
-            response = _context.sent;
-            console.log('steam', response);
-            return _context.abrupt("break", 26);
-
-          case 10:
-            _context.next = 12;
-            return axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(_networking_endpoints__WEBPACK_IMPORTED_MODULE_2__["GOOGLE_SOCIAL_REGISTER"]);
-
-          case 12:
-            response = _context.sent;
-            console.log('google', response);
-            return _context.abrupt("break", 26);
-
-          case 15:
-            _context.next = 17;
-            return axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(_networking_endpoints__WEBPACK_IMPORTED_MODULE_2__["FACEBOOK_SOCIAL_REGISTER"]);
-
-          case 17:
-            response = _context.sent;
-            console.log('facebook', response);
-            return _context.abrupt("break", 26);
-
-          case 20:
-            _context.next = 22;
-            return axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(_networking_endpoints__WEBPACK_IMPORTED_MODULE_2__["TWITCH_SOCIAL_REGISTER"]);
-
-          case 22:
-            response = _context.sent;
-            console.log('twitch', response);
-            return _context.abrupt("break", 26);
-
-          case 25:
-            console.log('default');
-
-          case 26:
-          case "end":
-            return _context.stop();
-        }
-      }
-    }, _callee);
-  }));
-
-  return function socialLogin(_x) {
-    return _ref.apply(this, arguments);
-  };
-}();
-
-/***/ }),
-
 /***/ "./components/SocialNetworks.js":
 /*!**************************************!*\
   !*** ./components/SocialNetworks.js ***!
@@ -2104,7 +2071,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SocialNetworks.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SocialNetworks.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SocialNetworks.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -2208,6 +2179,104 @@ function SocialNetworks() {
 
 /***/ }),
 
+/***/ "./components/SocialRegistrationMessage.js":
+/*!*************************************************!*\
+  !*** ./components/SocialRegistrationMessage.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SocialRegistrationMessage.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SocialRegistrationMessage.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
+
+
+var SocialRegistrationMessageWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
+  displayName: "SocialRegistrationMessage__SocialRegistrationMessageWrapper",
+  componentId: "ketvbe-0"
+})(["&&&&&&&&&&&&&&&&&&&&&&&&{height:100%;}&&&&&&&&&&&&&&&&&&&&&&&& > div{display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%;height:100%;}&&&&&&&&&&&&&&&&&&&&&&&& > div > b{font-size:33px;}&&&&&&&&&&&&&&&&&&&&&&&& > div > p{font-size:20px;margin:0 0 120px 0;}&&&&&&&&&&&&&&&&&&&&&&&& > div > img{width:100px;margin:0 0 40px 0;}"]);
+
+var SocialRegistrationMessage =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(SocialRegistrationMessage, _Component);
+
+  function SocialRegistrationMessage() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, SocialRegistrationMessage);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(SocialRegistrationMessage).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(SocialRegistrationMessage, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(SocialRegistrationMessageWrapper, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "../static/v01-white.svg",
+        alt: "Dragoons Logo",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, "\xA1Te registraste correctamente!"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, "Te mantendremos al tanto de las novedades via email.")));
+    }
+  }]);
+
+  return SocialRegistrationMessage;
+}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (SocialRegistrationMessage);
+
+/***/ }),
+
 /***/ "./components/SuscribeForm.js":
 /*!************************************!*\
   !*** ./components/SuscribeForm.js ***!
@@ -2239,7 +2308,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _DrgDropdown__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./DrgDropdown */ "./components/DrgDropdown.js");
 /* harmony import */ var _Typography__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Typography */ "./components/Typography.js");
 /* harmony import */ var _networking_endpoints__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../networking/endpoints */ "./networking/endpoints.js");
-/* harmony import */ var _SocialLoginHelper__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./SocialLoginHelper */ "./components/SocialLoginHelper.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_17__);
 
 
 
@@ -2248,7 +2318,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SuscribeForm.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SuscribeForm.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SuscribeForm.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -2266,19 +2340,27 @@ var SuscribeFormWrapper = styled_components__WEBPACK_IMPORTED_MODULE_9___default
 var XForm = styled_components__WEBPACK_IMPORTED_MODULE_9___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Form"]).withConfig({
   displayName: "SuscribeForm__XForm",
   componentId: "sc-1x97y5r-1"
-})(["&&&&&& > div{display:flex;}"]);
-var XCheckbox = styled_components__WEBPACK_IMPORTED_MODULE_9___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Checkbox"]).withConfig({
-  displayName: "SuscribeForm__XCheckbox",
-  componentId: "sc-1x97y5r-2"
-})(["&&&&&&{margin:30px 0;}"]);
+})(["&&&&&&{width:300px;}@media (min-width:500px){&&&&&&{width:500px}}&&&&&& > div div:nth-child(1){margin:0 10px 0 0;}&&&&&& > div{display:flex;}"]);
 var ZForm = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.form.withConfig({
   displayName: "SuscribeForm__ZForm",
-  componentId: "sc-1x97y5r-3"
+  componentId: "sc-1x97y5r-2"
 })(["&&&&&&{height:55px;}"]);
 var SocialButtons = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div.withConfig({
   displayName: "SuscribeForm__SocialButtons",
+  componentId: "sc-1x97y5r-3"
+})(["&&&&&&{display:flex;justify-content:center;flex-wrap:wrap;text-align:center;width:300px;border-bottom:1px solid #333333;}@media (min-width:500px){&&&&&&{width:500px}}&&&&&& > form{margin:0 5px;}"]);
+var CreateButtonWrapper = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div.withConfig({
+  displayName: "SuscribeForm__CreateButtonWrapper",
   componentId: "sc-1x97y5r-4"
-})(["&&&&&&{display:flex;justify-content:center;flex-wrap:wrap;text-align:center;border-bottom:1px solid #333333;}&&&&&& > form{margin:0 5px;}"]);
+})(["&&&&&&{display:flex;justify-content:center;width:500px;}"]);
+var AgeSelectors = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div.withConfig({
+  displayName: "SuscribeForm__AgeSelectors",
+  componentId: "sc-1x97y5r-5"
+})(["&&&&&&{display:flex;width:300px;}@media (min-width:500px){&&&&&&{width:500px}}&&&&&& > div{flex:1;}"]);
+var CheckboxesWrapper = styled_components__WEBPACK_IMPORTED_MODULE_9___default.a.div.withConfig({
+  displayName: "SuscribeForm__CheckboxesWrapper",
+  componentId: "sc-1x97y5r-6"
+})(["&&&&&&{display:inline-flex;justify-content:center;flex-direction:column;align-items:center;width:300px;margin:20px 0 10px 0;}@media (min-width:500px){&&&&&&{width:500px}}&&&&&& > div{display:inline-flex;margin:10px 0;text-align:center;}"]);
 
 var SuscribeForm =
 /*#__PURE__*/
@@ -2322,12 +2404,11 @@ function (_React$Component) {
         return;
       }
 
-      console.log('user: ', _this.state['birthday']);
       var user = {
         first_name: _this.state['firstName'],
         last_name: _this.state['lastName'],
         email: _this.state['email'],
-        birthday: "".concat(_this.state['birthday']['year'], "-").concat(_this.state['birthday']['month'] - 1, "-").concat(_this.state['birthday']['day']),
+        birthday: "".concat(_this.state['birthday']['year'], "-").concat(_this.state['birthday']['month'], "-").concat(_this.state['birthday']['day']),
         subscribed_to_news: _this.state['suscribeAccepted']
       };
       axios__WEBPACK_IMPORTED_MODULE_10___default.a.post(_networking_endpoints__WEBPACK_IMPORTED_MODULE_16__["CREATE_USERS"], Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, user), {
@@ -2338,14 +2419,21 @@ function (_React$Component) {
         _this.setState({
           success: true,
           error: false,
-          message: 'Bienvenido a Dragoons. Gracias por registrarte',
+          message: '¡Bienvenido a Dragoons! Te registraste correctamente.',
           loading: false
         });
+
+        next_router__WEBPACK_IMPORTED_MODULE_17___default.a.push('/?social_login_success=true');
       }).catch(function (error) {
+        console.log("Error: ", error);
+        console.log(error.response);
+        var data = error.response.data;
+        var message = data.email && data.email[0].code === 'email_already_registered' ? 'Email ya registrado' : 'Ocurrió un error registrandote. Revisa los campos.';
+
         _this.setState({
           success: false,
           error: true,
-          message: 'Ocurrió un error registrandote. Revisa los campos.',
+          message: message,
           loading: false
         });
       });
@@ -2432,7 +2520,7 @@ function (_React$Component) {
     //     success: false,
     //     loading: true,
     //   })
-    // } 
+    // }
 
   }, {
     key: "render",
@@ -2513,7 +2601,7 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(SuscribeFormWrapper, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 221
+          lineNumber: 290
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -2522,13 +2610,13 @@ function (_React$Component) {
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 222
+          lineNumber: 291
         },
         __self: this
       }, "Unite al grupo"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 225
+          lineNumber: 294
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -2537,35 +2625,20 @@ function (_React$Component) {
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 226
+          lineNumber: 295
         },
         __self: this
       }, "Ingresa con tus redes sociales"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(SocialButtons, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 229
+          lineNumber: 298
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ZForm, {
-        action: "https://backend.viserion.dragoons.gg/accounts/steam/login/?process=login",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 230
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        small: "true",
-        type: "submit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 231
-        },
-        __self: this
-      }, "Steam")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ZForm, {
         action: "https://backend.viserion.dragoons.gg/accounts/google/login/?process=login",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236
+          lineNumber: 305
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -2573,45 +2646,30 @@ function (_React$Component) {
         type: "submit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 237
+          lineNumber: 306
         },
         __self: this
-      }, "Google")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(ZForm, {
-        action: "https://backend.viserion.dragoons.gg/accounts/facebook/login/?process=login",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 242
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        small: "true",
-        type: "submit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 243
-        },
-        __self: this
-      }, "Facebook"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      }, "Google"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
         h: 4,
         weight: "thin",
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 248
+          lineNumber: 317
         },
         __self: this
       }, "\xF3 crea una cuenta"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XForm, {
         onSubmit: this.handleSubmit,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 251
+          lineNumber: 320
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Form"].Group, {
         inline: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 252
+          lineNumber: 321
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -2623,7 +2681,7 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253
+          lineNumber: 322
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -2635,13 +2693,13 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 261
+          lineNumber: 330
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 270
+          lineNumber: 339
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgInputs__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -2652,19 +2710,19 @@ function (_React$Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 271
+          lineNumber: 340
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 278
+          lineNumber: 347
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 279
+          lineNumber: 348
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
@@ -2674,7 +2732,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 280
+          lineNumber: 349
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Typography__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -2683,16 +2741,13 @@ function (_React$Component) {
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 281
+          lineNumber: 350
         },
         __self: this
-      }, "Fecha de nacimiento"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
-        style: {
-          display: 'flex'
-        },
+      }, "Fecha de nacimiento"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(AgeSelectors, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 284
+          lineNumber: 353
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgDropdown__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -2702,7 +2757,7 @@ function (_React$Component) {
         onChange: this.handleDropdownChange,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 285
+          lineNumber: 354
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgDropdown__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -2712,7 +2767,7 @@ function (_React$Component) {
         onChange: this.handleMonthChange,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 291
+          lineNumber: 360
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_DrgDropdown__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -2722,43 +2777,55 @@ function (_React$Component) {
         onChange: this.handleDropdownChange,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 297
+          lineNumber: 366
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 305
+          lineNumber: 374
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Divider"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 306
+          lineNumber: 375
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XCheckbox, {
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(CheckboxesWrapper, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 376
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Checkbox"], {
         name: "termsAccepted",
         onChange: this.handleInputChange,
         label: "Acepto los t\xE9rminos y condiciones.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 307
+          lineNumber: 377
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(XCheckbox, {
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Checkbox"], {
         name: "suscribeAccepted",
         onChange: this.handleInputChange,
         label: "Deseo recibir noticias y novedades.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 312
+          lineNumber: 382
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: {
+          margin: '0 0 20px 0',
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center'
+        },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 317
+          lineNumber: 388
         },
         __self: this
       }, this.state.success && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Message"], {
@@ -2767,7 +2834,7 @@ function (_React$Component) {
         content: this.state.message,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 319
+          lineNumber: 397
         },
         __self: this
       }), this.state.error && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__["Message"], {
@@ -2776,18 +2843,24 @@ function (_React$Component) {
         content: this.state.message,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 326
+          lineNumber: 404
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(CreateButtonWrapper, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 411
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Buttons__WEBPACK_IMPORTED_MODULE_12__["default"], {
         type: "submit",
         large: "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 333
+          lineNumber: 412
         },
         __self: this
-      }, "Crear")));
+      }, "Crear"))));
     }
   }]);
 
@@ -2819,7 +2892,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Typography.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Typography.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Typography.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
  // make it stateless but declare a constant (H) before returning
 
 var Typography =
@@ -2839,6 +2916,7 @@ function (_React$Component) {
       var H = 'h' + this.props.h;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(H, {
         style: {
+          margin: '10px 0',
           color: this.props.color ? this.props.color : 'white',
           lineHeight: this.props.size === 'mega' ? '80px' : this.props.size === 'jumbo' ? '64px' : this.props.size === 'display' ? '48px' : this.props.size === 'headline' ? '32px' : this.props.size === 'title' ? '28px' : this.props.size === 'subheader' ? '24px' : 'inherit',
           fontSize: this.props.size === 'mega' ? '64px' : this.props.size === 'jumbo' ? '48px' : this.props.size === 'display' ? '36px' : this.props.size === 'headline' ? '24px' : this.props.size === 'title' ? '20px' : this.props.size === 'subheader' ? '16px' : '1px',
@@ -2874,7 +2952,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/UpArrowNavigation.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/UpArrowNavigation.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\UpArrowNavigation.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 var Arrow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -3891,6 +3973,786 @@ module.exports = _typeof;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/regenerator-runtime/runtime-module.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/regenerator-runtime/runtime-module.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+// This method of obtaining a reference to the global object needs to be
+// kept identical to the way it is obtained in runtime.js
+var g = (function() {
+  return this || (typeof self === "object" && self);
+})() || Function("return this")();
+
+// Use `getOwnPropertyNames` because not all browsers support calling
+// `hasOwnProperty` on the global `self` object in a worker. See #183.
+var hadRuntime = g.regeneratorRuntime &&
+  Object.getOwnPropertyNames(g).indexOf("regeneratorRuntime") >= 0;
+
+// Save the old regeneratorRuntime in case it needs to be restored later.
+var oldRuntime = hadRuntime && g.regeneratorRuntime;
+
+// Force reevalutation of runtime.js.
+g.regeneratorRuntime = undefined;
+
+module.exports = __webpack_require__(/*! ./runtime */ "./node_modules/@babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js");
+
+if (hadRuntime) {
+  // Restore the original runtime.
+  g.regeneratorRuntime = oldRuntime;
+} else {
+  // Remove the global property added by runtime.js.
+  try {
+    delete g.regeneratorRuntime;
+  } catch(e) {
+    g.regeneratorRuntime = undefined;
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/node_modules/regenerator-runtime/runtime.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+!(function(global) {
+  "use strict";
+
+  var Op = Object.prototype;
+  var hasOwn = Op.hasOwnProperty;
+  var undefined; // More compressible than void 0.
+  var $Symbol = typeof Symbol === "function" ? Symbol : {};
+  var iteratorSymbol = $Symbol.iterator || "@@iterator";
+  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
+  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+
+  var inModule = typeof module === "object";
+  var runtime = global.regeneratorRuntime;
+  if (runtime) {
+    if (inModule) {
+      // If regeneratorRuntime is defined globally and we're in a module,
+      // make the exports object identical to regeneratorRuntime.
+      module.exports = runtime;
+    }
+    // Don't bother evaluating the rest of this file if the runtime was
+    // already defined globally.
+    return;
+  }
+
+  // Define the runtime globally (as expected by generated code) as either
+  // module.exports (if we're in a module) or a new, empty object.
+  runtime = global.regeneratorRuntime = inModule ? module.exports : {};
+
+  function wrap(innerFn, outerFn, self, tryLocsList) {
+    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
+    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
+    var generator = Object.create(protoGenerator.prototype);
+    var context = new Context(tryLocsList || []);
+
+    // The ._invoke method unifies the implementations of the .next,
+    // .throw, and .return methods.
+    generator._invoke = makeInvokeMethod(innerFn, self, context);
+
+    return generator;
+  }
+  runtime.wrap = wrap;
+
+  // Try/catch helper to minimize deoptimizations. Returns a completion
+  // record like context.tryEntries[i].completion. This interface could
+  // have been (and was previously) designed to take a closure to be
+  // invoked without arguments, but in all the cases we care about we
+  // already have an existing method we want to call, so there's no need
+  // to create a new function object. We can even get away with assuming
+  // the method takes exactly one argument, since that happens to be true
+  // in every case, so we don't have to touch the arguments object. The
+  // only additional allocation required is the completion record, which
+  // has a stable shape and so hopefully should be cheap to allocate.
+  function tryCatch(fn, obj, arg) {
+    try {
+      return { type: "normal", arg: fn.call(obj, arg) };
+    } catch (err) {
+      return { type: "throw", arg: err };
+    }
+  }
+
+  var GenStateSuspendedStart = "suspendedStart";
+  var GenStateSuspendedYield = "suspendedYield";
+  var GenStateExecuting = "executing";
+  var GenStateCompleted = "completed";
+
+  // Returning this object from the innerFn has the same effect as
+  // breaking out of the dispatch switch statement.
+  var ContinueSentinel = {};
+
+  // Dummy constructor functions that we use as the .constructor and
+  // .constructor.prototype properties for functions that return Generator
+  // objects. For full spec compliance, you may wish to configure your
+  // minifier not to mangle the names of these two functions.
+  function Generator() {}
+  function GeneratorFunction() {}
+  function GeneratorFunctionPrototype() {}
+
+  // This is a polyfill for %IteratorPrototype% for environments that
+  // don't natively support it.
+  var IteratorPrototype = {};
+  IteratorPrototype[iteratorSymbol] = function () {
+    return this;
+  };
+
+  var getProto = Object.getPrototypeOf;
+  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+  if (NativeIteratorPrototype &&
+      NativeIteratorPrototype !== Op &&
+      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
+    // This environment has a native %IteratorPrototype%; use it instead
+    // of the polyfill.
+    IteratorPrototype = NativeIteratorPrototype;
+  }
+
+  var Gp = GeneratorFunctionPrototype.prototype =
+    Generator.prototype = Object.create(IteratorPrototype);
+  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
+  GeneratorFunctionPrototype.constructor = GeneratorFunction;
+  GeneratorFunctionPrototype[toStringTagSymbol] =
+    GeneratorFunction.displayName = "GeneratorFunction";
+
+  // Helper for defining the .next, .throw, and .return methods of the
+  // Iterator interface in terms of a single ._invoke method.
+  function defineIteratorMethods(prototype) {
+    ["next", "throw", "return"].forEach(function(method) {
+      prototype[method] = function(arg) {
+        return this._invoke(method, arg);
+      };
+    });
+  }
+
+  runtime.isGeneratorFunction = function(genFun) {
+    var ctor = typeof genFun === "function" && genFun.constructor;
+    return ctor
+      ? ctor === GeneratorFunction ||
+        // For the native GeneratorFunction constructor, the best we can
+        // do is to check its .name property.
+        (ctor.displayName || ctor.name) === "GeneratorFunction"
+      : false;
+  };
+
+  runtime.mark = function(genFun) {
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
+    } else {
+      genFun.__proto__ = GeneratorFunctionPrototype;
+      if (!(toStringTagSymbol in genFun)) {
+        genFun[toStringTagSymbol] = "GeneratorFunction";
+      }
+    }
+    genFun.prototype = Object.create(Gp);
+    return genFun;
+  };
+
+  // Within the body of any async function, `await x` is transformed to
+  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+  // `hasOwn.call(value, "__await")` to determine if the yielded value is
+  // meant to be awaited.
+  runtime.awrap = function(arg) {
+    return { __await: arg };
+  };
+
+  function AsyncIterator(generator) {
+    function invoke(method, arg, resolve, reject) {
+      var record = tryCatch(generator[method], generator, arg);
+      if (record.type === "throw") {
+        reject(record.arg);
+      } else {
+        var result = record.arg;
+        var value = result.value;
+        if (value &&
+            typeof value === "object" &&
+            hasOwn.call(value, "__await")) {
+          return Promise.resolve(value.__await).then(function(value) {
+            invoke("next", value, resolve, reject);
+          }, function(err) {
+            invoke("throw", err, resolve, reject);
+          });
+        }
+
+        return Promise.resolve(value).then(function(unwrapped) {
+          // When a yielded Promise is resolved, its final value becomes
+          // the .value of the Promise<{value,done}> result for the
+          // current iteration.
+          result.value = unwrapped;
+          resolve(result);
+        }, function(error) {
+          // If a rejected Promise was yielded, throw the rejection back
+          // into the async generator function so it can be handled there.
+          return invoke("throw", error, resolve, reject);
+        });
+      }
+    }
+
+    var previousPromise;
+
+    function enqueue(method, arg) {
+      function callInvokeWithMethodAndArg() {
+        return new Promise(function(resolve, reject) {
+          invoke(method, arg, resolve, reject);
+        });
+      }
+
+      return previousPromise =
+        // If enqueue has been called before, then we want to wait until
+        // all previous Promises have been resolved before calling invoke,
+        // so that results are always delivered in the correct order. If
+        // enqueue has not been called before, then it is important to
+        // call invoke immediately, without waiting on a callback to fire,
+        // so that the async generator function has the opportunity to do
+        // any necessary setup in a predictable way. This predictability
+        // is why the Promise constructor synchronously invokes its
+        // executor callback, and why async functions synchronously
+        // execute code before the first await. Since we implement simple
+        // async functions in terms of async generators, it is especially
+        // important to get this right, even though it requires care.
+        previousPromise ? previousPromise.then(
+          callInvokeWithMethodAndArg,
+          // Avoid propagating failures to Promises returned by later
+          // invocations of the iterator.
+          callInvokeWithMethodAndArg
+        ) : callInvokeWithMethodAndArg();
+    }
+
+    // Define the unified helper method that is used to implement .next,
+    // .throw, and .return (see defineIteratorMethods).
+    this._invoke = enqueue;
+  }
+
+  defineIteratorMethods(AsyncIterator.prototype);
+  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+    return this;
+  };
+  runtime.AsyncIterator = AsyncIterator;
+
+  // Note that simple async functions are implemented on top of
+  // AsyncIterator objects; they just return a Promise for the value of
+  // the final result produced by the iterator.
+  runtime.async = function(innerFn, outerFn, self, tryLocsList) {
+    var iter = new AsyncIterator(
+      wrap(innerFn, outerFn, self, tryLocsList)
+    );
+
+    return runtime.isGeneratorFunction(outerFn)
+      ? iter // If outerFn is a generator, return the full iterator.
+      : iter.next().then(function(result) {
+          return result.done ? result.value : iter.next();
+        });
+  };
+
+  function makeInvokeMethod(innerFn, self, context) {
+    var state = GenStateSuspendedStart;
+
+    return function invoke(method, arg) {
+      if (state === GenStateExecuting) {
+        throw new Error("Generator is already running");
+      }
+
+      if (state === GenStateCompleted) {
+        if (method === "throw") {
+          throw arg;
+        }
+
+        // Be forgiving, per 25.3.3.3.3 of the spec:
+        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+        return doneResult();
+      }
+
+      context.method = method;
+      context.arg = arg;
+
+      while (true) {
+        var delegate = context.delegate;
+        if (delegate) {
+          var delegateResult = maybeInvokeDelegate(delegate, context);
+          if (delegateResult) {
+            if (delegateResult === ContinueSentinel) continue;
+            return delegateResult;
+          }
+        }
+
+        if (context.method === "next") {
+          // Setting context._sent for legacy support of Babel's
+          // function.sent implementation.
+          context.sent = context._sent = context.arg;
+
+        } else if (context.method === "throw") {
+          if (state === GenStateSuspendedStart) {
+            state = GenStateCompleted;
+            throw context.arg;
+          }
+
+          context.dispatchException(context.arg);
+
+        } else if (context.method === "return") {
+          context.abrupt("return", context.arg);
+        }
+
+        state = GenStateExecuting;
+
+        var record = tryCatch(innerFn, self, context);
+        if (record.type === "normal") {
+          // If an exception is thrown from innerFn, we leave state ===
+          // GenStateExecuting and loop back for another invocation.
+          state = context.done
+            ? GenStateCompleted
+            : GenStateSuspendedYield;
+
+          if (record.arg === ContinueSentinel) {
+            continue;
+          }
+
+          return {
+            value: record.arg,
+            done: context.done
+          };
+
+        } else if (record.type === "throw") {
+          state = GenStateCompleted;
+          // Dispatch the exception by looping back around to the
+          // context.dispatchException(context.arg) call above.
+          context.method = "throw";
+          context.arg = record.arg;
+        }
+      }
+    };
+  }
+
+  // Call delegate.iterator[context.method](context.arg) and handle the
+  // result, either by returning a { value, done } result from the
+  // delegate iterator, or by modifying context.method and context.arg,
+  // setting context.delegate to null, and returning the ContinueSentinel.
+  function maybeInvokeDelegate(delegate, context) {
+    var method = delegate.iterator[context.method];
+    if (method === undefined) {
+      // A .throw or .return when the delegate iterator has no .throw
+      // method always terminates the yield* loop.
+      context.delegate = null;
+
+      if (context.method === "throw") {
+        if (delegate.iterator.return) {
+          // If the delegate iterator has a return method, give it a
+          // chance to clean up.
+          context.method = "return";
+          context.arg = undefined;
+          maybeInvokeDelegate(delegate, context);
+
+          if (context.method === "throw") {
+            // If maybeInvokeDelegate(context) changed context.method from
+            // "return" to "throw", let that override the TypeError below.
+            return ContinueSentinel;
+          }
+        }
+
+        context.method = "throw";
+        context.arg = new TypeError(
+          "The iterator does not provide a 'throw' method");
+      }
+
+      return ContinueSentinel;
+    }
+
+    var record = tryCatch(method, delegate.iterator, context.arg);
+
+    if (record.type === "throw") {
+      context.method = "throw";
+      context.arg = record.arg;
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    var info = record.arg;
+
+    if (! info) {
+      context.method = "throw";
+      context.arg = new TypeError("iterator result is not an object");
+      context.delegate = null;
+      return ContinueSentinel;
+    }
+
+    if (info.done) {
+      // Assign the result of the finished delegate to the temporary
+      // variable specified by delegate.resultName (see delegateYield).
+      context[delegate.resultName] = info.value;
+
+      // Resume execution at the desired location (see delegateYield).
+      context.next = delegate.nextLoc;
+
+      // If context.method was "throw" but the delegate handled the
+      // exception, let the outer generator proceed normally. If
+      // context.method was "next", forget context.arg since it has been
+      // "consumed" by the delegate iterator. If context.method was
+      // "return", allow the original .return call to continue in the
+      // outer generator.
+      if (context.method !== "return") {
+        context.method = "next";
+        context.arg = undefined;
+      }
+
+    } else {
+      // Re-yield the result returned by the delegate method.
+      return info;
+    }
+
+    // The delegate iterator is finished, so forget it and continue with
+    // the outer generator.
+    context.delegate = null;
+    return ContinueSentinel;
+  }
+
+  // Define Generator.prototype.{next,throw,return} in terms of the
+  // unified ._invoke helper method.
+  defineIteratorMethods(Gp);
+
+  Gp[toStringTagSymbol] = "Generator";
+
+  // A Generator should always return itself as the iterator object when the
+  // @@iterator function is called on it. Some browsers' implementations of the
+  // iterator prototype chain incorrectly implement this, causing the Generator
+  // object to not be returned from this call. This ensures that doesn't happen.
+  // See https://github.com/facebook/regenerator/issues/274 for more details.
+  Gp[iteratorSymbol] = function() {
+    return this;
+  };
+
+  Gp.toString = function() {
+    return "[object Generator]";
+  };
+
+  function pushTryEntry(locs) {
+    var entry = { tryLoc: locs[0] };
+
+    if (1 in locs) {
+      entry.catchLoc = locs[1];
+    }
+
+    if (2 in locs) {
+      entry.finallyLoc = locs[2];
+      entry.afterLoc = locs[3];
+    }
+
+    this.tryEntries.push(entry);
+  }
+
+  function resetTryEntry(entry) {
+    var record = entry.completion || {};
+    record.type = "normal";
+    delete record.arg;
+    entry.completion = record;
+  }
+
+  function Context(tryLocsList) {
+    // The root entry object (effectively a try statement without a catch
+    // or a finally block) gives us a place to store values thrown from
+    // locations where there is no enclosing try statement.
+    this.tryEntries = [{ tryLoc: "root" }];
+    tryLocsList.forEach(pushTryEntry, this);
+    this.reset(true);
+  }
+
+  runtime.keys = function(object) {
+    var keys = [];
+    for (var key in object) {
+      keys.push(key);
+    }
+    keys.reverse();
+
+    // Rather than returning an object with a next method, we keep
+    // things simple and return the next function itself.
+    return function next() {
+      while (keys.length) {
+        var key = keys.pop();
+        if (key in object) {
+          next.value = key;
+          next.done = false;
+          return next;
+        }
+      }
+
+      // To avoid creating an additional object, we just hang the .value
+      // and .done properties off the next function object itself. This
+      // also ensures that the minifier will not anonymize the function.
+      next.done = true;
+      return next;
+    };
+  };
+
+  function values(iterable) {
+    if (iterable) {
+      var iteratorMethod = iterable[iteratorSymbol];
+      if (iteratorMethod) {
+        return iteratorMethod.call(iterable);
+      }
+
+      if (typeof iterable.next === "function") {
+        return iterable;
+      }
+
+      if (!isNaN(iterable.length)) {
+        var i = -1, next = function next() {
+          while (++i < iterable.length) {
+            if (hasOwn.call(iterable, i)) {
+              next.value = iterable[i];
+              next.done = false;
+              return next;
+            }
+          }
+
+          next.value = undefined;
+          next.done = true;
+
+          return next;
+        };
+
+        return next.next = next;
+      }
+    }
+
+    // Return an iterator with no values.
+    return { next: doneResult };
+  }
+  runtime.values = values;
+
+  function doneResult() {
+    return { value: undefined, done: true };
+  }
+
+  Context.prototype = {
+    constructor: Context,
+
+    reset: function(skipTempReset) {
+      this.prev = 0;
+      this.next = 0;
+      // Resetting context._sent for legacy support of Babel's
+      // function.sent implementation.
+      this.sent = this._sent = undefined;
+      this.done = false;
+      this.delegate = null;
+
+      this.method = "next";
+      this.arg = undefined;
+
+      this.tryEntries.forEach(resetTryEntry);
+
+      if (!skipTempReset) {
+        for (var name in this) {
+          // Not sure about the optimal order of these conditions:
+          if (name.charAt(0) === "t" &&
+              hasOwn.call(this, name) &&
+              !isNaN(+name.slice(1))) {
+            this[name] = undefined;
+          }
+        }
+      }
+    },
+
+    stop: function() {
+      this.done = true;
+
+      var rootEntry = this.tryEntries[0];
+      var rootRecord = rootEntry.completion;
+      if (rootRecord.type === "throw") {
+        throw rootRecord.arg;
+      }
+
+      return this.rval;
+    },
+
+    dispatchException: function(exception) {
+      if (this.done) {
+        throw exception;
+      }
+
+      var context = this;
+      function handle(loc, caught) {
+        record.type = "throw";
+        record.arg = exception;
+        context.next = loc;
+
+        if (caught) {
+          // If the dispatched exception was caught by a catch block,
+          // then let that catch block handle the exception normally.
+          context.method = "next";
+          context.arg = undefined;
+        }
+
+        return !! caught;
+      }
+
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        var record = entry.completion;
+
+        if (entry.tryLoc === "root") {
+          // Exception thrown outside of any try block that could handle
+          // it, so set the completion value of the entire function to
+          // throw the exception.
+          return handle("end");
+        }
+
+        if (entry.tryLoc <= this.prev) {
+          var hasCatch = hasOwn.call(entry, "catchLoc");
+          var hasFinally = hasOwn.call(entry, "finallyLoc");
+
+          if (hasCatch && hasFinally) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            } else if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else if (hasCatch) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            }
+
+          } else if (hasFinally) {
+            if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else {
+            throw new Error("try statement without catch or finally");
+          }
+        }
+      }
+    },
+
+    abrupt: function(type, arg) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc <= this.prev &&
+            hasOwn.call(entry, "finallyLoc") &&
+            this.prev < entry.finallyLoc) {
+          var finallyEntry = entry;
+          break;
+        }
+      }
+
+      if (finallyEntry &&
+          (type === "break" ||
+           type === "continue") &&
+          finallyEntry.tryLoc <= arg &&
+          arg <= finallyEntry.finallyLoc) {
+        // Ignore the finally entry if control is not jumping to a
+        // location outside the try/catch block.
+        finallyEntry = null;
+      }
+
+      var record = finallyEntry ? finallyEntry.completion : {};
+      record.type = type;
+      record.arg = arg;
+
+      if (finallyEntry) {
+        this.method = "next";
+        this.next = finallyEntry.finallyLoc;
+        return ContinueSentinel;
+      }
+
+      return this.complete(record);
+    },
+
+    complete: function(record, afterLoc) {
+      if (record.type === "throw") {
+        throw record.arg;
+      }
+
+      if (record.type === "break" ||
+          record.type === "continue") {
+        this.next = record.arg;
+      } else if (record.type === "return") {
+        this.rval = this.arg = record.arg;
+        this.method = "return";
+        this.next = "end";
+      } else if (record.type === "normal" && afterLoc) {
+        this.next = afterLoc;
+      }
+
+      return ContinueSentinel;
+    },
+
+    finish: function(finallyLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.finallyLoc === finallyLoc) {
+          this.complete(entry.completion, entry.afterLoc);
+          resetTryEntry(entry);
+          return ContinueSentinel;
+        }
+      }
+    },
+
+    "catch": function(tryLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc === tryLoc) {
+          var record = entry.completion;
+          if (record.type === "throw") {
+            var thrown = record.arg;
+            resetTryEntry(entry);
+          }
+          return thrown;
+        }
+      }
+
+      // The context.catch method must only be called with a location
+      // argument that corresponds to a known catch block.
+      throw new Error("illegal catch attempt");
+    },
+
+    delegateYield: function(iterable, resultName, nextLoc) {
+      this.delegate = {
+        iterator: values(iterable),
+        resultName: resultName,
+        nextLoc: nextLoc
+      };
+
+      if (this.method === "next") {
+        // Deliberately forget the last sent value so that we don't
+        // accidentally pass it on to the delegate.
+        this.arg = undefined;
+      }
+
+      return ContinueSentinel;
+    }
+  };
+})(
+  // In sloppy mode, unbound `this` refers to the global object, fallback to
+  // Function constructor if we're in global strict mode. That is sadly a form
+  // of indirect eval which violates Content Security Policy.
+  (function() {
+    return this || (typeof self === "object" && self);
+  })() || Function("return this")()
+);
+
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/regenerator/index.js":
 /*!******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/regenerator/index.js ***!
@@ -3898,7 +4760,7 @@ module.exports = _typeof;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ "regenerator-runtime");
+module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/@babel/runtime-corejs2/node_modules/regenerator-runtime/runtime-module.js");
 
 
 /***/ }),
@@ -4576,7 +5438,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/pages/index.js";
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js";
+=======
+var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\pages\\index.js";
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -4593,11 +5459,11 @@ var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/pages/inde
 var LandingWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__LandingWrapper",
   componentId: "sc-1wbo52z-0"
-})(["&&{display:flex;flex-direction:column;align-items:center;scroll-behavior:smooth;height:auto;min-height:100%;position:relative;overflow-y:scroll;overflow-x:hidden;}&&::-webkit-scrollbar{width:0;}@media (min-width:1050px){&&{height:100vh;scroll-snap-type:y mandatory;scroll-snap-points-y:repeat(100vh)}}"]);
+})(["&&{position:relative;display:flex;flex-direction:column;align-items:center;scroll-behavior:smooth;height:auto;min-height:100%;position:relative;overflow-y:scroll;overflow-x:hidden;}&&::-webkit-scrollbar{width:0;}@media (min-width:1050px){&&{height:100vh;scroll-snap-type:y mandatory;scroll-snap-points-y:repeat(100vh)}}"]);
 var Hero = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Hero",
   componentId: "sc-1wbo52z-1"
-})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.jpg');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
+})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.webp');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
 var HeroLogo = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__HeroLogo",
   componentId: "sc-1wbo52z-2"
@@ -4617,7 +5483,7 @@ var VideoLoading = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.
 var Features = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Features",
   componentId: "sc-1wbo52z-6"
-})(["&&{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 0;scroll-snap-align:start;width:100%;position:relative;background-image:url('../static/features-background.jpg');background-size:cover;min-height:100%;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.7;}@media (min-width:1050px){&&{min-height:100vh}}&& > div{z-index:999;}"]);
+})(["&&{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 0;scroll-snap-align:start;width:100%;position:relative;background-image:url('../static/features-background.webp');background-size:cover;min-height:100%;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.7;}@media (min-width:1050px){&&{min-height:100vh}}&& > div{z-index:999;}"]);
 var FeaturesTitle = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__FeaturesTitle",
   componentId: "sc-1wbo52z-7"
@@ -4637,15 +5503,15 @@ var FeaturesItemsImg = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.
 var Timeline = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Timeline",
   componentId: "sc-1wbo52z-10"
-})(["&&{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:64px 20px;scroll-snap-align:start;min-height:100vh !important;position:relative;background-image:url('../static/timeline-background-ow.jpg');background-size:cover;}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.75;}"]);
+})(["&&{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:64px 20px;scroll-snap-align:start;min-height:100vh !important;position:relative;background-image:url('../static/timeline-background-ow.webp');background-size:cover;}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.75;}"]);
 var FAQ = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__FAQ",
   componentId: "sc-1wbo52z-11"
-})(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.jpg');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1600px){&&{min-height:100vh;padding:300px 500px 0 500px}}"]);
+})(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.webp');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1600px){&&{min-height:100vh;padding:300px 500px 0 500px}}"]);
 var Contact = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Contact",
   componentId: "sc-1wbo52z-12"
-})(["&&{display:flex;align-items:center;flex-direction:column;justify-content:center;width:100%;padding:64px 20px 260px 20px;scroll-snap-align:start;position:relative;background-image:url('../static/contact-background.jpg');background-size:cover;min-height:100vh;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:1050px){&&{padding:64px 10px 200px 10px;height:100vh;padding:64px 0}}"]);
+})(["&&{display:flex;align-items:center;flex-direction:column;justify-content:center;width:100%;padding:64px 20px 260px 20px;scroll-snap-align:start;position:relative;background-image:url('../static/contact-background.webp');background-size:cover;min-height:100vh;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:1050px){&&{padding:64px 10px 200px 10px;height:100vh;padding:64px 0}}"]);
 
 var Index =
 /*#__PURE__*/
@@ -4707,25 +5573,25 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 367
+          lineNumber: 368
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 368
+          lineNumber: 369
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 369
+          lineNumber: 370
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(HeroLogo, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 370
+          lineNumber: 371
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4734,7 +5600,7 @@ function (_React$Component) {
         width: 300,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 371
+          lineNumber: 372
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4743,20 +5609,20 @@ function (_React$Component) {
         size: "headline",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 373
+          lineNumber: 374
         },
         __self: this
       }, "\xA1Apost\xE1, vot\xE1 resultados y gan\xE1! Somos un club de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(HeroButton, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 376
+          lineNumber: 379
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         href: "#video",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 377
+          lineNumber: 380
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Buttons__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -4765,7 +5631,7 @@ function (_React$Component) {
         onClick: this.autoplayToggle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 378
+          lineNumber: 381
         },
         __self: this
       }, "Ver m\xE1s")))));
@@ -4774,7 +5640,7 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 391
+          lineNumber: 394
         },
         __self: this
       }, typeof window !== 'undefined' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Player__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -4788,13 +5654,13 @@ function (_React$Component) {
         ref: this.child,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 393
+          lineNumber: 396
         },
         __self: this
       }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(VideoLoading, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 406
+          lineNumber: 409
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4803,7 +5669,7 @@ function (_React$Component) {
         width: 100,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 407
+          lineNumber: 410
         },
         __self: this
       })));
@@ -4812,13 +5678,13 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 413
+          lineNumber: 416
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 414
+          lineNumber: 417
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4827,13 +5693,13 @@ function (_React$Component) {
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 415
+          lineNumber: 418
         },
         __self: this
       }, "\xA1Gana dinero mirando eSports!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 418
+          lineNumber: 421
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4842,26 +5708,26 @@ function (_React$Component) {
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 419
+          lineNumber: 422
         },
         __self: this
       }, "Podr\xE1s ganar dinero haciendo lo que m\xE1s te gusta, mientras apoyas el desarrollo de la comunidad de eSports en LATAM.", ' ', this.state.scrollAcumulated))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItems, {
         appear: this.state.featuresSeen,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 426
+          lineNumber: 429
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 427
+          lineNumber: 430
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItemsImg, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 428
+          lineNumber: 431
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4870,7 +5736,7 @@ function (_React$Component) {
         width: 50,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 429
+          lineNumber: 432
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4880,25 +5746,25 @@ function (_React$Component) {
         color: "black",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 435
+          lineNumber: 438
         },
         __self: this
       }, "Apost\xE1"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 438
+          lineNumber: 441
         },
         __self: this
       }, "Apuesta contra otros y demustra cu\xE1nto sabes de eSports en el sistema de apuestas en bolsa m\xE1s transparente y confiable de la industria.")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 444
+          lineNumber: 447
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItemsImg, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 445
+          lineNumber: 448
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4907,7 +5773,7 @@ function (_React$Component) {
         width: 50,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 446
+          lineNumber: 449
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4917,25 +5783,25 @@ function (_React$Component) {
         color: "black",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 452
+          lineNumber: 455
         },
         __self: this
       }, "Vot\xE1 resultados"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 455
+          lineNumber: 458
         },
         __self: this
       }, "Te pagaremos por hacer lo que m\xE1s te gusta, \xA1mirar eSports!. Lo \xFAnico que debes hacer es enviar los resultados correctos.")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 460
+          lineNumber: 463
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItemsImg, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 461
+          lineNumber: 464
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4945,7 +5811,7 @@ function (_React$Component) {
         fill: "blue",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 462
+          lineNumber: 465
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4955,13 +5821,13 @@ function (_React$Component) {
         color: "black",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 469
+          lineNumber: 472
         },
         __self: this
       }, "Apoy\xE1 a tu comunidad"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 472
+          lineNumber: 475
         },
         __self: this
       }, "Parte del dinero recaudado en las apuestas ser\xE1 utilizado para apoyar econ\xF3micamente a equipos, jugadores o ligas de eSports \xA1Tu decides con tu voto!"))));
@@ -4970,13 +5836,13 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 482
+          lineNumber: 485
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 483
+          lineNumber: 486
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4985,13 +5851,13 @@ function (_React$Component) {
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 484
+          lineNumber: 487
         },
         __self: this
       }, "Pr\xF3ximos pasos")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_RoadLine__WEBPACK_IMPORTED_MODULE_17__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 488
+          lineNumber: 491
         },
         __self: this
       }));
@@ -4999,13 +5865,13 @@ function (_React$Component) {
         id: "faq",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 492
+          lineNumber: 495
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_AccordionFAQ__WEBPACK_IMPORTED_MODULE_16__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 493
+          lineNumber: 496
         },
         __self: this
       }));
@@ -5013,19 +5879,19 @@ function (_React$Component) {
         id: "contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 497
+          lineNumber: 500
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_MailForm__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 498
+          lineNumber: 501
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 499
+          lineNumber: 502
         },
         __self: this
       }));
@@ -5034,14 +5900,14 @@ function (_React$Component) {
         description: "Dragoons es un sitio de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad y vot\xE1s resultados.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 503
+          lineNumber: 506
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(LandingWrapper, {
         id: "wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 507
+          lineNumber: 510
         },
         __self: this
       }, heroSection, videoSection, featuresSection, timelineSection, faqSection, sendMailSection, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Navigation__WEBPACK_IMPORTED_MODULE_18__["default"], {
@@ -5049,14 +5915,14 @@ function (_React$Component) {
         parentMethod: this.clickMethod,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 514
+          lineNumber: 517
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_UpArrowNavigation__WEBPACK_IMPORTED_MODULE_19__["default"], {
         scroll: this.state.scroll,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 518
+          lineNumber: 521
         },
         __self: this
       })));
@@ -5077,7 +5943,11 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/emilio/dragoons/repos/github/drg-landing-ui/pages/index.js */"./pages/index.js");
+<<<<<<< HEAD
+module.exports = __webpack_require__(/*! /Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js */"./pages/index.js");
+=======
+module.exports = __webpack_require__(/*! c:\Users\pablo\OneDrive\Documentos\GitHub\drg-landing-ui\pages\index.js */"./pages/index.js");
+>>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 /***/ }),
@@ -5365,17 +6235,6 @@ module.exports = require("react-html-parser");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "regenerator-runtime":
-/*!**************************************!*\
-  !*** external "regenerator-runtime" ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("regenerator-runtime");
 
 /***/ }),
 

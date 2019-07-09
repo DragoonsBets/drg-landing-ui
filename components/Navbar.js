@@ -3,38 +3,39 @@ import styled from 'styled-components'
 import Link from 'next/link'
 import FullScreenModal from './FullScreenModal'
 import SuscribeForm from './SuscribeForm'
+import SocialRegistrationMessage from './SocialRegistrationMessage'
 
 const NavbarWrapper = styled.header`
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	position: fixed;
-	top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
   left: 0;
-	z-index: 99999;
-	width: 100%;
-	background-color: #131929;
-	padding: 9px 24px;
+  z-index: 99999;
+  width: 100%;
+  background-color: #131929;
+  padding: 9px 24px;
   height: 64px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	button {
-		font-family: Montserrat, Raleway;
-	}
-	> div {
-		display: flex;
-		align-items: center;
-	}
-	> div:nth-child(1) {
-		display: none;
-	}
-	@media (min-width: 500px) {
-		> div:nth-child(1) {
-			display: block;
-		}
-		> div:nth-child(2) {
-			display: none;
-		}
-	}
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  button {
+    font-family: Montserrat, Raleway;
+  }
+  > div {
+    display: flex;
+    align-items: center;
+  }
+  > div:nth-child(1) {
+    display: none;
+  }
+  @media (min-width: 500px) {
+    > div:nth-child(1) {
+      display: block;
+    }
+    > div:nth-child(2) {
+      display: none;
+    }
+  }
 `
 
 function Navbar() {
@@ -54,7 +55,7 @@ function Navbar() {
           </a>
         </Link>
       </div>
-      <FullScreenModal>
+      <FullScreenModal opened={false}>
         <SuscribeForm />
       </FullScreenModal>
     </NavbarWrapper>

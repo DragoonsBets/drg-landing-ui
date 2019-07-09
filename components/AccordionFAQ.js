@@ -2,9 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Accordion } from 'semantic-ui-react'
 import Typography from './Typography'
-import to from '../lib/to';
-import { loadFaqs, processFaq }   from './FAQUtils'
-
+import to from '../lib/to'
+import { loadFaqs, processFaq } from './FAQUtils'
 
 const DrgAccordionWarning = styled(Accordion)`
   text-align: center;
@@ -45,37 +44,33 @@ export default class AccordionFAQ extends React.Component {
     this.state = {
       loading: true,
       faqs: [],
-      error: false, 
-    }    
-
+      error: false,
+    }
   }
 
   async componentDidMount() {
-
     this.setState({
       loading: true,
-    });
+    })
 
-    let [error, faqs] = await loadFaqs();
+    let [error, faqs] = await loadFaqs()
 
-    console.log("Outside faqs: ", error, faqs);
+    console.log('Outside faqs: ', error, faqs)
 
     if (error) {
       this.setState({
         faqs: [],
-        error: error, 
-        loading: false
+        error: error,
+        loading: false,
       })
-    }
-    else{
+    } else {
       let processedFaqs = processFaq(faqs)
       this.setState({
-        error: null, 
+        error: null,
         faqs: processedFaqs,
-        loading: false
+        loading: false,
       })
-    }    
-
+    }
   }
 
   render() {
