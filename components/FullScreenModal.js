@@ -2,39 +2,41 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Modal, Icon } from 'semantic-ui-react'
 import DrgButton from './Buttons'
-import Router from 'next/router';
+import Router from 'next/router'
 
 const ModalWrapper = styled(Modal)`
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  border-radius: 0;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  margin: 0;
-  box-shadow: none;
-  background-color: #131929;
-  color: white;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  padding: 30px 0 0 0;
-  button {
-    font-family: Raleway;
-    margin: 0 0 30px;
-  }
-  label {
-    color: white;
-  }
-  label:hover {
-    color: white;
-  }
-  input:focus + label {
-    color: white;
-  }
-  @media (min-width: 500px) {
+  &&&&& {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    border-radius: 0;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    box-shadow: none;
+    background-color: #131929;
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* padding: 30px 0 0 0; */
+    button {
+      font-family: Raleway;
+      margin: 0 0 30px;
+    }
+    label {
+      color: white;
+    }
+    label:hover {
+      color: white;
+    }
+    input:focus + label {
+      color: white;
+    }
+    @media (min-width: 500px) {
+      align-items: center;
+    }
   }
 `
 
@@ -58,12 +60,11 @@ export default class FullScreenModal extends Component {
 
   handleOpen = () => this.setState({ modalOpen: true })
 
-  handleClose = () => { 
-    this.setState({ modalOpen: false }) 
+  handleClose = () => {
+    this.setState({ modalOpen: false })
     Router.push('/')
-  } 
+  }
 
-  
   render() {
     return (
       <ModalWrapper
@@ -76,7 +77,7 @@ export default class FullScreenModal extends Component {
         onClose={this.handleClose}
         dimmer="blurring"
       >
-        <ModalCenter>{ this.props.children }</ModalCenter>
+        <ModalCenter>{this.props.children}</ModalCenter>
         <Cross>
           <Icon name="close" size="big" onClick={this.handleClose} />
         </Cross>
