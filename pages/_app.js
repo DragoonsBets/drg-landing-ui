@@ -23,6 +23,7 @@ class MyApp extends App {
 
   render() {
     const { Component, pageProps, router } = this.props
+    console.log("Router params: ", router)
     return (
       <Container>
         <Component {...pageProps} />
