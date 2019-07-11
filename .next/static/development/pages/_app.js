@@ -238,7 +238,7 @@ var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/d
 var ModalWrapper = Object(styled_components__WEBPACK_IMPORTED_MODULE_8__["default"])(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["Modal"]).withConfig({
   displayName: "FullScreenModal__ModalWrapper",
   componentId: "vin19h-0"
-})(["&&{display:flex;justify-content:center;align-items:flex-start;border-radius:0;height:100vh;width:100vw;top:0;left:0;margin:0;box-shadow:none;background-color:#131929;color:white;overflow-y:scroll;overflow-x:hidden;padding:30px 0 0 0;}&& button{font-family:Raleway;margin:0 0 30px;}&& label{color:white;}&& label:hover{color:white;}&& input:focus + label{color:white;}@media (min-width:500px){&&{align-items:center}}"]);
+})(["&&&&&&&&&&{display:flex;justify-content:center;align-items:center;border-radius:0;height:100vh;width:100vw;top:0;left:0;margin:0 !important;box-shadow:none;background-color:#131929;color:white;overflow-y:scroll;overflow-x:hidden;padding:30px 0 0 0;}&&&&&&&&&& button{font-family:Raleway;margin:0 0 30px;}&&&&&&&&&& label{color:white;}&&&&&&&&&& label:hover{color:white;}&&&&&&&&&& input:focus + label{color:white;}@media (min-width:500px){&&&&&&&&&&{align-items:center}}"]);
 var ModalCenter = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "FullScreenModal__ModalCenter",
   componentId: "vin19h-1"
@@ -297,7 +297,7 @@ function (_Component) {
           arrow: "true",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71
+            lineNumber: 72
           },
           __self: this
         }, "Unite"),
@@ -306,19 +306,19 @@ function (_Component) {
         dimmer: "blurring",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(ModalCenter, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 80
         },
         __self: this
       }, this.props.children), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Cross, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 81
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["Icon"], {
@@ -327,7 +327,7 @@ function (_Component) {
         onClick: this.handleClose,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 82
         },
         __self: this
       })));
@@ -68716,42 +68716,43 @@ function (_App) {
           Component = _this$props.Component,
           pageProps = _this$props.pageProps,
           router = _this$props.router;
+      console.log("Router params: ", router);
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         },
         __self: this
       })), router.query.social_login_success && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_FullScreenModal__WEBPACK_IMPORTED_MODULE_10__["default"], {
         opened: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_SocialRegistrationMessage__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
       })), router.query.email_verification_success && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_FullScreenModal__WEBPACK_IMPORTED_MODULE_10__["default"], {
         opened: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_EmailVerificationMessage__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         },
         __self: this
       })));

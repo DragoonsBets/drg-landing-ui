@@ -55,7 +55,7 @@ const Hero = styled.div`
   }
   @media (min-width: 1050px) {
     height: 100vh;
-    min-height: 789px;
+    min-height: 100vh;
   }
   > div {
     text-align: center;
@@ -91,7 +91,7 @@ const Video = styled.div`
 
 const VideoLoading = styled.div`
   height: 100vh;
-  min-height: 789px;
+  min-height: 100vh;
 `
 
 const Features = styled.div`

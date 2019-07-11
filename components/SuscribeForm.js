@@ -7,13 +7,14 @@ import DrgInput from './DrgInputs'
 import DrgDropdown from './DrgDropdown'
 import Typography from './Typography'
 import { CREATE_USERS } from '../networking/endpoints'
-import Router from 'next/router';
+import Router from 'next/router'
 
 const SuscribeFormWrapper = styled.div`
   &&& {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     padding: 0 20px;
     font-family: Montserrat, Raleway;
     input,
@@ -66,7 +67,8 @@ const CreateButtonWrapper = styled.div`
   &&& {
     display: flex;
     justify-content: center;
-    width: 500px;
+    text-align: center;
+    width: 100%;
   }
 `
 
@@ -215,7 +217,9 @@ export default class SuscribeForm extends React.Component {
       first_name: this.state['firstName'],
       last_name: this.state['lastName'],
       email: this.state['email'],
-      birthday: `${this.state['birthday']['year']}-${this.state['birthday']['month']}-${this.state['birthday']['day']}`,
+      birthday: `${this.state['birthday']['year']}-${
+        this.state['birthday']['month']
+      }-${this.state['birthday']['day']}`,
       subscribed_to_news: this.state['suscribeAccepted'],
     }
 
@@ -239,11 +243,13 @@ export default class SuscribeForm extends React.Component {
         Router.push('/?social_login_success=true')
       })
       .catch(error => {
-        console.log("Error: ", error)
+        console.log('Error: ', error)
         console.log(error.response)
         const data = error.response.data
-        let message = data.email && data.email[0].code === 'email_already_registered' ? 'Email ya registrado' : 
-        'Ocurrió un error registrandote. Revisa los campos.'
+        let message =
+          data.email && data.email[0].code === 'email_already_registered'
+            ? 'Email ya registrado'
+            : 'Ocurrió un error registrandote. Revisa los campos.'
         this.setState({
           success: false,
           error: true,
@@ -288,7 +294,7 @@ export default class SuscribeForm extends React.Component {
 
     return (
       <SuscribeFormWrapper>
-        <Typography h={3} weight="bold" size="jumbo">
+        <Typography h={3} weight="bold" size="display">
           Unite al grupo
         </Typography>
         <Divider />
