@@ -44,6 +44,7 @@ const ImgWrapper = styled.div`
   display: flex;
   justify-content: center;
   order: 1;
+  margin: 0 0 15px 0;
   @media (min-width: 500px) {
     order: 2;
   }
