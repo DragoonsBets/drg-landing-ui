@@ -20,7 +20,7 @@ const ModalWrapper = styled(Modal)`
     color: white;
     overflow-y: scroll;
     overflow-x: hidden;
-    /* padding: 30px 0 0 0; */
+    padding: 30px 0 0 0;
     button {
       font-family: Raleway;
       margin: 0 0 30px;

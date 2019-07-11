@@ -789,7 +789,7 @@ var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/d
 var ModalWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default()(semantic_ui_react__WEBPACK_IMPORTED_MODULE_9__["Modal"]).withConfig({
   displayName: "FullScreenModal__ModalWrapper",
   componentId: "vin19h-0"
-})(["&&&&&&&&&&{display:flex;justify-content:center;align-items:center;border-radius:0;height:100vh;width:100vw;top:0;left:0;margin:0 !important;box-shadow:none;background-color:#131929;color:white;overflow-y:scroll;overflow-x:hidden;}&&&&&&&&&& button{font-family:Raleway;margin:0 0 30px;}&&&&&&&&&& label{color:white;}&&&&&&&&&& label:hover{color:white;}&&&&&&&&&& input:focus + label{color:white;}@media (min-width:500px){&&&&&&&&&&{align-items:center}}"]);
+})(["&&&&&&&&&&{display:flex;justify-content:center;align-items:center;border-radius:0;height:100vh;width:100vw;top:0;left:0;margin:0 !important;box-shadow:none;background-color:#131929;color:white;overflow-y:scroll;overflow-x:hidden;padding:30px 0 0 0;}&&&&&&&&&& button{font-family:Raleway;margin:0 0 30px;}&&&&&&&&&& label{color:white;}&&&&&&&&&& label:hover{color:white;}&&&&&&&&&& input:focus + label{color:white;}@media (min-width:500px){&&&&&&&&&&{align-items:center}}"]);
 var ModalCenter = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "FullScreenModal__ModalCenter",
   componentId: "vin19h-1"
