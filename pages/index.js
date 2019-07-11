@@ -34,33 +34,34 @@ const LandingWrapper = styled.div`
 `
 
 const Hero = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 5vw;
-  /* important declaration to be reviewd */
-  min-height: 100vh !important;
-  position: static;
-  background-image: url('../static/hero.jpg');
-  scroll-snap-align: start;
-  @media (min-width: 900px) {
-    width: 100%;
-    background-size: cover;
-  }
-  @media (min-width: 1025px) {
-    align-items: center;
-    /* justify-content: flex-end; */
-    flex-direction: row;
-    color: #171b27;
-  }
-  @media (min-width: 1050px) {
-    height: 100vh;
-    min-height: 100vh;
-  }
-  > div {
-    text-align: center;
+  &&&&& {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5vw;
+    /* important declaration to be reviewd */
+    position: static;
+    min-height: 800px !important;
+    background-image: url('../static/hero.jpg');
+    scroll-snap-align: start;
+    @media (min-width: 900px) {
+      width: 100%;
+      background-size: cover;
+    }
     @media (min-width: 1025px) {
-      flex: 0 0 40%;
+      align-items: center;
+      /* justify-content: flex-end; */
+      flex-direction: row;
+      color: #171b27;
+    }
+    @media (min-width: 1050px) {
+      min-height: 100vh !important;
+    }
+    > div {
+      text-align: center;
+      @media (min-width: 1025px) {
+        flex: 0 0 40%;
+      }
     }
   }
 `

@@ -680,7 +680,7 @@ var CopyrightWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.
 var ImgWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Footer__ImgWrapper",
   componentId: "sc-1xm0izr-2"
-})(["&&{display:flex;justify-content:center;order:1;}@media (min-width:500px){&&{order:2}}"]);
+})(["&&{display:flex;justify-content:center;order:1;margin:0 0 15px 0;}@media (min-width:500px){&&{order:2}}"]);
 var XFontAwesomeIcon = styled_components__WEBPACK_IMPORTED_MODULE_1___default()(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"]).withConfig({
   displayName: "Footer__XFontAwesomeIcon",
   componentId: "sc-1xm0izr-3"
@@ -694,13 +694,13 @@ function Footer(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CopyrightWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(XFontAwesomeIcon, {
@@ -709,13 +709,13 @@ function Footer(props) {
     size: "1x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   }), "2019 - Todos los derechos reservados"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -725,19 +725,19 @@ function Footer(props) {
     height: 50,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 78
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SocialNetworksWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 85
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 86
     },
     __self: this
   })));
@@ -4607,7 +4607,7 @@ var LandingWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.di
 var Hero = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Hero",
   componentId: "sc-1wbo52z-1"
-})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.jpg');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:100vh}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
+})(["&&&&&&&&&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;position:static;min-height:800px !important;background-image:url('../static/hero.jpg');scroll-snap-align:start;}@media (min-width:900px){&&&&&&&&&&{width:100%;background-size:cover}}@media (min-width:1025px){&&&&&&&&&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&&&&&&&&&{min-height:100vh !important}}&&&&&&&&&& > div{text-align:center;}@media (min-width:1025px){&&&&&&&&&& > div{flex:0 0 40%}}"]);
 var HeroLogo = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__HeroLogo",
   componentId: "sc-1wbo52z-2"
@@ -4717,25 +4717,25 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 368
+          lineNumber: 369
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 369
+          lineNumber: 370
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 370
+          lineNumber: 371
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(HeroLogo, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 371
+          lineNumber: 372
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4744,7 +4744,7 @@ function (_React$Component) {
         width: 300,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 372
+          lineNumber: 373
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4753,20 +4753,20 @@ function (_React$Component) {
         size: "headline",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 374
+          lineNumber: 375
         },
         __self: this
       }, "\xA1Apost\xE1, vot\xE1 resultados y gan\xE1! Somos un club de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad."), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(HeroButton, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 379
+          lineNumber: 380
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
         href: "#video",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 380
+          lineNumber: 381
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Buttons__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -4775,7 +4775,7 @@ function (_React$Component) {
         onClick: this.autoplayToggle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 381
+          lineNumber: 382
         },
         __self: this
       }, "Ver m\xE1s")))));
@@ -4784,7 +4784,7 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 394
+          lineNumber: 395
         },
         __self: this
       }, typeof window !== 'undefined' ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Player__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -4798,13 +4798,13 @@ function (_React$Component) {
         ref: this.child,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 396
+          lineNumber: 397
         },
         __self: this
       }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(VideoLoading, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 409
+          lineNumber: 410
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4813,7 +4813,7 @@ function (_React$Component) {
         width: 100,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 410
+          lineNumber: 411
         },
         __self: this
       })));
@@ -4822,13 +4822,13 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 416
+          lineNumber: 417
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesTitle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 417
+          lineNumber: 418
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4837,13 +4837,13 @@ function (_React$Component) {
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 418
+          lineNumber: 419
         },
         __self: this
       }, "\xA1Gana dinero mirando eSports!"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 421
+          lineNumber: 422
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4852,26 +4852,26 @@ function (_React$Component) {
         size: "title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 422
+          lineNumber: 423
         },
         __self: this
       }, "Podr\xE1s ganar dinero haciendo lo que m\xE1s te gusta, mientras apoyas el desarrollo de la comunidad de eSports en LATAM.", ' ', this.state.scrollAcumulated))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItems, {
         appear: this.state.featuresSeen,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 429
+          lineNumber: 430
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 430
+          lineNumber: 431
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItemsImg, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 431
+          lineNumber: 432
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4880,7 +4880,7 @@ function (_React$Component) {
         width: 50,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 432
+          lineNumber: 433
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4890,25 +4890,25 @@ function (_React$Component) {
         color: "black",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 438
+          lineNumber: 439
         },
         __self: this
       }, "Apost\xE1"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 441
+          lineNumber: 442
         },
         __self: this
       }, "Apuesta contra otros y demustra cu\xE1nto sabes de eSports en el sistema de apuestas en bolsa m\xE1s transparente y confiable de la industria.")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 447
+          lineNumber: 448
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItemsImg, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 448
+          lineNumber: 449
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4917,7 +4917,7 @@ function (_React$Component) {
         width: 50,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 449
+          lineNumber: 450
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4927,25 +4927,25 @@ function (_React$Component) {
         color: "black",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 455
+          lineNumber: 456
         },
         __self: this
       }, "Vot\xE1 resultados"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 458
+          lineNumber: 459
         },
         __self: this
       }, "Te pagaremos por hacer lo que m\xE1s te gusta, \xA1mirar eSports!. Lo \xFAnico que debes hacer es enviar los resultados correctos.")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 463
+          lineNumber: 464
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(FeaturesItemsImg, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 464
+          lineNumber: 465
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
@@ -4955,7 +4955,7 @@ function (_React$Component) {
         fill: "blue",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 465
+          lineNumber: 466
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4965,13 +4965,13 @@ function (_React$Component) {
         color: "black",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 472
+          lineNumber: 473
         },
         __self: this
       }, "Apoy\xE1 a tu comunidad"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 475
+          lineNumber: 476
         },
         __self: this
       }, "Parte del dinero recaudado en las apuestas ser\xE1 utilizado para apoyar econ\xF3micamente a equipos, jugadores o ligas de eSports \xA1Tu decides con tu voto!"))));
@@ -4980,13 +4980,13 @@ function (_React$Component) {
         className: "section",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 485
+          lineNumber: 486
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 486
+          lineNumber: 487
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Typography__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -4995,13 +4995,13 @@ function (_React$Component) {
         size: "jumbo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 487
+          lineNumber: 488
         },
         __self: this
       }, "Pr\xF3ximos pasos")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_RoadLine__WEBPACK_IMPORTED_MODULE_17__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 491
+          lineNumber: 492
         },
         __self: this
       }));
@@ -5009,13 +5009,13 @@ function (_React$Component) {
         id: "faq",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 495
+          lineNumber: 496
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_AccordionFAQ__WEBPACK_IMPORTED_MODULE_16__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 496
+          lineNumber: 497
         },
         __self: this
       }));
@@ -5023,19 +5023,19 @@ function (_React$Component) {
         id: "contact",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 500
+          lineNumber: 501
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_MailForm__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 501
+          lineNumber: 502
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 502
+          lineNumber: 503
         },
         __self: this
       }));
@@ -5044,14 +5044,14 @@ function (_React$Component) {
         description: "Dragoons es un sitio de apuestas de eSports para LATAM que te permite ganar dinero mientras apoyas a tu comunidad y vot\xE1s resultados.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 506
+          lineNumber: 507
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(LandingWrapper, {
         id: "wrapper",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 510
+          lineNumber: 511
         },
         __self: this
       }, heroSection, videoSection, featuresSection, timelineSection, faqSection, sendMailSection, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Navigation__WEBPACK_IMPORTED_MODULE_18__["default"], {
@@ -5059,14 +5059,14 @@ function (_React$Component) {
         parentMethod: this.clickMethod,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 517
+          lineNumber: 518
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_UpArrowNavigation__WEBPACK_IMPORTED_MODULE_19__["default"], {
         scroll: this.state.scroll,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 521
+          lineNumber: 522
         },
         __self: this
       })));
