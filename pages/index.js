@@ -242,9 +242,9 @@ const FAQ = styled.div`
   @media (min-width: 1050px) {
     height: 100%;
   }
-  @media (min-width: 1600px) {
+  @media (min-width: 1650px) {
     min-height: 100vh;
-    padding: 300px 500px 0 500px;
+    padding: 200px 0 0 0;
   }
 `
 
