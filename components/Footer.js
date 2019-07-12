@@ -11,6 +11,7 @@ const FooterWrapper = styled.footer`
   color: white;
   position: absolute;
   bottom: 0;
+  left: 0;
   padding: 20px;
   height: 180px;
   z-index: 99999;
