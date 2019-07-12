@@ -672,7 +672,7 @@ var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/d
 var FooterWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.footer.withConfig({
   displayName: "Footer__FooterWrapper",
   componentId: "sc-1xm0izr-0"
-})(["&&{display:flex;flex-direction:column;justify-content:space-between;background-color:#131929;color:white;position:absolute;bottom:0;padding:20px;height:180px;z-index:99999;width:100%;}@media (max-width:1000px){&& > div{flex:1}}@media (min-width:500px){&&{flex-direction:row;align-items:center;height:auto}}"]);
+})(["&&{display:flex;flex-direction:column;justify-content:space-between;background-color:#131929;color:white;position:absolute;bottom:0;left:0;padding:20px;height:180px;z-index:99999;width:100%;}@media (max-width:1000px){&& > div{flex:1}}@media (min-width:500px){&&{flex-direction:row;align-items:center;height:auto}}"]);
 var CopyrightWrapper = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Footer__CopyrightWrapper",
   componentId: "sc-1xm0izr-1"
@@ -694,13 +694,13 @@ function Footer(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CopyrightWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(XFontAwesomeIcon, {
@@ -709,13 +709,13 @@ function Footer(props) {
     size: "1x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 75
     },
     __self: this
   }), "2019 - Todos los derechos reservados"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ImgWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 78
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -725,19 +725,19 @@ function Footer(props) {
     height: 50,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 79
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SocialNetworksWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 86
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 87
     },
     __self: this
   })));
