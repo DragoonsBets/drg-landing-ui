@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/AccordionFAQ.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/AccordionFAQ.js";
 
 
 
@@ -297,7 +297,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Buttons.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Buttons.js";
 
 
 
@@ -404,7 +404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgDropdown.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/DrgDropdown.js";
 
 
 
@@ -450,7 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/DrgInputs.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/DrgInputs.js";
 
 
 
@@ -531,14 +531,14 @@ function () {
   var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__["default"])(
   /*#__PURE__*/
   _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-    var error, error2, response, faqs, _ref2, _ref3, _ref4, _ref5;
+    var error, error2, response, faqs, _ref2, _ref3;
 
     return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return Object(_lib_to__WEBPACK_IMPORTED_MODULE_5__["default"])(axios__WEBPACK_IMPORTED_MODULE_4___default.a.get(_networking_endpoints__WEBPACK_IMPORTED_MODULE_3__["GET_FAQ_SLUG"], {
+            return Object(_lib_to__WEBPACK_IMPORTED_MODULE_5__["default"])(axios__WEBPACK_IMPORTED_MODULE_4___default.a.get(_networking_endpoints__WEBPACK_IMPORTED_MODULE_3__["GET_FAQ"], {
               headers: {
                 'Content-Type': 'application/json;'
               }
@@ -558,30 +558,9 @@ function () {
             return _context.abrupt("return", [error, null]);
 
           case 8:
-            _context.next = 10;
-            return Object(_lib_to__WEBPACK_IMPORTED_MODULE_5__["default"])(axios__WEBPACK_IMPORTED_MODULE_4___default.a.get(_networking_endpoints__WEBPACK_IMPORTED_MODULE_3__["GET_FAQ"] + "&child_of=".concat(response.data.items[0].id), {
-              headers: {
-                'Content-Type': 'application/json;'
-              }
-            }));
+            return _context.abrupt("return", [null, response.data.items]);
 
-          case 10:
-            _ref4 = _context.sent;
-            _ref5 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref4, 2);
-            error2 = _ref5[0];
-            faqs = _ref5[1];
-
-            if (!error2) {
-              _context.next = 16;
-              break;
-            }
-
-            return _context.abrupt("return", [error2, null]);
-
-          case 16:
-            return _context.abrupt("return", [null, faqs.data.items]);
-
-          case 17:
+          case 9:
           case "end":
             return _context.stop();
         }
@@ -664,7 +643,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SocialNetworks */ "./components/SocialNetworks.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Footer.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Footer.js";
 
 
 
@@ -780,7 +759,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/FullScreenModal.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/FullScreenModal.js";
 
 
 
@@ -922,7 +901,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Layout.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Layout.js";
 
 
 
@@ -1159,7 +1138,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/MailForm.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/MailForm.js";
 
 
 
@@ -1438,7 +1417,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FullScreenModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FullScreenModal */ "./components/FullScreenModal.js");
 /* harmony import */ var _SuscribeForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SuscribeForm */ "./components/SuscribeForm.js");
 /* harmony import */ var _SocialRegistrationMessage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SocialRegistrationMessage */ "./components/SocialRegistrationMessage.js");
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navbar.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Navbar.js";
 
 
 
@@ -1560,7 +1539,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Navigation.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Navigation.js";
 
 
 var NavigationWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
@@ -1714,7 +1693,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Page.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Page.js";
 
 
 
@@ -1767,7 +1746,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Player.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Player.js";
 
 
 
@@ -1871,7 +1850,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/RoadLine.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/RoadLine.js";
 
 
 var RoadLineWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2019,7 +1998,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SocialNetworks.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SocialNetworks.js";
 
 
 
@@ -2146,7 +2125,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SocialRegistrationMessage.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SocialRegistrationMessage.js";
 
 
 var SocialRegistrationMessageWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2258,7 +2237,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/SuscribeForm.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SuscribeForm.js";
 
 
 
@@ -2828,7 +2807,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/Typography.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Typography.js";
  // make it stateless but declare a constant (H) before returning
 
 var Typography =
@@ -2884,7 +2863,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/components/UpArrowNavigation.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/UpArrowNavigation.js";
 
 
 var Arrow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -4586,7 +4565,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js";
+var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/pages/index.js";
 
 
 
@@ -5087,7 +5066,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/rodrigomacedo/Documents/workspace/Projects/Dragoons/drg-landing-ui/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/emilio/dragoons/repos/github/drg-landing-ui/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
