@@ -74,7 +74,7 @@ class RoadLine extends React.Component {
         roadlineTotal={`${this.state.roadline1 + this.state.roadline2 + 60}px`}
       >
         <RoadLineItem id="roadline1">
-          <div>Beta cerrada - Q3 2019</div>
+          <div>Beta cerrada</div>
           <div>
             <strong>Registrate ahora</strong> para tener la oportunidad de
             participar del proceso de creación de nuestra plataforma, brindar
@@ -82,13 +82,13 @@ class RoadLine extends React.Component {
           </div>
         </RoadLineItem>
         <RoadLineItem id="roadline2">
-          <div>Beta abierta - Q4 2019</div>
+          <div>Beta abierta</div>
           <div>
             Podrás utilizar el sitio web completo utilizando dinero ficticio.
           </div>
         </RoadLineItem>
         <RoadLineItem>
-          <div>Lanzamiento - Q1 2020</div>
+          <div>Lanzamiento</div>
           <div>
             Go live de la plataforma en donde podrás apostar, votar y apoyar a
             tu comunidad.

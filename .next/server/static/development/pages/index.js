@@ -129,7 +129,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/AccordionFAQ.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/AccordionFAQ.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -297,7 +301,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Buttons.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Buttons.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -404,7 +412,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgDropdown.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/DrgDropdown.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -450,7 +462,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgInputs.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/DrgInputs.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -643,7 +659,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SocialNetworks */ "./components/SocialNetworks.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Footer.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Footer.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -759,7 +779,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/FullScreenModal.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/FullScreenModal.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -901,7 +925,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Layout.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Layout.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -1138,7 +1166,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/MailForm.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/MailForm.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -1417,7 +1449,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FullScreenModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FullScreenModal */ "./components/FullScreenModal.js");
 /* harmony import */ var _SuscribeForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SuscribeForm */ "./components/SuscribeForm.js");
 /* harmony import */ var _SocialRegistrationMessage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SocialRegistrationMessage */ "./components/SocialRegistrationMessage.js");
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navbar.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Navbar.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -1539,7 +1575,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navigation.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Navigation.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 var NavigationWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
@@ -1693,7 +1733,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Page.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Page.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -1746,7 +1790,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Player.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Player.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -1850,7 +1898,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/RoadLine.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/RoadLine.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 var RoadLineWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -1998,7 +2050,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SocialNetworks.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SocialNetworks.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -2125,7 +2181,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SocialRegistrationMessage.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SocialRegistrationMessage.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 var SocialRegistrationMessageWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2237,7 +2297,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SuscribeForm.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/SuscribeForm.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -2807,7 +2871,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Typography.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/Typography.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
  // make it stateless but declare a constant (H) before returning
 
 var Typography =
@@ -2863,7 +2931,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/UpArrowNavigation.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/components/UpArrowNavigation.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 var Arrow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -2980,7 +3052,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GOOGLE_SOCIAL_REGISTER", function() { return GOOGLE_SOCIAL_REGISTER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TWITCH_SOCIAL_REGISTER", function() { return TWITCH_SOCIAL_REGISTER; });
 var API_HOST_STAGING = 'https://drg-bets.jx-staging.viserion.dragoons.gg';
-var API_HOST = 'https://backend.viserion.dragoons.gg';
+var API_HOST = 'https://backend.viserion.dragoons.gg'; // const API_HOST = 'https://dc93c364.ngrok.io'
+
 var GET_FAQ = API_HOST + '/es/faq/v1/pages/?type=bets.faqPage&fields=body';
 var GET_FAQ_SLUG = API_HOST + '/es/faq/v1/pages/?slug=faq';
 var CREATE_USERS = API_HOST + '/rest-auth/registration/';
@@ -4565,7 +4638,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/pages/index.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
@@ -4586,7 +4663,11 @@ var LandingWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.di
 var Hero = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Hero",
   componentId: "sc-1wbo52z-1"
+<<<<<<< HEAD
+})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.jpg');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
+=======
 })(["&&&&&&&&&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;position:static;min-height:800px !important;background-image:url('../static/hero.jpg');scroll-snap-align:start;}@media (min-width:900px){&&&&&&&&&&{width:100%;background-size:cover}}@media (min-width:1025px){&&&&&&&&&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&&&&&&&&&{min-height:100vh !important}}&&&&&&&&&& > div{text-align:center;}@media (min-width:1025px){&&&&&&&&&& > div{flex:0 0 40%}}"]);
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 var HeroLogo = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__HeroLogo",
   componentId: "sc-1wbo52z-2"
@@ -4630,7 +4711,11 @@ var Timeline = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.with
 var FAQ = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__FAQ",
   componentId: "sc-1wbo52z-11"
+<<<<<<< HEAD
+})(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.jpg');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1600px){&&{min-height:100vh;padding:300px 500px 0 500px}}"]);
+=======
 })(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.jpg');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1650px){&&{min-height:100vh;padding:200px 0 0 0}}"]);
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 var Contact = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Contact",
   componentId: "sc-1wbo52z-12"
@@ -5066,7 +5151,11 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
+module.exports = __webpack_require__(/*! /Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js */"./pages/index.js");
+=======
 module.exports = __webpack_require__(/*! /home/emilio/dragoons/repos/github/drg-landing-ui/pages/index.js */"./pages/index.js");
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 /***/ }),

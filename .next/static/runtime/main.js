@@ -6523,6 +6523,10 @@ function () {
         return _fetchRoute.apply(this, arguments);
       }
 
+<<<<<<< HEAD
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+=======
       return fetchRoute;
     }()
   }, {
@@ -6548,6 +6552,7 @@ function () {
     key: "subscribe",
     value: function subscribe(fn) {
       var _this2 = this;
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
       this.subscriptions.add(fn);
       return function () {
@@ -18003,7 +18008,11 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
+module.exports = __webpack_require__(/*! /Users/hernanalbano/Documents/Proyectos/drg-landing-ui/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+=======
 module.exports = __webpack_require__(/*! /home/emilio/dragoons/repos/github/drg-landing-ui/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 /***/ }),

@@ -2217,7 +2217,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
+var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/_document.js";
+=======
 var _jsxFileName = "/home/emilio/dragoons/repos/github/drg-landing-ui/pages/_document.js";
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
 
 
 
