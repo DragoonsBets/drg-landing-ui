@@ -73,7 +73,7 @@ function Footer(props) {
     <FooterWrapper>
       <CopyrightWrapper>
         <XFontAwesomeIcon icon={['fa', 'copyright']} fixedWidth size="1x" />
-        2019 - Todos los derechos reservados
+        2020 - Todos los derechos reservados
       </CopyrightWrapper>
       <ImgWrapper>
         <img
