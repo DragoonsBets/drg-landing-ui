@@ -419,7 +419,7 @@
       "publicPath": "static/chunks/commons.e1441a3de8410295a0f3.js"
     }
   ],
-  "lodash/isString": [
+  "./isString": [
     {
       "id": "4qC0",
       "name": "./node_modules/lodash/isString.js",
@@ -483,7 +483,7 @@
       "publicPath": "static/chunks/commons.e1441a3de8410295a0f3.js"
     }
   ],
-  "../Image/Image": [
+  "./Image": [
     {
       "id": "5XkN",
       "name": "./node_modules/semantic-ui-react/dist/es/elements/Image/Image.js",
@@ -907,7 +907,7 @@
       "publicPath": "static/chunks/commons.e1441a3de8410295a0f3.js"
     }
   ],
-  "./Icon": [
+  "../Icon/Icon": [
     {
       "id": "D1pA",
       "name": "./node_modules/semantic-ui-react/dist/es/elements/Icon/Icon.js",
@@ -1379,7 +1379,7 @@
       "publicPath": "static/chunks/commons.e1441a3de8410295a0f3.js"
     }
   ],
-  "../pick": [
+  "lodash/pick": [
     {
       "id": "JZM8",
       "name": "./node_modules/lodash/pick.js",
@@ -1659,7 +1659,7 @@
       "publicPath": "static/chunks/commons.e1441a3de8410295a0f3.js"
     }
   ],
-  "./Label": [
+  "../Label/Label": [
     {
       "id": "MqQV",
       "name": "./node_modules/semantic-ui-react/dist/es/elements/Label/Label.js",
@@ -2335,7 +2335,7 @@
       "publicPath": "static/chunks/commons.e1441a3de8410295a0f3.js"
     }
   ],
-  "lodash/findIndex": [
+  "./findIndex": [
     {
       "id": "UfWW",
       "name": "./node_modules/lodash/findIndex.js",

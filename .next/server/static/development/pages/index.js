@@ -129,11 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/AccordionFAQ.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\AccordionFAQ.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -301,11 +297,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Buttons.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Buttons.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -412,11 +404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgDropdown.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgDropdown.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -462,11 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! semantic-ui-react */ "semantic-ui-react");
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_3__);
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/DrgInputs.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\DrgInputs.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -680,11 +664,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_SocialNetworks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/SocialNetworks */ "./components/SocialNetworks.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Footer.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Footer.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -800,12 +780,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/FullScreenModal.js";
 
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\FullScreenModal.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -946,11 +922,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Layout.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Layout.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1187,11 +1159,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/MailForm.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\MailForm.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1470,11 +1438,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _FullScreenModal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./FullScreenModal */ "./components/FullScreenModal.js");
 /* harmony import */ var _SuscribeForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SuscribeForm */ "./components/SuscribeForm.js");
 /* harmony import */ var _SocialRegistrationMessage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SocialRegistrationMessage */ "./components/SocialRegistrationMessage.js");
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navbar.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navbar.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1596,11 +1560,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Navigation.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Navigation.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 var NavigationWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
@@ -1754,11 +1714,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Page.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Page.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1811,11 +1767,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Player.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Player.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -1919,11 +1871,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/RoadLine.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\RoadLine.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 var RoadLineWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2071,11 +2019,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SocialNetworks.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SocialNetworks.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -2202,11 +2146,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SocialRegistrationMessage.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SocialRegistrationMessage.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 var SocialRegistrationMessageWrapper = styled_components__WEBPACK_IMPORTED_MODULE_6___default.a.div.withConfig({
@@ -2318,11 +2258,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/SuscribeForm.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\SuscribeForm.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -2892,11 +2828,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/Typography.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\Typography.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
  // make it stateless but declare a constant (H) before returning
 
 var Typography =
@@ -2952,11 +2884,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/components/UpArrowNavigation.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\components\\UpArrowNavigation.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 var Arrow = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
@@ -3073,7 +3001,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GOOGLE_SOCIAL_REGISTER", function() { return GOOGLE_SOCIAL_REGISTER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TWITCH_SOCIAL_REGISTER", function() { return TWITCH_SOCIAL_REGISTER; });
 var API_HOST_STAGING = 'https://drg-bets.jx-staging.viserion.dragoons.gg';
-var API_HOST = 'https://backend.viserion.dragoons.gg';
+var API_HOST = 'https://backend.viserion.dragoons.gg'; // const API_HOST = 'https://dc93c364.ngrok.io'
+
 var GET_FAQ = API_HOST + '/es/faq/v1/pages/?type=bets.faqPage&fields=body';
 var GET_FAQ_SLUG = API_HOST + '/es/faq/v1/pages/?slug=faq';
 var CREATE_USERS = API_HOST + '/rest-auth/registration/';
@@ -5438,11 +5367,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 var _jsxFileName = "/Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js";
-=======
-var _jsxFileName = "c:\\Users\\pablo\\OneDrive\\Documentos\\GitHub\\drg-landing-ui\\pages\\index.js";
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 
@@ -5463,7 +5388,7 @@ var LandingWrapper = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.di
 var Hero = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Hero",
   componentId: "sc-1wbo52z-1"
-})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.webp');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
+})(["&&{display:flex;flex-direction:column;justify-content:center;padding:0 5vw;min-height:100vh !important;position:static;background-image:url('../static/hero.jpg');scroll-snap-align:start;}@media (min-width:900px){&&{width:100%;background-size:cover}}@media (min-width:1025px){&&{align-items:center;flex-direction:row;color:#171b27}}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div{text-align:center;}@media (min-width:1025px){&& > div{flex:0 0 40%}}"]);
 var HeroLogo = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__HeroLogo",
   componentId: "sc-1wbo52z-2"
@@ -5483,7 +5408,7 @@ var VideoLoading = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.
 var Features = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Features",
   componentId: "sc-1wbo52z-6"
-})(["&&{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 0;scroll-snap-align:start;width:100%;position:relative;background-image:url('../static/features-background.webp');background-size:cover;min-height:100%;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.7;}@media (min-width:1050px){&&{min-height:100vh}}&& > div{z-index:999;}"]);
+})(["&&{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 0;scroll-snap-align:start;width:100%;position:relative;background-image:url('../static/features-background.jpg');background-size:cover;min-height:100%;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.7;}@media (min-width:1050px){&&{min-height:100vh}}&& > div{z-index:999;}"]);
 var FeaturesTitle = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__FeaturesTitle",
   componentId: "sc-1wbo52z-7"
@@ -5503,15 +5428,15 @@ var FeaturesItemsImg = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.
 var Timeline = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Timeline",
   componentId: "sc-1wbo52z-10"
-})(["&&{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:64px 20px;scroll-snap-align:start;min-height:100vh !important;position:relative;background-image:url('../static/timeline-background-ow.webp');background-size:cover;}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.75;}"]);
+})(["&&{display:flex;align-items:center;justify-content:center;flex-direction:column;width:100%;padding:64px 20px;scroll-snap-align:start;min-height:100vh !important;position:relative;background-image:url('../static/timeline-background-ow.jpg');background-size:cover;}@media (min-width:1050px){&&{height:100vh;min-height:789px}}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.75;}"]);
 var FAQ = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__FAQ",
   componentId: "sc-1wbo52z-11"
-})(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.webp');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1600px){&&{min-height:100vh;padding:300px 500px 0 500px}}"]);
+})(["&&{display:flex;align-items:center;justify-content:flex-start;flex-direction:column;width:100%;padding:120px 0;scroll-snap-align:start;position:relative;background-image:url('../static/faq-background.jpg');background-size:cover;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:770px){&&{justify-content:flex-start;min-height:789px}}@media (min-width:1050px){&&{height:100%}}@media (min-width:1600px){&&{min-height:100vh;padding:300px 500px 0 500px}}"]);
 var Contact = styled_components__WEBPACK_IMPORTED_MODULE_8___default.a.div.withConfig({
   displayName: "pages__Contact",
   componentId: "sc-1wbo52z-12"
-})(["&&{display:flex;align-items:center;flex-direction:column;justify-content:center;width:100%;padding:64px 20px 260px 20px;scroll-snap-align:start;position:relative;background-image:url('../static/contact-background.webp');background-size:cover;min-height:100vh;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:1050px){&&{padding:64px 10px 200px 10px;height:100vh;padding:64px 0}}"]);
+})(["&&{display:flex;align-items:center;flex-direction:column;justify-content:center;width:100%;padding:64px 20px 260px 20px;scroll-snap-align:start;position:relative;background-image:url('../static/contact-background.jpg');background-size:cover;min-height:100vh;}&& > div:nth-child(1){text-align:center;z-index:999;}&&:before{content:'';position:absolute;top:0;right:0;bottom:0;left:0;background-image:linear-gradient(to bottom right,#000000,#000000);opacity:0.6;}@media (min-width:1050px){&&{padding:64px 10px 200px 10px;height:100vh;padding:64px 0}}"]);
 
 var Index =
 /*#__PURE__*/
@@ -5943,11 +5868,7 @@ function (_React$Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 module.exports = __webpack_require__(/*! /Users/hernanalbano/Documents/Proyectos/drg-landing-ui/pages/index.js */"./pages/index.js");
-=======
-module.exports = __webpack_require__(/*! c:\Users\pablo\OneDrive\Documentos\GitHub\drg-landing-ui\pages\index.js */"./pages/index.js");
->>>>>>> 437e318918b37d760d0078f41229eb64d80daa40
 
 
 /***/ }),
