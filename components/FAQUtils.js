@@ -6,22 +6,22 @@ import ReactHtmlParser from 'react-html-parser';
 
 export const loadFaqs = async () => {
   let error, error2, response, faqs;
-  [error, response] = await to(axios.get(GET_FAQ_SLUG, {
+  [error, response] = await to(axios.get(GET_FAQ, {
     headers: {
       'Content-Type': 'application/json;',
     },
   }));
 
   if (error) return [error, null];
-  
-  [error2, faqs] = await to(axios.get(GET_FAQ + `&child_of=${response.data.items[0].id}`, {
-    headers: {
-      'Content-Type': 'application/json;',
-    },
-  }));
+  return [null, response.data.items];
 
-  if (error2) return [error2, null];
-  return [null, faqs.data.items];
+  //[error2, faqs] = await to(axios.get(GET_FAQ + `&child_of=${response.data.items[0].id}`, {
+  //  headers: {
+  //    'Content-Type': 'application/json;',
+  //  },
+  //}));
+
+  //if (error2) return [error2, null];
 }
 
 export const processFaq = (items) => {

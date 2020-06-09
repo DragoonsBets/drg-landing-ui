@@ -29,7 +29,11 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
+<<<<<<< HEAD
             injectCss(link, link.href.split("?")[0] + "?unix=1562891971085");
+=======
+            injectCss(link, link.href.split("?")[0] + "?unix=1563239006858");
+>>>>>>> 11f4249ef4844b677e4c9da733e1368787cd0e57
           });
       }
     }

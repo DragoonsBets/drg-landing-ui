@@ -11,6 +11,7 @@ const FooterWrapper = styled.footer`
   color: white;
   position: absolute;
   bottom: 0;
+  left: 0;
   padding: 20px;
   height: 180px;
   z-index: 99999;
@@ -44,6 +45,7 @@ const ImgWrapper = styled.div`
   display: flex;
   justify-content: center;
   order: 1;
+  margin: 0 0 15px 0;
   @media (min-width: 500px) {
     order: 2;
   }
